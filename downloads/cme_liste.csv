@@ -30,7 +30,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Zotero
 8,"Herz-Kreislauf, Schock",Perioperatives Management bei Herzinsuffizienz,Klapproth,Anaesthesiologie,2025/12,https://link.springer.com/article/10.1007/s00101-025-01607-5,Springer-Abo / CME-Portal,da
 8,"Herz-Kreislauf, Schock",Perioperative kardiale Komplikationen bei nichtkardiochirurgischen Eingriffen,Dehne,A&I,2022/6,https://www.ai-online.info/archiv/2022/06-2022.html,frei (PDF),da
 9,"Reanimation, Notfälle",Extrakorporale kardiopulmonale Reanimation – Standortbestimmung,Rand,Anaesthesiologie,2023/11,https://link.springer.com/article/10.1007/s00101-023-01342-9,Springer-Abo / CME-Portal,da
-9,"Reanimation, Notfälle",Präklinische Versorgung des Herz-Kreislauf-Stillstands mit und ohne ECLS,Metelmann,A&I,2023/3,https://www.ai-online.info/archiv/2023/03-2023.html,frei (PDF),fehlt
+9,"Reanimation, Notfälle",Präklinische Versorgung des Herz-Kreislauf-Stillstands mit und ohne ECLS,Metelmann,A&I,2023/3,https://www.ai-online.info/archiv/2023/03-2023.html,frei (PDF),da
 9,"Reanimation, Notfälle",ABCDE im nichttraumatologischen Schockraum,Michael,A&I,2023/5,https://www.ai-online.info/images/ai-ausgabe/2023/05-2023/AI_05-2023_CME_Bernhard.pdf,frei (PDF),da
 10,Neurointensivmedizin,Intensivmedizinisches Management der aneurysmatischen SAB,Prakapenia,A&I,2023/10,https://www.ai-online.info/archiv/2023/10-2023.html,frei (PDF),da
 10,Neurointensivmedizin,Schädel-Hirn-Trauma: Pathophysiologie und Notfallmanagement,Hoppe,A&I,2021/3,https://www.ai-online.info/archiv/2021/03-2021.html,frei (PDF),da
@@ -45,7 +45,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Zotero
 12,"GI-Trakt, Leber","Leberversagen – Ursachen, Diagnostik und Therapiekonzepte",Sauer,A&I,2025/12,https://www.ai-online.info/images/ai-ausgabe/2025/12-2025/AI_12-2025_CME_Sauer.pdf,frei (PDF),da
 13,"Infektiologie, Sepsis",Vasoaktive Substanzen in Sepsis und septischem Schock,Welzer,A&I,2026/4,https://www.ai-online.info/archiv/2026/04-2026.html,frei (PDF),da
 13,"Infektiologie, Sepsis",Extrakorporale Verfahren bei der Sepsis,Bernard,Anaesthesiologie,2024/10,https://link.springer.com/article/10.1007/s00101-024-01464-8,Springer-Abo / CME-Portal,da
-13,"Infektiologie, Sepsis",Antibiotikatherapie kritisch Kranker – worauf achten?,Brinkmann,A&I,2024/2,https://www.ai-online.info/images/ai-ausgabe/2024/02-2024/AI_02-2024_Uebersichten_CME_Brinkmann.pdf,frei (PDF),fehlt
+13,"Infektiologie, Sepsis",Antibiotikatherapie kritisch Kranker – worauf achten?,Brinkmann,A&I,2024/2,https://www.ai-online.info/images/ai-ausgabe/2024/02-2024/AI_02-2024_Uebersichten_CME_Brinkmann.pdf,frei (PDF),da
 13,"Infektiologie, Sepsis",Rationaler Einsatz neuer Antibiotika im Zeitalter der Multiresistenz,Lanckohr,A&I,2022/1,https://www.ai-online.info/archiv/2022/01-2022.html,frei (PDF),da
 13,"Infektiologie, Sepsis","Differenzierte Behandlung multiresistenter gramnegativer Erreger (Übersicht, kein CME)",Schmoch,A&I,2021/9,https://www.ai-online.info/archiv/2021/09-2021.html,frei (PDF),da
 13,"Infektiologie, Sepsis",Laborparameter zur infektiologischen Diagnostik und Therapiesteuerung auf der ITS,Holtkamp,A&I,2021/11,https://www.ai-online.info/archiv/2021/11-2021.html,frei (PDF),da
@@ -75,7 +75,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Zotero
 18,Besondere Patientengruppen,Notfallsituationen im Kreißsaal,Annecke,A&I,2022/3,https://www.ai-online.info/archiv/2022/03-2022.html,frei (PDF),da
 18,Besondere Patientengruppen,Hereditäre Hämostasestörungen in der Geburtshilfe 1/2,Roll,Anaesthesiologie,2026/8,https://link.springer.com/article/10.1007/s00101-026-01710-1,Springer-Abo / CME-Portal,da
 18,Besondere Patientengruppen,Hereditäre Hämostasestörungen in der Geburtshilfe 2/2,Fette,Anaesthesiologie,2026/9,https://link.springer.com/article/10.1007/s00101-026-01709-8,Springer-Abo / CME-Portal,da
-18,Besondere Patientengruppen,Physiologische Veränderungen im Alter,Zink,A&I,2025/1,https://www.ai-online.info/archiv/2025/01-2025.html,frei (PDF),fehlt
+18,Besondere Patientengruppen,Physiologische Veränderungen im Alter,Zink,A&I,2025/1,https://www.ai-online.info/archiv/2025/01-2025.html,frei (PDF),da
 18,Besondere Patientengruppen,Besonderheiten der Gerontoanästhesiologie,Saller,Anaesthesiologie,2025/5,https://link.springer.com/article/10.1007/s00101-025-01539-0,Springer-Abo / CME-Portal,da
 18,Besondere Patientengruppen,Perioperativer Verlauf bei Frailty-Syndrom,Klaschik,Anaesthesiologie,2023/9,https://link.springer.com/article/10.1007/s00101-023-01321-0,Springer-Abo / CME-Portal,da
 18,Besondere Patientengruppen,Morbide Adipositas in Anästhesie und Intensivmedizin,Bone,A&I,2021/6,https://www.ai-online.info/archiv/2021/06-2021.html,frei (PDF),da
