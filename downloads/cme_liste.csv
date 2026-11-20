@@ -110,7 +110,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 6,Pharmakotherapie,Natürliche und synthetische Katecholamine,Lehmann,AINS,2021/6,https://pubmed.ncbi.nlm.nih.gov/34187075/,Thieme-Abo; CME-Status nicht geprüft,,da
 6,Pharmakotherapie,"Vasopressoren: Physiologie, Pharmakologie, Klinik",Keller,AINS,2021/6,https://pubmed.ncbi.nlm.nih.gov/34187073/,Thieme-Abo; CME-Status nicht geprüft,,da
 6,Pharmakotherapie,Levosimendan – 20 Jahre Erfahrung,Häberle,AINS,2021/6,https://pubmed.ncbi.nlm.nih.gov/34187074/,Thieme-Abo; CME-Status nicht geprüft,,da
-6,Pharmakotherapie,Periphere Gabe von Vasopressoren – Leitlinienzusammenfassung,Fandler,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623530/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+6,Pharmakotherapie,Periphere Gabe von Vasopressoren – Leitlinienzusammenfassung,Fandler,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623530/,Thieme-Abo; CME-Status nicht geprüft,,da
 7,Respiratorisches System,Dysphagie nach Extubation auf der Intensivstation,Bertschi,Med Klin Intensivmed,2025/4,https://link.springer.com/article/10.1007/s00063-025-01266-9,Springer-Abo / CME-Portal,,da
 7,Respiratorisches System,Weaning von invasiver Beatmung,Geiseler,Med Klin Intensivmed,2021/8,https://link.springer.com/article/10.1007/s00063-021-00858-5,Springer-Abo / CME-Portal,Weaning von der Beatmung,fehlt
 7,Respiratorisches System,Beatmungsstrategien in der Intensivmedizin,Jung,AINS,2026/2,https://pubmed.ncbi.nlm.nih.gov/41759535/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
@@ -118,10 +118,10 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 7,Respiratorisches System,Weaning von Langzeitpatienten: Rolle der Physiotherapie,Kiefer,AINS,2026/5,https://pubmed.ncbi.nlm.nih.gov/42150548/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 7,Respiratorisches System,Pathophysiologie des ARDS,Notz,AINS,2024/1,https://pubmed.ncbi.nlm.nih.gov/38190822/,Thieme-Abo; CME-Status nicht geprüft,,da
 7,Respiratorisches System,ARDS-Diagnostik und -Therapie nach der Pandemie,Dembinski,AINS,2024/1,https://pubmed.ncbi.nlm.nih.gov/38190823/,Thieme-Abo; CME-Status nicht geprüft,,da
-7,Respiratorisches System,Psychologische Aspekte bei und nach ARDS,Deffner,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896387/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+7,Respiratorisches System,Psychologische Aspekte bei und nach ARDS,Deffner,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896387/,Thieme-Abo; CME-Status nicht geprüft,,da
 8,"Herz-Kreislauf, Schock",Diagnostik und Therapie der akuten Lungenembolie,Hecker,Med Klin Intensivmed,2025/3,https://link.springer.com/article/10.1007/s00063-025-01249-w,Springer-Abo / CME-Portal,,da
 8,"Herz-Kreislauf, Schock",Medikamentöse Therapie des Kreislaufschocks,Riessen,Med Klin Intensivmed,2021/6,https://link.springer.com/article/10.1007/s00063-021-00838-9,Springer-Abo / CME-Portal,,da
-8,"Herz-Kreislauf, Schock",Intraaortale Ballonpumpe,Schimmer,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192637/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+8,"Herz-Kreislauf, Schock",Intraaortale Ballonpumpe,Schimmer,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192637/,Thieme-Abo; CME-Status nicht geprüft,,da
 8,"Herz-Kreislauf, Schock",Die perkutane Impella-Pumpe,Ott,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192639/,Thieme-Abo; CME-Status nicht geprüft,,da
 8,"Herz-Kreislauf, Schock",Extrakorporale Unterstützung (ECLS) in der Intensivmedizin,Ajouri,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192638/,Thieme-Abo; CME-Status nicht geprüft,,da
 9,"Reanimation, Notfälle",Der außerklinische Herz-Kreislauf-Stillstand,Bork,Med Klin Intensivmed,2026/7,https://link.springer.com/article/10.1007/s00063-026-01462-1,Springer-Abo / CME-Portal,,da
@@ -137,7 +137,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 10,Neurointensivmedizin,Update Intensivmedizin beim Schlaganfall,Salih,AINS,2022/3,https://pubmed.ncbi.nlm.nih.gov/35320844/,Thieme-Abo; CME-Status nicht geprüft,,da
 11,Niere,Management urologischer Notfälle,Kranz,Med Klin Intensivmed,2021/4,https://link.springer.com/article/10.1007/s00063-021-00810-7,Springer-Abo / CME-Portal,,da
 11,Niere,"Akute Nierenschädigung: Epidemiologie, Pathophysiologie",Kindgen-Milles,AINS,2021/2,https://pubmed.ncbi.nlm.nih.gov/33607670/,Thieme-Abo; CME-Status nicht geprüft,"Diagnose, Prävention und Therapie der akuten Nierenschädigung",fehlt
-11,Niere,Rhabdomyolyse,Gaik,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896388/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+11,Niere,Rhabdomyolyse,Gaik,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896388/,Thieme-Abo; CME-Status nicht geprüft,,da
 12,"GI-Trakt, Leber",Management des akuten Abdomens in der Akut- und Notfallmedizin,Kasper,Med Klin Intensivmed,2026/1,https://link.springer.com/article/10.1007/s00063-025-01321-5,Springer-Abo / CME-Portal,,da
 12,"GI-Trakt, Leber",Gastrointestinale und hepatologische Notfälle,Kasper,Med Klin Intensivmed,2023/4,https://link.springer.com/article/10.1007/s00063-023-01006-x,Springer-Abo / CME-Portal,,da
 12,"GI-Trakt, Leber",Nichtinvasive intraabdominelle Druckmessung,Braun,Med Klin Intensivmed,2022/8,https://link.springer.com/article/10.1007/s00063-022-00958-w,Springer-Abo / CME-Portal,,da
@@ -147,7 +147,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 13,"Infektiologie, Sepsis",Infektiologische Notfälle,Brehm,Med Klin Intensivmed,2024/5,https://link.springer.com/article/10.1007/s00063-024-01147-7,Springer-Abo / CME-Portal,,da
 13,"Infektiologie, Sepsis",Volumen- und vasoaktive Therapie bei Sepsis,Petros,Med Klin Intensivmed,2023/2,https://link.springer.com/article/10.1007/s00063-022-00976-8,Springer-Abo / CME-Portal,Vasoaktive Substanzen in Sepsis und septischem Schock,fehlt
 13,"Infektiologie, Sepsis",Antibiotic Stewardship,Friedrichs,Med Klin Intensivmed,2021/1,https://link.springer.com/article/10.1007/s00063-020-00745-5,Springer-Abo / CME-Portal,Antibiotic Stewardship – ein Update,fehlt
-13,"Infektiologie, Sepsis",Pathophysiologie der Sepsis,Gregorius,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623527/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+13,"Infektiologie, Sepsis",Pathophysiologie der Sepsis,Gregorius,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623527/,Thieme-Abo; CME-Status nicht geprüft,,da
 13,"Infektiologie, Sepsis",Diagnostik der Sepsis,Thomas-Rüddel,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623528/,Thieme-Abo; CME-Status nicht geprüft,Sepsis 2026: Diagnose und Behandlung,fehlt
 13,"Infektiologie, Sepsis",Therapie der Sepsis,Bloos,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623529/,Thieme-Abo; CME-Status nicht geprüft,Sepsis 2026: Diagnose und Behandlung,fehlt
 13,"Infektiologie, Sepsis",Das Immunsystem des kritisch Kranken,Vogeler,AINS,2024/2,https://pubmed.ncbi.nlm.nih.gov/38354730/,Thieme-Abo; CME-Status nicht geprüft,,da
@@ -164,7 +164,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 14,"Blut, Gerinnung",Peri- und postoperatives Anämiemanagement,Helmer,AINS,2022/2,https://pubmed.ncbi.nlm.nih.gov/35172342/,Thieme-Abo; CME-Status nicht geprüft,,da
 15,"Trauma, perioperativ, Tx",Damage Control Resuscitation und Damage Control Surgery,Annecke,AINS,2024/6,https://pubmed.ncbi.nlm.nih.gov/38914077/,Thieme-Abo; CME-Status nicht geprüft,,da
 15,"Trauma, perioperativ, Tx",Intensivmedizin beim schweren Thoraxtrauma,Schieren,AINS,2024/6,https://pubmed.ncbi.nlm.nih.gov/38914078/,Thieme-Abo; CME-Status nicht geprüft,,da
-15,"Trauma, perioperativ, Tx",Intensivmedizin in der Herzchirurgie,Panholzer,AINS,2023/3,https://pubmed.ncbi.nlm.nih.gov/36958313/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+15,"Trauma, perioperativ, Tx",Intensivmedizin in der Herzchirurgie,Panholzer,AINS,2023/3,https://pubmed.ncbi.nlm.nih.gov/36958313/,Thieme-Abo; CME-Status nicht geprüft,,da
 15,"Trauma, perioperativ, Tx",Thorakoabdominelle Schuss- und Explosionsverletzungen (nur EDIC),Klein,AINS,2024/11-12,https://pubmed.ncbi.nlm.nih.gov/39572042/,Thieme-Abo; CME-Status nicht geprüft,,da
 17,Toxikologie,Extrakorporale Verfahren bei Vergiftungen,Hackl,Med Klin Intensivmed,2024/6,https://link.springer.com/article/10.1007/s00063-024-01156-6,Springer-Abo / CME-Portal,,da
 18,Besondere Patientengruppen,Intensivpflichtige Hauterkrankungen,Marks,Med Klin Intensivmed,2025/2,https://link.springer.com/article/10.1007/s00063-024-01239-4,Springer-Abo / CME-Portal,,da
