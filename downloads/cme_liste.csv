@@ -113,9 +113,9 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 6,Pharmakotherapie,Periphere Gabe von Vasopressoren – Leitlinienzusammenfassung,Fandler,AINS,2023/1,https://pubmed.ncbi.nlm.nih.gov/36623530/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 7,Respiratorisches System,Dysphagie nach Extubation auf der Intensivstation,Bertschi,Med Klin Intensivmed,2025/4,https://link.springer.com/article/10.1007/s00063-025-01266-9,Springer-Abo / CME-Portal,,fehlt
 7,Respiratorisches System,Weaning von invasiver Beatmung,Geiseler,Med Klin Intensivmed,2021/8,https://link.springer.com/article/10.1007/s00063-021-00858-5,Springer-Abo / CME-Portal,Weaning von der Beatmung,fehlt
-7,Respiratorisches System,Beatmungsstrategien in der Intensivmedizin,Jung,AINS,2026/2,https://pubmed.ncbi.nlm.nih.gov/41759535/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+7,Respiratorisches System,Beatmungsstrategien in der Intensivmedizin,Jung,AINS,2026/2,https://pubmed.ncbi.nlm.nih.gov/41759535/,Thieme-Abo; CME-Status nicht geprüft,,da
 7,Respiratorisches System,Weaning von der Beatmung,Nerz,AINS,2026/2,https://pubmed.ncbi.nlm.nih.gov/41759536/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
-7,Respiratorisches System,Weaning von Langzeitpatienten: Rolle der Physiotherapie,Kiefer,AINS,2026/5,https://pubmed.ncbi.nlm.nih.gov/42150548/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+7,Respiratorisches System,Weaning von Langzeitpatienten: Rolle der Physiotherapie,Kiefer,AINS,2026/5,https://pubmed.ncbi.nlm.nih.gov/42150548/,Thieme-Abo; CME-Status nicht geprüft,,da
 7,Respiratorisches System,Pathophysiologie des ARDS,Notz,AINS,2024/1,https://pubmed.ncbi.nlm.nih.gov/38190822/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 7,Respiratorisches System,ARDS-Diagnostik und -Therapie nach der Pandemie,Dembinski,AINS,2024/1,https://pubmed.ncbi.nlm.nih.gov/38190823/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 7,Respiratorisches System,Psychologische Aspekte bei und nach ARDS,Deffner,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896387/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
@@ -153,7 +153,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 13,"Infektiologie, Sepsis",Das Immunsystem des kritisch Kranken,Vogeler,AINS,2024/2,https://pubmed.ncbi.nlm.nih.gov/38354730/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 13,"Infektiologie, Sepsis",Immunmetabolismus bei Sepsis,Koos,AINS,2024/2,https://pubmed.ncbi.nlm.nih.gov/38354729/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 13,"Infektiologie, Sepsis",Der Mythos „Volumenmangel bei Sepsis“,Markus,AINS,2025/11-12,https://pubmed.ncbi.nlm.nih.gov/41290012/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
-13,"Infektiologie, Sepsis",Update S3-Leitlinie Sepsis 2025 – was ist neu?,Rusev,AINS,2026/4,https://pubmed.ncbi.nlm.nih.gov/42009032/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
+13,"Infektiologie, Sepsis",Update S3-Leitlinie Sepsis 2025 – was ist neu?,Rusev,AINS,2026/4,https://pubmed.ncbi.nlm.nih.gov/42009032/,Thieme-Abo; CME-Status nicht geprüft,,da
 13,"Infektiologie, Sepsis",Surviving Sepsis Campaign 2021,Palmowski,AINS,2022/5,https://pubmed.ncbi.nlm.nih.gov/35588749/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 13,"Infektiologie, Sepsis",Therapeutischer Plasmaaustausch bei Sepsis,Stahl,AINS,2021/2,https://pubmed.ncbi.nlm.nih.gov/33607671/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 13,"Infektiologie, Sepsis",Infektionsprävention auf der Intensivstation,Schulz-Stübner,AINS,2021/7-8,https://pubmed.ncbi.nlm.nih.gov/34298569/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
