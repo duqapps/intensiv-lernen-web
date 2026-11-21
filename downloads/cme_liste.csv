@@ -97,7 +97,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 3,"Techniken, Atemweg",Tracheotomie,Oppert,Med Klin Intensivmed,2024/8,https://link.springer.com/article/10.1007/s00063-024-01184-2,Springer-Abo / CME-Portal,,da
 4,"Analgesie, Sedierung, Delir",Lagerungstherapie und (Früh-)Mobilisation auf Intensivstationen,Warner,Med Klin Intensivmed,2025/7,https://link.springer.com/article/10.1007/s00063-025-01303-7,Springer-Abo / CME-Portal,,da
 4,"Analgesie, Sedierung, Delir","Delir – Beurteilung, Vorbeugung und Behandlung",Hermes,Med Klin Intensivmed,2022/6,https://link.springer.com/article/10.1007/s00063-022-00943-3,Springer-Abo / CME-Portal,,da
-4,"Analgesie, Sedierung, Delir",Neuromuskuläre Blockade beim kritisch Kranken,Jung,AINS,2024/9,https://pubmed.ncbi.nlm.nih.gov/39197442/,Thieme-Abo; CME-Status nicht geprüft,,da
+4,"Analgesie, Sedierung, Delir",Neuromuskuläre Blockade beim kritisch Kranken,Jung,AINS,2024/9,https://pubmed.ncbi.nlm.nih.gov/39197442/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 4,"Analgesie, Sedierung, Delir",Lichttherapie zur Delirprävention,Schmidt,AINS,2022/1,https://pubmed.ncbi.nlm.nih.gov/35021238/,Thieme-Abo; CME-Status nicht geprüft,,da
 4,"Analgesie, Sedierung, Delir",Zirkadiane Medizin auf der Intensivstation,Kaden,AINS,2025/10,https://pubmed.ncbi.nlm.nih.gov/41151600/,Thieme-Abo; CME-Status nicht geprüft,,da
 5,"Ernährung, Stoffwechsel",Akute Störungen des Kaliumhaushalts,Finkenstedt,Med Klin Intensivmed,2026/2,https://link.springer.com/article/10.1007/s00063-025-01331-3,Springer-Abo / CME-Portal,,da
@@ -121,7 +121,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 7,Respiratorisches System,Psychologische Aspekte bei und nach ARDS,Deffner,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896387/,Thieme-Abo; CME-Status nicht geprüft,,da
 8,"Herz-Kreislauf, Schock",Diagnostik und Therapie der akuten Lungenembolie,Hecker,Med Klin Intensivmed,2025/3,https://link.springer.com/article/10.1007/s00063-025-01249-w,Springer-Abo / CME-Portal,,da
 8,"Herz-Kreislauf, Schock",Medikamentöse Therapie des Kreislaufschocks,Riessen,Med Klin Intensivmed,2021/6,https://link.springer.com/article/10.1007/s00063-021-00838-9,Springer-Abo / CME-Portal,,da
-8,"Herz-Kreislauf, Schock",Intraaortale Ballonpumpe,Schimmer,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192637/,Thieme-Abo; CME-Status nicht geprüft,,da
+8,"Herz-Kreislauf, Schock",Intraaortale Ballonpumpe,Schimmer,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192637/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 8,"Herz-Kreislauf, Schock",Die perkutane Impella-Pumpe,Ott,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192639/,Thieme-Abo; CME-Status nicht geprüft,,da
 8,"Herz-Kreislauf, Schock",Extrakorporale Unterstützung (ECLS) in der Intensivmedizin,Ajouri,AINS,2023/5,https://pubmed.ncbi.nlm.nih.gov/37192638/,Thieme-Abo; CME-Status nicht geprüft,,da
 9,"Reanimation, Notfälle",Der außerklinische Herz-Kreislauf-Stillstand,Bork,Med Klin Intensivmed,2026/7,https://link.springer.com/article/10.1007/s00063-026-01462-1,Springer-Abo / CME-Portal,,da
@@ -134,7 +134,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 10,Neurointensivmedizin,"Intensivmedizin beim Schädel-Hirn-Trauma, Teil 1",Haberl,AINS,2024/7-8,https://pubmed.ncbi.nlm.nih.gov/39074790/,Thieme-Abo; CME-Status nicht geprüft,,da
 10,Neurointensivmedizin,"Intensivmedizin beim Schädel-Hirn-Trauma, Teil 2",Hagedorn,AINS,2024/7-8,https://pubmed.ncbi.nlm.nih.gov/39074791/,Thieme-Abo; CME-Status nicht geprüft,,da
 10,Neurointensivmedizin,Spezielle Konzepte beim schweren Neurotrauma,Ehler,AINS,2024/6,https://pubmed.ncbi.nlm.nih.gov/38914079/,Thieme-Abo; CME-Status nicht geprüft,,da
-10,Neurointensivmedizin,Update Intensivmedizin beim Schlaganfall,Salih,AINS,2022/3,https://pubmed.ncbi.nlm.nih.gov/35320844/,Thieme-Abo; CME-Status nicht geprüft,,da
+10,Neurointensivmedizin,Update Intensivmedizin beim Schlaganfall,Salih,AINS,2022/3,https://pubmed.ncbi.nlm.nih.gov/35320844/,Thieme-Abo; CME-Status nicht geprüft,,fehlt
 11,Niere,Management urologischer Notfälle,Kranz,Med Klin Intensivmed,2021/4,https://link.springer.com/article/10.1007/s00063-021-00810-7,Springer-Abo / CME-Portal,,da
 11,Niere,"Akute Nierenschädigung: Epidemiologie, Pathophysiologie",Kindgen-Milles,AINS,2021/2,https://pubmed.ncbi.nlm.nih.gov/33607670/,Thieme-Abo; CME-Status nicht geprüft,"Diagnose, Prävention und Therapie der akuten Nierenschädigung",fehlt
 11,Niere,Rhabdomyolyse,Gaik,AINS,2022/7-8,https://pubmed.ncbi.nlm.nih.gov/35896388/,Thieme-Abo; CME-Status nicht geprüft,,da
