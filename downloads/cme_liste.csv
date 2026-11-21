@@ -92,8 +92,8 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 1,"Organisation, Recht, Ethik",Psychosoziale Versorgung auf der Intensivstation,Denke,AINS,2023/11-12,https://pubmed.ncbi.nlm.nih.gov/38056446/,Thieme-Abo; CME-Status nicht geprüft,,da
 1,"Organisation, Recht, Ethik",Innerklinisches Management beim Massenanfall (MASCAL),Speicher,AINS,2025/9,https://pubmed.ncbi.nlm.nih.gov/40907482/,Thieme-Abo; CME-Status nicht geprüft,,da
 2,"Monitoring, Diagnostik","Hämodynamisches Monitoring auf der ITS: je invasiver, desto besser?",Renner,AINS,2022/4,https://pubmed.ncbi.nlm.nih.gov/35451033/,Thieme-Abo; CME-Status nicht geprüft,,da
-2,"Monitoring, Diagnostik",Monitoring der Volumentherapie,Schiewe,AINS,2021/4,https://pubmed.ncbi.nlm.nih.gov/33890257/,Thieme-Abo; CME-Status nicht geprüft,Von zielgerichteter zu personalisierter Hämodynamik,fehlt
-2,"Monitoring, Diagnostik",Von zielgerichteter zu personalisierter Hämodynamik,Wichmann,AINS,2026/4,https://pubmed.ncbi.nlm.nih.gov/42009030/,Thieme-Abo; CME-Status nicht geprüft,,da
+2,"Monitoring, Diagnostik",Monitoring der Volumentherapie,Schiewe,AINS,2021/4,https://pubmed.ncbi.nlm.nih.gov/33890257/,Thieme-Abo; CME-Status nicht geprüft,Von der Goal-Directed Therapy zum personalisierten hämodynamischen Monitoring,fehlt
+2,"Monitoring, Diagnostik",Von der Goal-Directed Therapy zum personalisierten hämodynamischen Monitoring,Wichmann,AINS,2026/4,https://pubmed.ncbi.nlm.nih.gov/42009030/,Thieme-Abo; CME-Status nicht geprüft,,da
 3,"Techniken, Atemweg",Tracheotomie,Oppert,Med Klin Intensivmed,2024/8,https://link.springer.com/article/10.1007/s00063-024-01184-2,Springer-Abo / CME-Portal,,da
 4,"Analgesie, Sedierung, Delir",Lagerungstherapie und (Früh-)Mobilisation auf Intensivstationen,Warner,Med Klin Intensivmed,2025/7,https://link.springer.com/article/10.1007/s00063-025-01303-7,Springer-Abo / CME-Portal,,da
 4,"Analgesie, Sedierung, Delir","Delir – Beurteilung, Vorbeugung und Behandlung",Hermes,Med Klin Intensivmed,2022/6,https://link.springer.com/article/10.1007/s00063-022-00943-3,Springer-Abo / CME-Portal,,da
@@ -104,7 +104,7 @@ Block_Nr,Block,Titel,Erstautor,Zeitschrift,Jahr/Heft,Link,Zugang,Ersetzt durch,n
 5,"Ernährung, Stoffwechsel",Endokrine Notfälle,Weismann,Med Klin Intensivmed,2026/3,https://link.springer.com/article/10.1007/s00063-026-01422-9,Springer-Abo / CME-Portal,,da
 5,"Ernährung, Stoffwechsel",Hyponatriämie,Perschinka,Med Klin Intensivmed,2023/6,https://link.springer.com/article/10.1007/s00063-023-01049-0,Springer-Abo / CME-Portal,,da
 5,"Ernährung, Stoffwechsel",Empfehlungen und Innovationen in der Ernährungsmedizin kritisch Kranker,Vögelin,AINS,2025/3,https://pubmed.ncbi.nlm.nih.gov/40127648/,Thieme-Abo; CME-Status nicht geprüft,,da
-5,"Ernährung, Stoffwechsel",Spezielle Ernährungsformeln für Intensivpatienten,Dresen,AINS,2025/3,https://pubmed.ncbi.nlm.nih.gov/40127647/,Thieme-Abo; CME-Status nicht geprüft,,da
+5,"Ernährung, Stoffwechsel",Spezielle Ernährungslösungen für Intensivpatient*innen: Tool or Toy?,Dresen,AINS,2025/3,https://pubmed.ncbi.nlm.nih.gov/40127647/,Thieme-Abo; CME-Status nicht geprüft,,da
 5,"Ernährung, Stoffwechsel",Monitoring der medizinischen Ernährungstherapie,Radke,AINS,2025/3,https://pubmed.ncbi.nlm.nih.gov/40127646/,Thieme-Abo; CME-Status nicht geprüft,,da
 6,Pharmakotherapie,Pharmakologische/pharmazeutische Visite in der Intensivmedizin,Hilgarth,Med Klin Intensivmed,2021/2,https://link.springer.com/article/10.1007/s00063-020-00767-z,Springer-Abo / CME-Portal,,da
 6,Pharmakotherapie,Natürliche und synthetische Katecholamine,Lehmann,AINS,2021/6,https://pubmed.ncbi.nlm.nih.gov/34187075/,Thieme-Abo; CME-Status nicht geprüft,,da
