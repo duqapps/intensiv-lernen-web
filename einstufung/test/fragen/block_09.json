@@ -1,0 +1,465 @@
+{
+ "block": 9,
+ "titel": "Reanimation und Notfälle",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs. Grundlage sind die ERC-Leitlinien 2025 (englische Kapitel in Resuscitation) und deutsche Kommentare/CME.",
+ "fragen": [
+  {
+   "id": "B09-01",
+   "typ": "mc",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Wann geben Sie bei Kammerflimmern nach ERC 2025 Amiodaron und in welcher Dosis?",
+   "optionen": [
+    "A 150 mg nach dem ersten Schock",
+    "B 300 mg sofort vor dem ersten Schock",
+    "C 300 mg nach dem dritten Schock, 150 mg nach dem fünften Schock",
+    "D Amiodaron wird nicht mehr empfohlen"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: nach 3 Schocks 300 mg i. v./i. o., weitere 150 mg nach 5 Schocks; Lidocain 100 mg als Alternative.",
+    "Adrenalin 1 mg bei defibrillierbarem Rhythmus nach dem 3. Schock, dann alle 3–5 min; bei nicht defibrillierbarem Rhythmus so früh wie möglich.",
+    "Bei refraktärem VF: Vektorwechsel (z. B. anterior-posterior) erwägen; doppelte sequenzielle Defibrillation nicht außerhalb von Studien."
+   ],
+   "bewertung": "C plus Adrenalin-Zeitpunkte.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (Resuscitation)",
+     "kennung": "2MRG2IC5",
+     "seite": "3, 8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-02",
+   "typ": "erklaere",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Erklären Sie die reversiblen Ursachen des Kreislaufstillstands (4 H und HITS) und wie Sie sie auf der Intensivstation gezielt prüfen.",
+   "musterantwort": [
+    "Hypoxie (Tubuslage, Kapnographie, Beatmung), Hypovolämie (Blutung, Sono), Hypo-/Hyperkaliämie und metabolische Störungen (BGA sofort), Hypo-/Hyperthermie.",
+    "Herzbeuteltamponade (Echo subxiphoidal, Punktion), Intoxikation (Anamnese, Antidot, ggf. lange CPR/ECPR), Thrombembolie (LE: Lyse während CPR erwägen, dann CPR 60–90 min fortsetzen; Koronarthrombose: Koronarangiographie unter mechanischer CPR/ECPR), Spannungspneumothorax (Klinik, Sono, Entlastung).",
+    "Point-of-Care-Ultraschall nur in den Pulskontrollpausen ohne Verlängerung der Pause (< 10 s).",
+    "Hyperkaliämie: Kalziumchlorid 10 % 10 ml i. v. als Bolus, Insulin-Glukose, ggf. Bicarbonat; Dialyse nach ROSC."
+   ],
+   "bewertung": "Alle 8 Ursachen mit je einer gezielten Maßnahme; Ultraschall ohne Pausenverlängerung.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (Resuscitation)",
+     "kennung": "2MRG2IC5",
+     "seite": "3"
+    },
+    {
+     "titel": "ERC Guidelines 2025: Special Circumstances in Resuscitation (Resuscitation)",
+     "kennung": "6Z3IMH7U",
+     "seite": "2"
+    },
+    {
+     "titel": "Leitlinien des ERC 2025: Basic und Advanced Life Support (CME)",
+     "kennung": "K56NGAEB",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-03",
+   "typ": "fall",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Ein beatmeter Patient auf Ihrer ITS wird plötzlich pulslos, Monitor: Asystolie. Was tun Sie in den ersten Minuten?",
+   "musterantwort": [
+    "Hilfe rufen, sofort Thoraxkompressionen (100–120/min, 5–6 cm), Beatmung über Tubus mit FiO2 1,0, 10/min, Kompressionen kontinuierlich; Ableitung und Elektroden prüfen (feines VF ausschließen).",
+    "Adrenalin 1 mg i. v. so früh wie möglich, dann alle 3–5 min.",
+    "Kapnographie: Qualität der CPR, ROSC-Hinweis (plötzlicher etCO2-Anstieg).",
+    "Reversible Ursachen systematisch: Tubusdislokation/-verlegung, Pneumothorax (DOPES), Hyperkaliämie (BGA), Tamponade, LE, Hypovolämie, Medikamente (z. B. Kalium-Perfusor, Bolusgaben).",
+    "Rhythmusanalyse alle 2 min; Kommunikation im Team, Zeitnehmer."
+   ],
+   "bewertung": "Sofort-CPR, frühes Adrenalin, Kapnographie, ITS-spezifische Ursachen.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (Resuscitation)",
+     "kennung": "2MRG2IC5",
+     "seite": "3, 8"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5 Reanimation",
+     "kennung": "EKKX2B6Z",
+     "seite": "3, 8-9"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-04",
+   "typ": "mc",
+   "unterthema": "Postreanimationsbehandlung, Temperaturmanagement, Prognose",
+   "marke": "S",
+   "frage": "Was empfehlen ERC/ESICM 2025 zur Temperaturkontrolle bei komatösen Patienten nach ROSC?",
+   "optionen": [
+    "A Aktive Fieberprävention (≤ 37,5 °C) für mindestens 72 h nach ROSC",
+    "B Obligate Kühlung auf 33 °C für 48 h",
+    "C Keine Temperaturkontrolle, nur Antipyretika bei Bedarf",
+    "D Präklinische Kühlung mit kalten Infusionen"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Begriff „Temperaturkontrolle“; aktives Verhindern von Fieber (> 37,5 °C) für mindestens 72 h (2021 noch 32–36 °C für ≥ 24 h und Fieber > 37,7 °C vermeiden).",
+    "B: kein Vorteil von 33 °C gegenüber Normothermie (TTM2).",
+    "D: präklinische Kühlung mit kalten Infusionen wird nicht empfohlen.",
+    "Methoden: Feedback-gesteuerte Geräte, Shivering behandeln."
+   ],
+   "bewertung": "A; Unterschied zu 2021.",
+   "quellen": [
+    {
+     "titel": "ERC/ESICM Guidelines 2025: Post-Resuscitation Care (Resuscitation)",
+     "kennung": "CX56GCAX",
+     "seite": "3"
+    },
+    {
+     "titel": "Postreanimationsbehandlung bei Erwachsenen: Kommentar zu den ERC-Leitlinien (Notfall Rettungsmed 2025)",
+     "kennung": "KQHDVRIU",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-05",
+   "typ": "erklaere",
+   "unterthema": "Postreanimationsbehandlung, Temperaturmanagement, Prognose",
+   "marke": "S",
+   "frage": "Welche Behandlungsziele setzen Sie in der Postreanimationsphase (Atmung, Kreislauf, Diagnostik)?",
+   "musterantwort": [
+    "Atemweg sichern, Beatmung lungenprotektiv; SpO2 94–98 %, Hyperoxie und Hypoxie vermeiden; Normokapnie.",
+    "Kreislauf: MAD > 60–65 mmHg, gesteuert nach Diurese und Laktat; Echo, Katecholamine, bei kardiogenem Schock mechanische Unterstützung erwägen.",
+    "Koronarangiographie sofort bei ST-Hebung; ohne ST-Hebung nur bei hoher Wahrscheinlichkeit eines akuten Koronarverschlusses (instabil, anhaltende Ischämie), sonst verzögert/selektiv.",
+    "CT Kopf/Thorax (CT-Angiographie) bei unklarer Ursache.",
+    "Temperaturkontrolle (Fieber vermeiden ≥ 72 h), Normoglykämie, Krampfanfälle behandeln (keine Prophylaxe), Sedierung kurz wirksam."
+   ],
+   "bewertung": "Zielwerte SpO2, pCO2, MAD; Koronarstrategie; Temperatur.",
+   "quellen": [
+    {
+     "titel": "ERC/ESICM Guidelines 2025: Post-Resuscitation Care (Resuscitation)",
+     "kennung": "CX56GCAX",
+     "seite": "3, 11"
+    },
+    {
+     "titel": "Post Resuscitation Care – Postreanimationsbehandlung (AINS)",
+     "kennung": "3HZ4AGRV",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-06",
+   "typ": "fall",
+   "unterthema": "Postreanimationsbehandlung, Temperaturmanagement, Prognose",
+   "marke": "S",
+   "frage": "Ein 67-jähriger Patient ist 5 Tage nach beobachtetem Kreislaufstillstand (No-Flow 8 min, Low-Flow 30 min) ohne Sedierung weiter komatös (GCS M1). Die Angehörigen fragen nach der Prognose. Wie gehen Sie vor?",
+   "musterantwort": [
+    "Prognostik frühestens 72 h nach ROSC und nach Ausschluss von Störfaktoren (Sedativa-Überhang, Relaxanzien, Hypothermie, Hypotonie, metabolische Störungen, Hypoglykämie).",
+    "Multimodal; schlechte Prognose wahrscheinlich, wenn mindestens zwei der folgenden zutreffen: fehlende Pupillen- und Kornealreflexe ≥ 72 h, beidseits fehlende N20-Potenziale im SSEP (≥ 24 h), hoch maligne EEG-Muster (> 24 h), NSE > 60 µg/l nach 48 h und/oder 72 h, Status myoclonus ≤ 72 h, ausgedehnte hypoxische Schädigung im CT/MRT.",
+    "Bei unklarem Befund weiter beobachten und erneut beurteilen.",
+    "Ergebnis im Team und mit Angehörigen besprechen, Patientenwille ermitteln, Therapieziel festlegen; an Organspende denken (Hirnfunktionsausfall-Diagnostik getrennt nach BÄK-Richtlinie)."
+   ],
+   "bewertung": "72-h-Regel, Störfaktoren, multimodale Kriterien mit NSE-Wert, Kommunikation.",
+   "quellen": [
+    {
+     "titel": "ERC/ESICM Guidelines 2025: Post-Resuscitation Care (Resuscitation)",
+     "kennung": "CX56GCAX",
+     "seite": "8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-07",
+   "typ": "mc",
+   "unterthema": "Notfallmanagement auf der Station, innerklinische Notfälle, Anaphylaxie",
+   "marke": "S",
+   "frage": "Ein Patient entwickelt 5 min nach Beginn einer Antibiotikainfusion Urtikaria, Stridor und RR 70/40 mmHg. Was ist die wichtigste Erstmaßnahme?",
+   "optionen": [
+    "A Prednisolon 250 mg i. v.",
+    "B Clemastin und Ranitidin i. v.",
+    "C Volumenbolus 2 l und Abwarten",
+    "D Infusion stoppen und Adrenalin 0,5 mg i. m. (Oberschenkel), bei Bedarf nach 5 min wiederholen; bei Monitoring und Erfahrung titrierte i. v.-Boli (z. B. 0,05–0,1 mg)"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: Adrenalin ist Mittel der ersten Wahl; i. m. 0,5 mg (Erwachsene), i. v. nur titriert durch Erfahrene; bei refraktärer Anaphylaxie Adrenalin-Infusion.",
+    "Begleitend: O2, Flachlagerung/Beine hoch, Volumen (500–1 000 ml Kristalloid), Atemwegssicherung bei Schwellung, Bronchodilatatoren.",
+    "A und B: Kortikosteroide und Antihistaminika sind nachrangig und ersetzen Adrenalin nicht.",
+    "Danach Tryptase abnehmen, Überwachung (biphasische Reaktion), Allergiepass."
+   ],
+   "bewertung": "D.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5 (Anaphylaktischer Schock)",
+     "kennung": "EKKX2B6Z",
+     "seite": "17"
+    },
+    {
+     "titel": "ERC Guidelines 2025: Special Circumstances in Resuscitation (Resuscitation)",
+     "kennung": "6Z3IMH7U",
+     "seite": "4"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-08",
+   "typ": "erklaere",
+   "unterthema": "Notfallmanagement auf der Station, innerklinische Notfälle, Anaphylaxie",
+   "marke": "S",
+   "frage": "Wie organisiert man die Prävention innerklinischer Kreislaufstillstände, und was gehört zur Versorgung eines kritisch kranken Patienten nach ABCDE?",
+   "musterantwort": [
+    "Prävention: Frühwarnscores (z. B. NEWS2) mit festen Alarmschwellen, Medizinisches Notfallteam/Rapid Response Team, Schulung, Therapiezielfestlegung inkl. DNAR bei geeigneten Patienten, strukturierte Kommunikation (SBAR).",
+    "ABCDE: A Atemweg freimachen/sichern; B Atmung (AF, SpO2, Auskultation, O2, NIV, Pneumothorax-Entlastung); C Kreislauf (Puls, RR, Rekap.-Zeit, Zugang, Volumen, Vasopressor, Rhythmus: Kardioversion/Schrittmacher); D Neurologie (GCS/AVPU, Pupillen, Glukose); E Exposure (Temperatur, Haut, Blutung).",
+    "Probleme sofort behandeln, bevor zum nächsten Buchstaben gewechselt wird; regelmäßige Re-Evaluation.",
+    "Nicht-traumatologischer Schockraum mit strukturiertem Team und Bridging zur Intensivtherapie."
+   ],
+   "bewertung": "Frühwarnsysteme/MET, vollständiges ABCDE mit Maßnahmen.",
+   "quellen": [
+    {
+     "titel": "ABCDE im nicht-traumatologischen Schockraum (Anästh Intensivmed 2023)",
+     "kennung": "GZ744KSZ",
+     "seite": "4, 7"
+    },
+    {
+     "titel": "Versorgung kritisch kranker Patienten in der zentralen Notaufnahme (AINS 2022)",
+     "kennung": "X9AQXEAF",
+     "seite": "6, 11"
+    },
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (Resuscitation)",
+     "kennung": "2MRG2IC5",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-09",
+   "typ": "fall",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Ein 45-jähriger Mann bricht in der Notaufnahme mit Kammerflimmern zusammen (beobachtet, sofort CPR). Nach 15 min und 5 Schocks weiter VF. Ihr Haus hat ein ECPR-Programm. Was tun Sie?",
+   "musterantwort": [
+    "Refraktäres VF: Antiarrhythmika gegeben? Vektorwechsel der Elektroden (anterior-posterior), reversible Ursachen, mechanische Thoraxkompression.",
+    "ECPR-Kriterien prüfen: jüngerer Patient, beobachteter Stillstand mit Laien-/sofortiger CPR, initial defibrillierbarer Rhythmus, vermutet reversible Ursache (z. B. Koronarverschluss, LE, Hypothermie, Intoxikation), Zeit bis ECMO-Fluss < 60 min, Lebenszeichen/etCO2 unter CPR, keine limitierenden Komorbiditäten.",
+    "Hier erfüllt: ECPR-Team frühzeitig alarmieren (idealerweise nach ~10–15 min erfolgloser CPR), femorale VA-ECMO-Kanülierung unter laufender CPR, danach Koronarangiographie.",
+    "Ohne ECPR-Option: CPR fortsetzen, Ursache behandeln, Abbruchkriterien im Team."
+   ],
+   "bewertung": "Refraktäres VF-Management, ECPR-Kriterien, Zeitfenster.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (ECPR-Auswahlkriterien)",
+     "kennung": "2MRG2IC5",
+     "seite": "3, 36"
+    },
+    {
+     "titel": "Extrakorporale kardiopulmonale Reanimation – eine Standortbestimmung (Die Anaesthesiologie 2023)",
+     "kennung": "QL8HUS3A",
+     "seite": "4"
+    },
+    {
+     "titel": "Extrakorporale kardiopulmonale Reanimation (ECPR) – die Zukunft? (AINS)",
+     "kennung": "FT56GF3T",
+     "seite": "9"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-10",
+   "typ": "mc",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Welche Aussage zu Medikamenten während der Reanimation trifft nach ERC 2025 zu?",
+   "optionen": [
+    "A Natriumbikarbonat soll routinemäßig nach 10 min gegeben werden.",
+    "B Kalzium und Natriumbikarbonat haben während der CPR keinen Stellenwert, außer bei sehr speziellen Indikationen (z. B. Hyperkaliämie, Kalziumantagonisten-Intoxikation).",
+    "C Atropin ist bei Asystolie indiziert.",
+    "D Adrenalin wird bei VF vor dem ersten Schock gegeben."
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: Routinegabe von Kalzium und Bicarbonat ist „out“.",
+    "A falsch; C: Atropin seit Jahren nicht mehr bei Asystolie/PEA; D: Adrenalin bei VF erst nach dem 3. Schock.",
+    "Zugang: i. v. bevorzugt, i. o. wenn i. v. nicht rasch möglich."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (Resuscitation)",
+     "kennung": "2MRG2IC5",
+     "seite": "3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-11",
+   "typ": "erklaere",
+   "unterthema": "Postreanimationsbehandlung, Temperaturmanagement, Prognose",
+   "marke": "S",
+   "frage": "Was ist bei der Koronarangiographie nach Reanimation ohne ST-Hebung zu beachten, und welche weiteren Ursachen klären Sie ab?",
+   "musterantwort": [
+    "ST-Hebung (oder neuer LSB) → sofortige Koronarangiographie.",
+    "Ohne ST-Hebung: keine routinemäßige sofortige Angiographie (Studien COACT, TOMAHAWK ohne Vorteil); sofort nur bei hoher Wahrscheinlichkeit eines akuten Koronarverschlusses (hämodynamisch/elektrisch instabil, anhaltende Ischämie).",
+    "Vorher nichtkardiale Ursachen ausschließen: CT Kopf (intrakranielle Blutung, SAB), CT-Angiographie Thorax (LE, Dissektion), Echo, Labor/Toxikologie.",
+    "Bei unklarer Ursache später strukturierte kardiologische Abklärung (Kardiomyopathie, Ionenkanal, ICD-Indikation)."
+   ],
+   "bewertung": "Indikation sofort vs. verzögert, nichtkardiale Abklärung.",
+   "quellen": [
+    {
+     "titel": "ERC/ESICM Guidelines 2025: Post-Resuscitation Care (Resuscitation)",
+     "kennung": "CX56GCAX",
+     "seite": "3"
+    },
+    {
+     "titel": "Postreanimationsbehandlung bei Erwachsenen: Kommentar zu den ERC-Leitlinien (Notfall Rettungsmed 2025)",
+     "kennung": "KQHDVRIU",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-12",
+   "typ": "fall",
+   "unterthema": "Notfallmanagement auf der Station, innerklinische Notfälle, Anaphylaxie",
+   "marke": "S",
+   "frage": "Auf der Normalstation: 78-jährige Patientin nach Hüft-OP, NEWS2 7, AF 28/min, SpO2 89 % unter 2 l, RR 95/50, HF 118/min, neu verwirrt, Temperatur 38,9 °C. Sie werden als Notfallteam gerufen. Was tun Sie?",
+   "musterantwort": [
+    "ABCDE-Vorgehen: O2-Gabe (Ziel SpO2 94–98 %), Auskultation, BGA; Zugänge, Volumenbolus balanciert, Laktat.",
+    "Sepsis wahrscheinlich (qSOFA/NEWS hoch): Blutkulturen, Fokus suchen (Pneumonie, Harnweg, Wunde, Katheter), Antibiotika innerhalb 1 h.",
+    "Differenzialdiagnosen: LE, Aspiration, Myokardischämie, Delir, Blutung.",
+    "Monitoring und Verlegung auf IMC/ITS, wenn keine rasche Besserung oder Vasopressorbedarf.",
+    "Therapieziel und Patientenwillen klären (Patientenverfügung, DNAR?), Kommunikation mit Stationsteam (SBAR), Dokumentation."
+   ],
+   "bewertung": "Strukturiert ABCDE, Sepsisbündel, DD, Eskalation/Therapieziel.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5 (Sepsis: Früherkennung mit NEWS, Sepsis Seven)",
+     "kennung": "EKKX2B6Z",
+     "seite": "18"
+    },
+    {
+     "titel": "ABCDE im nicht-traumatologischen Schockraum (Anästh Intensivmed 2023)",
+     "kennung": "GZ744KSZ",
+     "seite": "4, 7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-13",
+   "typ": "mc",
+   "unterthema": "Postreanimationsbehandlung, Temperaturmanagement, Prognose",
+   "marke": "S",
+   "frage": "Welche Oxygenierung ist nach ROSC anzustreben?",
+   "optionen": [
+    "A SpO2 100 % für 24 h",
+    "B SpO2 88–92 % bei allen Patienten",
+    "C SpO2 94–98 %, Hypoxie und Hyperoxie vermeiden",
+    "D paO2 > 300 mmHg zur Neuroprotektion"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: nach ROSC FiO2 initial hoch, dann titrieren auf SpO2 94–98 % sobald zuverlässig messbar.",
+    "A und D: Hyperoxie ist mit schlechterem Outcome assoziiert.",
+    "B: nur bei Hyperkapnierisiko (z. B. COPD) gerechtfertigt."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "ERC/ESICM Guidelines 2025: Post-Resuscitation Care (Resuscitation)",
+     "kennung": "CX56GCAX",
+     "seite": "11"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-14",
+   "typ": "erklaere",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Was sind die wichtigsten Neuerungen der ERC-Leitlinien 2025 für die Erwachsenenreanimation?",
+   "musterantwort": [
+    "Frühe Adrenalingabe bei nicht defibrillierbaren Rhythmen betont; Amiodaron nach 3 Schocks, Lidocain als Alternative.",
+    "Korrekte (apikal-laterale) Elektrodenposition, bei refraktärem VF Vektorwechsel; keine doppelte sequenzielle Defibrillation außerhalb von Studien.",
+    "Kalzium und Bicarbonat ohne Routinestellenwert; Kapnographie zur Tubuslagekontrolle und CPR-Qualität.",
+    "Atemweg stufenweise nach Können des Anwenders (Maske/SGA/Intubation).",
+    "Postreanimation: Begriff Temperaturkontrolle, Fieberprävention ≥ 72 h; MAD > 60–65 mmHg; Rehabilitation und Nachsorge betont.",
+    "Systemebene: Ersthelfer-Apps, Frühwarnsysteme, Teamtraining."
+   ],
+   "bewertung": "Mindestens 4 Neuerungen korrekt.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Adult Advanced Life Support (Resuscitation)",
+     "kennung": "2MRG2IC5",
+     "seite": "3"
+    },
+    {
+     "titel": "Die neuen Europäischen Reanimationsleitlinien sind da – und was bringt am meisten? (Notfall Rettungsmed 2025)",
+     "kennung": "K2DPJJG6",
+     "seite": "1-4"
+    },
+    {
+     "titel": "Update Reanimation – was gibt es Neues? (AINS)",
+     "kennung": "H86CJTUA",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B09-15",
+   "typ": "fall",
+   "unterthema": "Erweiterte Reanimation nach aktuellen ERC-Leitlinien",
+   "marke": "S",
+   "frage": "Eine 35-jährige Frau in der 34. SSW erleidet im Kreißsaal einen Kreislaufstillstand. Was ist anders als bei der Standardreanimation?",
+   "musterantwort": [
+    "Standard-ALS mit Besonderheiten: manuelle Linksverlagerung des Uterus (Aortokavalkompression aufheben), Thoraxkompression an üblicher Stelle.",
+    "Frühe Atemwegssicherung durch Erfahrene (Aspirationsrisiko, schwieriger Atemweg), Zugänge oberhalb des Zwerchfells. Fetales Monitoring vor Defibrillation entfernen.",
+    "Notfall-Hysterotomie (Entbindung, ab etwa 20. SSW) sofort vorbereiten und bei fehlendem raschem ROSC durchführen; ERC 2025 betont die sofortige Vorbereitung statt der starren 4/5-Minuten-Regel – verbessert Chancen von Mutter und Kind.",
+    "Ursachen: Blutung, Fruchtwasserembolie, LE, Präeklampsie/Magnesiumüberdosierung (Kalzium als Antidot), Kardiomyopathie, Lokalanästhetika-Intoxikation (Lipid).",
+    "Interdisziplinäres Team (Geburtshilfe, Neonatologie, Anästhesie)."
+   ],
+   "bewertung": "Uterusverlagerung, Hysterotomie-Zeitfenster, spezifische Ursachen.",
+   "quellen": [
+    {
+     "titel": "ERC Guidelines 2025: Special Circumstances in Resuscitation (Resuscitation)",
+     "kennung": "6Z3IMH7U",
+     "seite": "4, 46"
+    },
+    {
+     "titel": "Notfallsituationen im Kreißsaal (Anästh Intensivmed 2022)",
+     "kennung": "2AD5J62W",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

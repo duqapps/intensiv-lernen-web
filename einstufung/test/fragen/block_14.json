@@ -1,0 +1,466 @@
+{
+ "block": 14,
+ "titel": "Blut, Gerinnung und Hämatoonkologie",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs. TTP-spezifische Therapie (Caplacizumab) und CAR-T-Zytokinsturm sind in unseren Materialien kaum abgedeckt.",
+ "fragen": [
+  {
+   "id": "B14-01",
+   "typ": "mc",
+   "unterthema": "Transfusion, Patient Blood Management, Massivtransfusion; Querschnitts-Leitlinie der BÄK, Transfusionsgesetz",
+   "marke": "S",
+   "frage": "Welche Transfusionsschwelle für Erythrozytenkonzentrate empfiehlt die ESICM-Leitlinie für die meisten stabilen Intensivpatienten ohne akute Blutung?",
+   "optionen": [
+    "A Hb < 10 g/dl",
+    "B Hb < 9 g/dl bei allen über 65 Jahren",
+    "C Hb < 7 g/dl (restriktiv); individuelle Abweichung z. B. bei akutem Koronarsyndrom",
+    "D Hb < 5 g/dl"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: restriktive Strategie mit Schwelle 7 g/dl ist für die allgemeine ITS-Population sicher (TRICC u. a.).",
+    "Ausnahmen/Diskussion: akutes Koronarsyndrom (eher höher, z. B. ≤ 8–10 g/dl), aktive Blutung (klinisch steuern), Schädel-Hirn-Trauma.",
+    "Querschnitts-Leitlinie BÄK: Indikation nicht nur nach Hb, sondern nach physiologischen Transfusionstriggern (Tachykardie, Ischämiezeichen, Laktat, ScvO2)."
+   ],
+   "bewertung": "C plus physiologische Trigger.",
+   "quellen": [
+    {
+     "titel": "Transfusion strategies in non-bleeding critically ill adults: ESICM guideline (Intensive Care Med 2020)",
+     "kennung": "PGRRWGAV",
+     "seite": "4"
+    },
+    {
+     "titel": "Querschnitts-Leitlinien der BÄK zur Therapie mit Blutkomponenten und Plasmaderivaten",
+     "kennung": "79S63PIQ",
+     "seite": "17"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-02",
+   "typ": "erklaere",
+   "unterthema": "Transfusion, Patient Blood Management, Massivtransfusion; Querschnitts-Leitlinie der BÄK, Transfusionsgesetz",
+   "marke": "S·DE",
+   "frage": "Was ist vor und bei einer Erythrozytentransfusion nach Transfusionsgesetz und Richtlinie Hämotherapie vorgeschrieben?",
+   "musterantwort": [
+    "Indikationsstellung und Aufklärung (wenn möglich schriftlich, inkl. Risiken und Alternativen) durch den Arzt.",
+    "Blutgruppenbestimmung und Antikörpersuchtest, Kreuzprobe (Verträglichkeitsprobe).",
+    "Unmittelbar vor der Transfusion: AB0-Identitätstest (Bedside-Test) am Patienten durch den transfundierenden Arzt oder unter seiner direkten Aufsicht, schriftlich dokumentiert; Abgleich Konserve–Begleitschein–Patient.",
+    "Einleitung durch den Arzt, Überwachung während und nach der Transfusion.",
+    "Chargendokumentation (Rückverfolgbarkeit), Meldung unerwünschter Reaktionen (Hämovigilanz); Qualitätssicherung über Transfusionsverantwortliche/-beauftragte."
+   ],
+   "bewertung": "Bedside-Test-Regeln, Dokumentation, Hämovigilanz.",
+   "quellen": [
+    {
+     "titel": "Querschnitts-Leitlinien der BÄK zur Therapie mit Blutkomponenten und Plasmaderivaten",
+     "kennung": "79S63PIQ",
+     "seite": "4, 28"
+    },
+    {
+     "titel": "Erythrozytenkonzentrate – vermeidbare Risiken und Komplikationen (Die Anaesthesiologie 2026)",
+     "kennung": "XER5ISLN",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-03",
+   "typ": "fall",
+   "unterthema": "Transfusion, Patient Blood Management, Massivtransfusion; Querschnitts-Leitlinie der BÄK, Transfusionsgesetz",
+   "marke": "S",
+   "frage": "Polytraumapatient mit Beckenfraktur, RR 70/40 mmHg, bisher 6 EK, Hb 6,8 g/dl, Fibrinogen 1,1 g/l, Thrombozyten 70/nl, ionisiertes Kalzium 0,85 mmol/l, Temperatur 34,8 °C. Wie steuern Sie die Gerinnungs- und Transfusionstherapie?",
+   "musterantwort": [
+    "Massivtransfusionsprotokoll, Blutungskontrolle (Beckenstabilisierung, Embolisation/Packing) hat Vorrang.",
+    "Tranexamsäure 1 g (innerhalb 3 h nach Trauma) plus 1 g über 8 h, falls noch nicht gegeben.",
+    "Fibrinogenkonzentrat (Ziel Fibrinogen ≥ 1,5–2 g/l; z. B. 3–4 g), Plasma/EK in hohem Verhältnis (z. B. 1:1 bis 1:2) oder faktorbasiert nach viskoelastischen Tests (ROTEM/TEG).",
+    "Thrombozyten > 50/nl (bei SHT/anhaltender Blutung > 100/nl).",
+    "Rahmenbedingungen: Kalzium > 0,9–1,1 mmol/l (substituieren), Normothermie (Wärme), pH > 7,2, Hb 7–9 g/dl.",
+    "PPSB bei Bedarf (VKA/DOAK, viskoelastisch verlängerte Gerinnungszeit)."
+   ],
+   "bewertung": "TXA, Fibrinogen, Verhältnis bzw. ROTEM-gesteuert, Kalzium/Temperatur/Azidose.",
+   "quellen": [
+    {
+     "titel": "European guideline on management of major bleeding and coagulopathy following trauma, 6th ed. (Crit Care 2023)",
+     "kennung": "V397WRJJ",
+     "seite": "11, 18, 26"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 16 Blut, Blutprodukte und Gerinnungsstörungen",
+     "kennung": "P3NVX5U3",
+     "seite": "30, 33"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-04",
+   "typ": "mc",
+   "unterthema": "Gerinnungstherapie, DIC",
+   "marke": "S",
+   "frage": "Welche Aussage zur Gabe von gefrorenem Frischplasma (FFP) ist richtig?",
+   "optionen": [
+    "A Bei Massivtransfusion oder komplexer Koagulopathie mit Blutung sinnvoll, als Plasmaersatz beim Plasmaaustausch (z. B. TTP); nicht zur prophylaktischen Korrektur eines erhöhten INR ohne Blutung",
+    "B Erste Wahl zur Antagonisierung von Vitamin-K-Antagonisten",
+    "C Volumenersatz der Wahl bei Hypovolämie",
+    "D Ein FFP hebt den Quick-Wert um etwa 30 %"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Indikationen klar begrenzt; Dosis mindestens 15–20 ml/kg nötig für relevanten Effekt.",
+    "B: PPSB (schneller, kleineres Volumen) plus Vitamin K.",
+    "C: kein Volumenersatzmittel (TRALI, TACO, Infektionen).",
+    "D: Effekt pro Einheit gering (≈ 1–2 % je ml/kg)."
+   ],
+   "bewertung": "A.",
+   "quellen": [
+    {
+     "titel": "Frischgefrorenes Plasma und Blutgerinnungsfaktoren (AINS)",
+     "kennung": "32ASJ8HM",
+     "seite": "3"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 16 (FFP)",
+     "kennung": "P3NVX5U3",
+     "seite": "33"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-05",
+   "typ": "erklaere",
+   "unterthema": "Gerinnungstherapie, DIC",
+   "marke": "S",
+   "frage": "Erklären Sie die sepsisinduzierte Koagulopathie und die disseminierte intravasale Gerinnung: Diagnose und Therapie.",
+   "musterantwort": [
+    "SIC: frühe Phase der septischen Gerinnungsstörung (Thrombozyten ↓, INR ↑, SOFA), überwiegend prothrombotisch (Immunothrombose, Endothelschaden, Fibrinolysehemmung durch PAI-1).",
+    "Overt DIC (ISTH-Score ≥ 5): Thrombozyten, D-Dimere/Fibrinspaltprodukte, Quick/INR, Fibrinogen; Verbrauch mit Blutung und/oder Mikrothromben, Organversagen.",
+    "Therapie: Grunderkrankung behandeln (Fokuskontrolle, Antibiotika); Substitution von Thrombozyten, Fibrinogen, PPSB/FFP nur bei Blutung oder Intervention; Thromboseprophylaxe mit Heparin, solange keine Blutung.",
+    "Antithrombin oder Thrombomodulin: in Europa nicht routinemäßig empfohlen.",
+    "Differenzialdiagnose: TMA (TTP/HUS), HIT, Leberversagen, Verdünnung, Medikamente."
+   ],
+   "bewertung": "SIC vs. DIC, Scores, ursachenorientierte Therapie, DD.",
+   "quellen": [
+    {
+     "titel": "Sepsisinduzierte Koagulopathie (Anaesthesiologie 2026)",
+     "kennung": "RUSSFEAN",
+     "seite": "1-3"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 16 (DIC)",
+     "kennung": "P3NVX5U3",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-06",
+   "typ": "fall",
+   "unterthema": "Antikoagulation, Thrombozytenhemmung, Antagonisierung, HIT",
+   "marke": "S",
+   "frage": "Am 7. Tag nach Herz-OP unter UFH fallen die Thrombozyten von 210 auf 70/nl, es tritt eine Beinvenenthrombose auf. Was tun Sie?",
+   "musterantwort": [
+    "Hohe Vortestwahrscheinlichkeit für HIT Typ II (4T-Score: Abfall > 50 %, Tag 5–10, neue Thrombose, keine andere Erklärung).",
+    "Sofort jedes Heparin stoppen (auch Spülungen, heparinbeschichtete Katheter), nicht auf Labor warten.",
+    "Alternative Antikoagulation in therapeutischer Dosis: Argatroban (bei Leber-/Niereninsuffizienz anpassbar, aPTT-Steuerung), Bivalirudin, Danaparoid oder Fondaparinux (off-label).",
+    "Diagnostik: HIT-Antikörper (Immunoassay), bei positivem Ergebnis funktioneller Test (HIPA).",
+    "Keine Thrombozytentransfusion zur Prophylaxe; Umstellung auf VKA erst bei Thrombozyten > 150/nl; HIT im Arztbrief dokumentieren."
+   ],
+   "bewertung": "4T, Heparinstopp, alternative Antikoagulation therapeutisch, Diagnostik.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 16 (Heparininduzierte Thrombopenie)",
+     "kennung": "P3NVX5U3",
+     "seite": "6-7"
+    },
+    {
+     "titel": "Antikoagulation in der Intensivmedizin (Med Klin Intensivmed Notfmed 2026)",
+     "kennung": "69PA5D23",
+     "seite": "1-2, 5, 7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-07",
+   "typ": "mc",
+   "unterthema": "Antikoagulation, Thrombozytenhemmung, Antagonisierung, HIT",
+   "marke": "S",
+   "frage": "Ein Patient unter Dabigatran hat eine lebensbedrohliche Blutung. Was ist das spezifische Antidot?",
+   "optionen": [
+    "A Protamin",
+    "B Idarucizumab 5 g i. v.",
+    "C Vitamin K",
+    "D Andexanet alfa"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: Idarucizumab (monoklonales Antikörperfragment) bindet Dabigatran; zusätzlich Dialyse möglich (geringe Proteinbindung).",
+    "D: Andexanet alfa für Faktor-Xa-Hemmer (Apixaban, Rivaroxaban); alternativ PPSB.",
+    "A: Heparin (UFH, teilweise NMH); C: VKA (verzögert)."
+   ],
+   "bewertung": "B; Zuordnung der Antidote.",
+   "quellen": [
+    {
+     "titel": "Blutungsmanagement unter Therapie mit direkten oralen Antikoagulanzien – Expertenempfehlung (Anästh Intensivmed 2025)",
+     "kennung": "KD4MJESQ",
+     "seite": "1"
+    },
+    {
+     "titel": "Grundlagen des perioperativen Umgangs mit DOAK (Die Anaesthesiologie 2022)",
+     "kennung": "T93UMZQB",
+     "seite": "6-8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-08",
+   "typ": "erklaere",
+   "unterthema": "Antikoagulation, Thrombozytenhemmung, Antagonisierung, HIT",
+   "marke": "S",
+   "frage": "Wie gehen Sie mit DOAK bei einem Intensivpatienten vor, der dringend operiert oder punktiert werden muss?",
+   "musterantwort": [
+    "Substanz, Dosis, letzte Einnahme, Nierenfunktion klären; Spiegelbestimmung (substanzspezifisch kalibriert: Anti-Xa bzw. verdünnte Thrombinzeit/Ecarin) wenn verfügbar.",
+    "Elektiv/aufschiebbar: Pausieren nach Halbwertszeit und Blutungsrisiko (meist 24–48 h, bei Dabigatran und Niereninsuffizienz länger).",
+    "Notfall mit relevantem Spiegel bzw. Blutung: Dabigatran → Idarucizumab; Faktor-Xa-Hemmer → PPSB (25–50 IE/kg) oder Andexanet (Dosis nach Substanz/Zeitpunkt: niedrig 400 mg Bolus + 480 mg, hoch 800 mg + 960 mg über 2 h).",
+    "Neuraxiale Verfahren erst nach ausreichendem Abstand.",
+    "Wiederbeginn nach Blutstillung; bis dahin ggf. Heparin."
+   ],
+   "bewertung": "Spiegel/Abstand, korrekte Antagonisierung, Wiederbeginn.",
+   "quellen": [
+    {
+     "titel": "Blutungsmanagement unter Therapie mit DOAK – Expertenempfehlung (Anästh Intensivmed 2025)",
+     "kennung": "9NGWR5RT",
+     "seite": "1-2, 6-7"
+    },
+    {
+     "titel": "European guideline on management of major bleeding following trauma, 6th ed. (Andexanet-Dosierung)",
+     "kennung": "V397WRJJ",
+     "seite": "26"
+    },
+    {
+     "titel": "Grundlagen des perioperativen Umgangs mit DOAK (Die Anaesthesiologie 2022)",
+     "kennung": "T93UMZQB",
+     "seite": "6-8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-09",
+   "typ": "fall",
+   "unterthema": "Gerinnungstherapie, DIC",
+   "marke": "S",
+   "frage": "Nach großer Bauch-OP blutet ein Patient diffus aus Drainagen; Quick 55 %, aPTT 45 s, Fibrinogen 1,3 g/l, Thrombozyten 110/nl; er nahm präoperativ ASS. Wie gehen Sie strukturiert vor?",
+   "musterantwort": [
+    "Chirurgische Blutung ausschließen (Re-Exploration bei Hinweisen), Rahmenbedingungen optimieren (Temperatur, Kalzium, pH, Hb).",
+    "Point-of-Care-Diagnostik: viskoelastische Tests (ROTEM/TEG: Fibrinpolymerisation, Hyperfibrinolyse, Gerinnungszeit) und Thrombozytenfunktion (Impedanzaggregometrie bei ASS).",
+    "Gezielt: Tranexamsäure bei Hyperfibrinolyse bzw. empirisch, Fibrinogen (Ziel ≥ 1,5–2 g/l), Desmopressin bei Thrombozytenfunktionsstörung (ASS, Urämie), ggf. Thrombozytenkonzentrat, PPSB bei verlängerter Gerinnungszeit.",
+    "Heparinüberhang ausschließen (HEPTEM).",
+    "Seltene Ursachen bei unklarer Blutungsneigung (von-Willebrand-Syndrom, Faktor-XIII-Mangel) bedenken."
+   ],
+   "bewertung": "Chirurgisch vs. koagulopathisch, POC-gesteuert, DDAVP/Fibrinogen/TXA.",
+   "quellen": [
+    {
+     "titel": "Diagnostik und Management perioperativer Blutungsstörungen (Die Anaesthesiologie 2025)",
+     "kennung": "G3JM5TP4",
+     "seite": "3, 6-7"
+    },
+    {
+     "titel": "Blutungsstörungen unklarer Ursache (Die Anaesthesiologie)",
+     "kennung": "AN9JHVPM",
+     "seite": "3, 6"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-10",
+   "typ": "mc",
+   "unterthema": "Transfusion, Patient Blood Management, Massivtransfusion; Querschnitts-Leitlinie der BÄK, Transfusionsgesetz",
+   "marke": "S",
+   "frage": "Welche Maßnahme gehört zur Säule „Anämie behandeln/vermeiden“ des Patient Blood Management auf der Intensivstation?",
+   "optionen": [
+    "A Routinemäßige tägliche große Laborröhrchen zur Sicherheit",
+    "B Liberale Transfusion ab Hb 9 g/dl",
+    "C Möglichst viele Blutentnahmen über arterielle Kanüle mit Verwurf",
+    "D Blutsparende Probenentnahme (kleine Röhrchen, geschlossene Systeme, nur indizierte Laborwerte), Diagnostik und Therapie von Eisenmangel, restriktive Transfusionsschwelle"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: PBM-Säulen: präoperative/frühe Anämiebehandlung (i. v. Eisen), Minimierung von Blutverlust (inkl. iatrogener Blutverluste, Gerinnungsmanagement, Cell Saver), rationale Transfusion.",
+    "Iatrogener Blutverlust auf der ITS bis 40–70 ml/Tag trägt wesentlich zur Anämie bei.",
+    "A, B, C widersprechen PBM."
+   ],
+   "bewertung": "D.",
+   "quellen": [
+    {
+     "titel": "Outcome-relevante Anästhesiologie: peri- und postoperative Anämiebehandlung (AINS)",
+     "kennung": "ATQQ2BK9",
+     "seite": "3-4"
+    },
+    {
+     "titel": "Querschnitts-Leitlinien der BÄK zur Therapie mit Blutkomponenten und Plasmaderivaten",
+     "kennung": "79S63PIQ",
+     "seite": "17"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-11",
+   "typ": "fall",
+   "unterthema": "TTP, HUS, Tumorlyse, Leukostase, CAR-T-Zytokinsturm",
+   "marke": "E",
+   "frage": "Eine 35-jährige Frau mit Verwirrtheit, Fieber, Thrombozyten 12/nl, Hb 7,5 g/dl, Fragmentozyten 4 %, LDH 1 800 U/l, Kreatinin leicht erhöht. Was vermuten Sie und was tun Sie?",
+   "musterantwort": [
+    "Thrombotische Mikroangiopathie, am ehesten erworbene TTP (schwerer ADAMTS13-Mangel durch Autoantikörper); Notfall.",
+    "ADAMTS13-Aktivität und Inhibitor vor Therapie abnehmen, PLASMIC-Score.",
+    "Sofort Plasmaaustausch (mit FFP als Ersatz) plus Glukokortikoide; Caplacizumab (Anti-vWF) und Rituximab nach Bestätigung bzw. hoher Wahrscheinlichkeit.",
+    "Keine Thrombozytentransfusion außer bei lebensbedrohlicher Blutung (Thrombosegefahr).",
+    "DD: HUS (STEC, komplementvermittelt → Eculizumab), DIC, HELLP, maligne Hypertonie, medikamenteninduziert."
+   ],
+   "bewertung": "TTP erkennen, Plasmaaustausch + Steroide (+ Caplacizumab), keine Thrombozyten.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 16 (FFP als Plasmaersatz bei TTP)",
+     "kennung": "P3NVX5U3",
+     "seite": "33"
+    },
+    {
+     "titel": "Therapie mit Blutprodukten und Gerinnungsfaktoren auf der Intensivstation (Med Klin Intensivmed Notfmed 2025)",
+     "kennung": "DVAXWXJJ",
+     "seite": "1, 3-4"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-12",
+   "typ": "erklaere",
+   "unterthema": "TTP, HUS, Tumorlyse, Leukostase, CAR-T-Zytokinsturm",
+   "marke": "E",
+   "frage": "Was ist ein Tumorlysesyndrom und wie beugen Sie vor bzw. behandeln es?",
+   "musterantwort": [
+    "Zerfall von Tumorzellen (spontan oder nach Chemotherapie, v. a. hochproliferative Lymphome/akute Leukämien): Hyperkaliämie, Hyperphosphatämie mit sekundärer Hypokalzämie, Hyperurikämie → AKI, Arrhythmien, Krampfanfälle.",
+    "Prophylaxe: großzügige Hydratation (Ziel hohe Urinausscheidung), Allopurinol bzw. bei hohem Risiko Rasburicase; Urinalkalisierung nicht mehr routinemäßig.",
+    "Therapie: Elektrolyte engmaschig, Hyperkaliämie behandeln, Rasburicase bei Hyperurikämie (G6PD-Mangel ausschließen), Kalzium nur bei Symptomen (Kalziumphosphat-Präzipitation), frühe Nierenersatztherapie bei AKI/refraktären Störungen."
+   ],
+   "bewertung": "Laborkonstellation, Hydratation, Rasburicase/Allopurinol, Dialyseindikation.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 12 Niere (Tumorlyse: Volumen, Rasburicase/Allopurinol)",
+     "kennung": "EDG22U72",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-13",
+   "typ": "mc",
+   "unterthema": "Antikoagulation, Thrombozytenhemmung, Antagonisierung, HIT",
+   "marke": "S",
+   "frage": "Welches Antikoagulans ist bei HIT II und gleichzeitigem Leberversagen am wenigsten geeignet bzw. muss stark dosisreduziert werden?",
+   "optionen": [
+    "A Argatroban (hepatische Elimination)",
+    "B Bivalirudin",
+    "C Danaparoid",
+    "D Kein Antikoagulans nötig"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Argatroban wird hepatisch eliminiert → bei Leberinsuffizienz deutliche Dosisreduktion bzw. andere Substanz; bei Niereninsuffizienz dagegen gut geeignet.",
+    "Bivalirudin überwiegend proteolytisch/teilweise renal, Danaparoid renal (Anti-Xa-Monitoring).",
+    "D falsch: HIT ist prothrombotisch, therapeutische Antikoagulation nötig."
+   ],
+   "bewertung": "A.",
+   "quellen": [
+    {
+     "titel": "Antikoagulation in der Intensivmedizin (Med Klin Intensivmed Notfmed 2026)",
+     "kennung": "69PA5D23",
+     "seite": "1-2, 5, 7"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 16 (HIT, Argatroban)",
+     "kennung": "P3NVX5U3",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-14",
+   "typ": "fall",
+   "unterthema": "Transfusion, Patient Blood Management, Massivtransfusion; Querschnitts-Leitlinie der BÄK, Transfusionsgesetz",
+   "marke": "S",
+   "frage": "10 Minuten nach Beginn einer EK-Transfusion bekommt ein Patient Schüttelfrost, Fieber 39,5 °C, Flankenschmerz, RR-Abfall, der Urin wird rot. Was tun Sie?",
+   "musterantwort": [
+    "Verdacht akute hämolytische Transfusionsreaktion (meist AB0-Verwechslung).",
+    "Transfusion sofort stoppen, Zugang offen halten, Konserve und Begleitschein sichern, Identität erneut prüfen.",
+    "Kreislauf stabilisieren (Volumen, Vasopressor), forcierte Diurese, Hyperkaliämie und DIC überwachen, Nierenersatz bei Bedarf.",
+    "Labor: Blutgruppenkontrolle, direkter Coombs-Test, Hämolyseparameter (freies Hb, LDH, Haptoglobin, Bilirubin), Gerinnung, Blutkulturen von Patient und Konserve (bakterielle Kontamination als DD).",
+    "Meldung an Transfusionsverantwortlichen und Hämovigilanz (PEI); Ursachenanalyse (Bedside-Test korrekt?)."
+   ],
+   "bewertung": "Sofort stoppen, Stabilisierung, Diagnostik, Meldung.",
+   "quellen": [
+    {
+     "titel": "Erythrozytenkonzentrate – vermeidbare Risiken und Komplikationen (Die Anaesthesiologie 2026)",
+     "kennung": "XER5ISLN",
+     "seite": "7"
+    },
+    {
+     "titel": "Querschnitts-Leitlinien der BÄK zur Therapie mit Blutkomponenten und Plasmaderivaten",
+     "kennung": "79S63PIQ",
+     "seite": "28"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B14-15",
+   "typ": "erklaere",
+   "unterthema": "Antikoagulation, Thrombozytenhemmung, Antagonisierung, HIT",
+   "marke": "S",
+   "frage": "Wie führen Sie Thromboseprophylaxe und therapeutische Antikoagulation beim Intensivpatienten durch, und welches Monitoring nutzen Sie?",
+   "musterantwort": [
+    "Prophylaxe: medikamentös mit NMH (bei Niereninsuffizienz UFH oder Dosisanpassung/Anti-Xa), bei Blutungsrisiko mechanisch (intermittierende pneumatische Kompression).",
+    "Therapeutisch: UFH bevorzugt bei hohem Blutungsrisiko/geplanten Eingriffen/Niereninsuffizienz (kurz, antagonisierbar mit Protamin); Monitoring aPTT oder besser Anti-Xa (Ziel 0,3–0,7 IE/ml), da aPTT bei Akutphase (Faktor VIII, Fibrinogen) unzuverlässig.",
+    "Extrakorporale Verfahren (ECMO, Nierenersatz): Heparin oder Citrat (Nierenersatz), bei HIT Argatroban/Bivalirudin.",
+    "Thrombozytenzahl überwachen (HIT), Heparinresistenz bei AT-Mangel bedenken."
+   ],
+   "bewertung": "Prophylaxe-Optionen, UFH vs. NMH, Anti-Xa vs. aPTT.",
+   "quellen": [
+    {
+     "titel": "Antikoagulation in der Intensivmedizin (Med Klin Intensivmed Notfmed 2026)",
+     "kennung": "69PA5D23",
+     "seite": "1-2, 5, 7"
+    },
+    {
+     "titel": "S2k-Leitlinie Venenthrombose und Lungenembolie (AWMF 065-002)",
+     "kennung": "9UAHQVJU",
+     "seite": "13, 45"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

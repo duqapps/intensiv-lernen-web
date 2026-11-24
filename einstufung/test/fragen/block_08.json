@@ -1,0 +1,498 @@
+{
+ "block": 8,
+ "titel": "Herz-Kreislauf und Schock",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs.",
+ "fragen": [
+  {
+   "id": "B08-01",
+   "typ": "mc",
+   "unterthema": "Schockformen und Schockdiagnostik",
+   "marke": "S",
+   "frage": "Welche hämodynamische Konstellation passt zum obstruktiven Schock durch Perikardtamponade?",
+   "optionen": [
+    "A ZVD ↑, PCWP ↑ (Angleichung der Füllungsdrücke), HZV ↓, SVR ↑",
+    "B ZVD ↓, PCWP ↓, HZV ↑, SVR ↓",
+    "C ZVD ↓, PCWP ↓, HZV ↓, SVR ↑",
+    "D ZVD normal, PCWP ↑↑, HZV ↓, SVR ↑ bei isoliert dilatiertem LV"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: diastolische Füllungsbehinderung → Druckangleichung, HZV fällt, kompensatorische Vasokonstriktion.",
+    "B: früher septischer/distributiver Schock (hyperdynam).",
+    "C: hypovolämischer Schock.",
+    "D: kardiogener Schock bei LV-Versagen.",
+    "Schockformen: hypovolämisch, kardiogen, obstruktiv (Tamponade, LE, Spannungspneumothorax), distributiv (Sepsis, Anaphylaxie, neurogen); Mischformen häufig."
+   ],
+   "bewertung": "A; Schockeinteilung.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 2 (Tab. hämodynamische Muster)",
+     "kennung": "GK43UXY8",
+     "seite": "13"
+    },
+    {
+     "titel": "Kreislaufschocks (Med Klin Intensivmed Notfmed 2021)",
+     "kennung": "3IAS583M",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-02",
+   "typ": "erklaere",
+   "unterthema": "Schockformen und Schockdiagnostik",
+   "marke": "S",
+   "frage": "Erklären Sie Ihr diagnostisches Vorgehen beim undifferenzierten Schock in der ersten Stunde.",
+   "musterantwort": [
+    "Klinik: Hypotonie (nicht obligat), Hypoperfusionszeichen (Bewusstsein, Haut/Rekapillarisierungszeit, Marmorierung, Oligurie), Laktat > 2 mmol/l.",
+    "Basismonitoring plus arterielle Kanüle, ZVK (ScvO2, Pv-aCO2), BGA, Labor inkl. Troponin, BNP, Gerinnung, Blutkulturen.",
+    "Point-of-Care-Sonographie/Echo (z. B. RUSH): Pumpfunktion LV/RV, Perikarderguss, V. cava, Lunge (Pneumothorax, B-Linien), Abdomen (freie Flüssigkeit, Aorta).",
+    "Volumenreagibilität dynamisch prüfen (PLR).",
+    "Bei Persistenz erweitertes Monitoring (Echo-Verlauf, transpulmonale Thermodilution oder PAK), Ursache gezielt behandeln."
+   ],
+   "bewertung": "Perfusionszeichen, Laktat, Sono/Echo-Systematik, erweitertes Monitoring.",
+   "quellen": [
+    {
+     "titel": "ESICM guidelines on circulatory shock and hemodynamic monitoring 2025",
+     "kennung": "9UM2DVDQ",
+     "seite": "2, 5, 9-10"
+    },
+    {
+     "titel": "Kreislaufschocks (Med Klin Intensivmed Notfmed 2021)",
+     "kennung": "3IAS583M",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-03",
+   "typ": "fall",
+   "unterthema": "Akute Herzinsuffizienz, kardiogener Schock, ACS",
+   "marke": "S",
+   "frage": "Ein 64-jähriger Mann mit Vorderwand-STEMI (Symptombeginn vor 3 h) ist kaltschweißig, RR 78/50 mmHg, Laktat 5,2 mmol/l, feuchte RG beidseits. Was tun Sie?",
+   "musterantwort": [
+    "Kardiogener Schock (SCAI C–D) bei STEMI: sofortige Koronarangiographie mit PCI der Culprit-Läsion (keine Mehrgefäß-PCI im Akutschritt).",
+    "Stabilisierung: O2/NIV bzw. Intubation bei Bedarf, Noradrenalin als Vasopressor, Dobutamin bei Low-Output; Volumen nur bei Reagibilität.",
+    "Monitoring: Arterie, Echo (mechanische Komplikationen: Papillarmuskelabriss, VSD, Ruptur), Laktat, ggf. PAK.",
+    "Mechanische Unterstützung: IABP routinemäßig nicht (IABP-SHOCK II); mikroaxiale Pumpe (Impella CP) bei ausgewählten STEMI-CS-Patienten (DanGer Shock, Nutzen bei Überleben, mehr Blutung/Ischämie); VA-ECMO bei refraktärem Schock in Zentren.",
+    "Shock-Team, frühes Entscheiden statt eskalieren ohne Plan."
+   ],
+   "bewertung": "Sofort-PCI Culprit, Pharmakotherapie, Echo, MCS-Evidenz (IABP-SHOCK II, DanGer Shock).",
+   "quellen": [
+    {
+     "titel": "ESC Guidelines for the management of acute coronary syndromes 2023",
+     "kennung": "PAWABC2X",
+     "seite": "10"
+    },
+    {
+     "titel": "ESC Guidelines for the management of heart failure",
+     "kennung": "9UWV4WEK",
+     "seite": "51"
+    },
+    {
+     "titel": "Intraaortale Ballonpumpe: Physiologie, Indikationen, Management (AINS 2023)",
+     "kennung": "B27ZNF6K",
+     "seite": "2"
+    },
+    {
+     "titel": "Akute Herzinsuffizienz: Management in den ersten 120 min (Med Klin Intensivmed Notfmed 2026)",
+     "kennung": "56DD92PB",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-04",
+   "typ": "erklaere",
+   "unterthema": "Akute Herzinsuffizienz, kardiogener Schock, ACS",
+   "marke": "S",
+   "frage": "Wie gehen Sie in den ersten zwei Stunden bei akuter Herzinsuffizienz vor? Erklären Sie die Einteilung nach Stauung und Perfusion.",
+   "musterantwort": [
+    "Klinische Profile: warm/kalt (Perfusion) × trocken/feucht (Stauung); am häufigsten warm und feucht.",
+    "Sofort Ursachen suchen (CHAMPIT: ACS, hypertensive Krise, Arrhythmie, mechanische Ursache, LE, Infektion, Tamponade).",
+    "Warm und feucht: Diuretika (Furosemid i. v., mindestens Vormedikation × 1–2,5), Vasodilatatoren (Nitrate) bei RR > 110 mmHg, NIV/CPAP bei Lungenödem.",
+    "Kalt und feucht: Perfusion zuerst (Inotropika, Vasopressor bei Hypotonie), dann Entstauung; SCAI-Stadium bestimmen.",
+    "Monitoring: Diurese, Natrium im Spontanurin nach 2 h (Diuretikaantwort), Laktat, Nierenfunktion."
+   ],
+   "bewertung": "4 Profile, Ursachensuche, Therapie je Profil, Diuretika-Antwort.",
+   "quellen": [
+    {
+     "titel": "Akute Herzinsuffizienz: Management in den ersten 120 min (Med Klin Intensivmed Notfmed 2026)",
+     "kennung": "56DD92PB",
+     "seite": "7"
+    },
+    {
+     "titel": "ESC Guidelines for the management of heart failure",
+     "kennung": "9UWV4WEK",
+     "seite": "51"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-05",
+   "typ": "mc",
+   "unterthema": "Rechtsherzversagen, Lungenembolie, Perikardtamponade",
+   "marke": "S",
+   "frage": "Eine Patientin mit CT-gesicherter zentraler LE ist normoton, hat aber RV-Dilatation im Echo und erhöhtes Troponin. Wie ist sie einzuordnen und zu behandeln?",
+   "optionen": [
+    "A Hohes Risiko: sofortige systemische Thrombolyse",
+    "B Niedriges Risiko: ambulante Behandlung",
+    "C Mittleres Risiko ohne Marker: orale Antikoagulation und Normalstation",
+    "D Intermediär-hohes Risiko: Antikoagulation (meist Heparin), Überwachung auf ITS/IMC; Reperfusion nur bei hämodynamischer Dekompensation"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: normoton + RV-Dysfunktion + positives Troponin = intermediär-hoch (ESC); keine routinemäßige Volllyse (PEITHO: weniger Dekompensation, aber mehr schwere Blutungen).",
+    "Rescue-Lyse oder kathetergestützte Verfahren bei Verschlechterung.",
+    "A: nur bei hämodynamischer Instabilität (hohes Risiko): Alteplase 100 mg über 2 h (oder Bolus 10 mg + 90 mg).",
+    "B/C: niedriges Risiko bei sPESI 0 ohne RV-Dysfunktion."
+   ],
+   "bewertung": "D mit Risikoklassen.",
+   "quellen": [
+    {
+     "titel": "ESC Guidelines for acute pulmonary embolism 2019",
+     "kennung": "WZ8SS285",
+     "seite": "24"
+    },
+    {
+     "titel": "Akute Lungenembolie (Med Klin Intensivmed Notfmed 2025), Abb. Risikostratifizierung",
+     "kennung": "GUHEVTU8",
+     "seite": "7"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz (Lyse-Dosierung)",
+     "kennung": "94YEBDZJ",
+     "seite": "36"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-06",
+   "typ": "erklaere",
+   "unterthema": "Rechtsherzversagen, Lungenembolie, Perikardtamponade",
+   "marke": "S",
+   "frage": "Erklären Sie die Pathophysiologie und Therapie des akuten Rechtsherzversagens auf der Intensivstation.",
+   "musterantwort": [
+    "Ursachen: LE, ARDS/Beatmung (hoher PEEP, Hyperkapnie, Hypoxie), RV-Infarkt, Sepsis, Linksherzversagen, nach Herz-OP/LVAD.",
+    "Teufelskreis: Nachlast ↑ → RV-Dilatation, Septumverschiebung → LV-Füllung ↓ → HZV ↓ → Hypotonie → RV-Ischämie.",
+    "Therapie: Nachlast senken (Hypoxie, Hyperkapnie, Azidose korrigieren; lungenprotektive Beatmung mit moderatem PEEP; inhalatives NO/Prostazyklin), Vorlast optimieren (keine großen Volumenboli, ggf. Diuretika), Perfusionsdruck sichern (Noradrenalin, Vasopressin), Inotropie (Dobutamin, Levosimendan, Milrinon).",
+    "Ursache behandeln (Reperfusion bei LE), Rhythmus erhalten (Sinusrhythmus).",
+    "Mechanisch: RV-Impella, VA-ECMO als Bridge."
+   ],
+   "bewertung": "Pathophysiologischer Kreislauf, Nachlast/Vorlast/Perfusionsdruck/Inotropie.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz (Akutes Cor pulmonale, Lungenembolie)",
+     "kennung": "94YEBDZJ",
+     "seite": "5, 36"
+    },
+    {
+     "titel": "Akute Lungenembolie (Med Klin Intensivmed Notfmed 2025)",
+     "kennung": "GUHEVTU8",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-07",
+   "typ": "fall",
+   "unterthema": "Herzrhythmusstörungen",
+   "marke": "S",
+   "frage": "Am 2. Tag nach Lungenlappenresektion entwickelt ein 70-jähriger Patient Vorhofflimmern mit 155/min, RR 105/65 mmHg, ansonsten stabil. Was tun Sie?",
+   "musterantwort": [
+    "Perioperatives VHF ist häufig und mit Schlaganfall, Mortalität und Wiederauftreten assoziiert.",
+    "Auslöser korrigieren: Kalium (≥ 4,0) und Magnesium, Schmerz, Hypoxie, Volumenstatus, Infektion, Katecholamine.",
+    "Stabil: Frequenzkontrolle (Betablocker, z. B. Esmolol/Metoprolol; bei eingeschränkter LV-Funktion Amiodaron oder Digitalis); Rhythmuskontrolle medikamentös (Amiodaron) oder elektrisch.",
+    "Instabil (Schock, Ischämie, Lungenödem): sofortige synchronisierte Kardioversion.",
+    "Antikoagulation nach CHA2DS2-VASc und Blutungsrisiko abwägen (postoperativ!), bei > 48 h vor Kardioversion TEE oder Antikoagulation.",
+    "Nachsorge: späteres Rezidivrisiko, Monitoring."
+   ],
+   "bewertung": "Auslöser, Frequenz- vs. Rhythmuskontrolle, Kardioversion bei Instabilität, Antikoagulation.",
+   "quellen": [
+    {
+     "titel": "Perioperatives Vorhofflimmern: Diagnose mit unterschätzter Relevanz (Die Anaesthesiologie 2024)",
+     "kennung": "DAYIYSMK",
+     "seite": "8"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz (Antiarrhythmika)",
+     "kennung": "94YEBDZJ",
+     "seite": "73, 78"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-08",
+   "typ": "mc",
+   "unterthema": "Herzrhythmusstörungen",
+   "marke": "S",
+   "frage": "Ein Patient hat eine anhaltende Breitkomplextachykardie 180/min mit RR 70/40 mmHg und Bewusstseinsstörung. Was ist die richtige Erstmaßnahme?",
+   "optionen": [
+    "A Adenosin 6 mg i. v.",
+    "B Synchronisierte Kardioversion (bis zu 3 Versuche) unter Analgosedierung, danach ggf. Amiodaron 300 mg i. v.",
+    "C Verapamil i. v.",
+    "D Abwarten und 12-Kanal-EKG zur Differenzierung"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: instabile Tachykardie (Schock, Synkope, Ischämie, Herzinsuffizienz) → synchronisierte Kardioversion; bei Erfolglosigkeit Amiodaron 300 mg über 10–20 min, dann erneut.",
+    "A: nur bei stabiler, regelmäßiger Schmalkomplex- bzw. sicher supraventrikulärer Tachykardie.",
+    "C: bei ventrikulärer Tachykardie gefährlich.",
+    "D: Zeitverlust bei Instabilität."
+   ],
+   "bewertung": "B; Instabilitätszeichen.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5 Reanimation und Kreislaufstabilisierung",
+     "kennung": "EKKX2B6Z",
+     "seite": "8"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz",
+     "kennung": "94YEBDZJ",
+     "seite": "78"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-09",
+   "typ": "fall",
+   "unterthema": "Schwere Gefäßerkrankungen: Aortendissektion, rupturiertes Aneurysma",
+   "marke": "S",
+   "frage": "Ein 58-jähriger Hypertoniker mit reißendem Thoraxschmerz in den Rücken, RR rechts 190/100, links 150/90 mmHg. Das CT zeigt eine Dissektion der Aorta ascendens. Was tun Sie?",
+   "musterantwort": [
+    "Stanford Typ A (Ascendens beteiligt): Notfall-OP (Herzchirurgie), Letalität steigt stündlich.",
+    "Bis zur OP: Analgesie (Opioide), Herzfrequenz senken zuerst (Betablocker i. v., z. B. Esmolol; Ziel HF < 60/min), dann Blutdruck senken auf systolisch etwa 100–120 mmHg (Urapidil, Nitroprussid/Clevidipin) – Vasodilatator nie ohne vorherige Betablockade (Reflextachykardie).",
+    "Komplikationen suchen: Tamponade, Aorteninsuffizienz, Koronar-/Organmalperfusion, Schlaganfall; Echo.",
+    "Typ B ohne Komplikationen: konservativ mit Blutdruck-/Frequenzkontrolle; kompliziert (Malperfusion, Ruptur, Schmerz) → TEVAR."
+   ],
+   "bewertung": "Stanford-Einteilung, Typ A = OP, HF vor RR senken mit Zielwerten.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 Operative Intensivmedizin (Aortendissektion)",
+     "kennung": "VLFCAAXR",
+     "seite": "16-17"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz (Nitroprussid)",
+     "kennung": "94YEBDZJ",
+     "seite": "94"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-10",
+   "typ": "erklaere",
+   "unterthema": "Schwere Gefäßerkrankungen: Aortendissektion, rupturiertes Aneurysma",
+   "marke": "S",
+   "frage": "Was ist bei einem rupturierten Bauchaortenaneurysma bis zur Versorgung und danach auf der Intensivstation zu beachten?",
+   "musterantwort": [
+    "Präoperativ: permissive Hypotension (systolisch etwa 70–90 mmHg, wacher Patient) mit restriktiver Volumengabe, Blutprodukte bereitstellen (Massivtransfusion), Narkoseeinleitung erst im OP bei abwaschbereitem Team (Kreislaufkollaps bei Relaxation).",
+    "Versorgung offen oder endovaskulär (EVAR), wenn anatomisch möglich.",
+    "Postoperativ: abdominelles Kompartmentsyndrom (IAP messen), AKI, Kolonischämie (v. a. Sigma: blutige Stühle, Laktat → Endoskopie), Spinalischämie, Gerinnungsstörung, Hypothermie, Myokardischämie.",
+    "Gezielte Gerinnungstherapie, Normothermie."
+   ],
+   "bewertung": "Permissive Hypotension, Einleitung im OP, mindestens 3 postoperative Komplikationen.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 Operative Intensivmedizin (Bauchaortenaneurysma)",
+     "kennung": "VLFCAAXR",
+     "seite": "13"
+    },
+    {
+     "titel": "S3-Leitlinie Polytrauma (permissive Hypotension)",
+     "kennung": "6WK7XKM2",
+     "seite": "119"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-11",
+   "typ": "mc",
+   "unterthema": "Mechanische Kreislaufunterstützung: IABP, Impella, VA-ECMO (Prinzipien)",
+   "marke": "S",
+   "frage": "Welche Aussage zur VA-ECMO beim kardiogenen Schock ist richtig?",
+   "optionen": [
+    "A Sie entlastet den linken Ventrikel immer zuverlässig.",
+    "B Sie steigert die Nachlast des linken Ventrikels (retrograder Fluss bei femoraler Kanülierung); bei fehlender LV-Auswurfleistung droht LV-Distension und Lungenödem, ggf. Entlastung (Venting, z. B. Impella = ECMELLA).",
+    "C Bei femoraler VA-ECMO ist die Oxygenierung des Gehirns nie gefährdet.",
+    "D Sie ersetzt nur die Lungenfunktion."
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: VA-ECMO pumpt venöses Blut oxygeniert arteriell zurück → Kreislauf- und Lungenersatz, aber LV-Nachlast ↑.",
+    "C falsch: Harlekin-/Nord-Süd-Syndrom bei erholter LV-Funktion und schlechter Lungenfunktion → rechte A. radialis bzw. Kopf hypoxisch; Messung rechts.",
+    "A und D falsch.",
+    "Weitere Komplikationen: Beinischämie (distale Perfusionskanüle), Blutung, Thrombose, Hämolyse, Schlaganfall."
+   ],
+   "bewertung": "B; Harlekin-Syndrom.",
+   "quellen": [
+    {
+     "titel": "Extrakorporale Membranoxygenierung und Hämodynamik (Die Anaesthesiologie 2022)",
+     "kennung": "VCGD9XTC",
+     "seite": "1"
+    },
+    {
+     "titel": "Extrakorporaler Life Support in der Intensivmedizin (AINS)",
+     "kennung": "2B8T7JS9",
+     "seite": "2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-12",
+   "typ": "erklaere",
+   "unterthema": "Mechanische Kreislaufunterstützung: IABP, Impella, VA-ECMO (Prinzipien)",
+   "marke": "S",
+   "frage": "Erklären Sie Funktionsprinzip, Indikationen und Studienlage von IABP und Impella.",
+   "musterantwort": [
+    "IABP: Ballon in Aorta descendens, Inflation in der Diastole (Koronarperfusion ↑), Deflation vor Systole (Nachlast ↓); geringe HZV-Steigerung (≈ 0,5 l/min). IABP-SHOCK II: kein Überlebensvorteil im infarktbedingten kardiogenen Schock → keine Routine; Einsatz bei mechanischen Infarktkomplikationen, als Bridge.",
+    "Impella: mikroaxiale Pumpe transvalvulär (Aortenklappe), fördert aus LV in Aorta ascendens (CP ca. 3,5–4 l/min, 5.5 bis 5,5 l/min), entlastet LV aktiv; RV-Varianten.",
+    "DanGer Shock (STEMI-CS, ausgewählt): Impella CP senkte Mortalität, aber mehr Blutungen, Extremitätenischämie, Nierenersatz.",
+    "Komplikationen: Hämolyse, Blutung, Gefäßkomplikationen, Dislokation; Antikoagulation/Purge."
+   ],
+   "bewertung": "Prinzipien beider Systeme, IABP-SHOCK II und DanGer Shock korrekt.",
+   "quellen": [
+    {
+     "titel": "Intraaortale Ballonpumpe: Physiologie, Indikationen, Management (AINS 2023)",
+     "kennung": "B27ZNF6K",
+     "seite": "2"
+    },
+    {
+     "titel": "Die Rolle der perkutanen Impella-Pumpe in der Anästhesie und Intensivmedizin (AINS 2023)",
+     "kennung": "7SIHQ5HA",
+     "seite": "1"
+    },
+    {
+     "titel": "ESC Guidelines for the management of heart failure",
+     "kennung": "9UWV4WEK",
+     "seite": "51"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-13",
+   "typ": "fall",
+   "unterthema": "Hypertensive Notfälle",
+   "marke": "E",
+   "frage": "Eine 55-jährige Patientin kommt mit RR 230/130 mmHg, Kopfschmerz, Sehstörungen und Verwirrtheit; im CT keine Blutung. Wie behandeln Sie, und wie schnell senken Sie den Blutdruck?",
+   "musterantwort": [
+    "Hypertensiver Notfall (mit akutem Organschaden: hypertensive Enzephalopathie) – Abgrenzung zur hypertensiven Entgleisung ohne Organschaden (orale Therapie, langsam).",
+    "Intensivstation, arterielle Messung, i. v. gut steuerbare Substanzen (Urapidil, Clevidipin/Nicardipin, Nitroprussid bei Therapieresistenz).",
+    "MAD in der ersten Stunde um höchstens etwa 20–25 % senken, dann über 24–48 h normalisieren (Autoregulation verschoben).",
+    "Ausnahmen: Aortendissektion (rasch, Ziel systolisch ≤ 120), Lungenödem (Nitrate), Präeklampsie (Urapidil, Dihydralazin, Magnesium), ischämischer Schlaganfall (erst > 220/120 bzw. vor Lyse < 185/110).",
+    "Organdiagnostik: Fundus, Niere, Troponin, MRT (PRES)."
+   ],
+   "bewertung": "Definition, Senkungsgeschwindigkeit, Substanzen, Ausnahmen.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz (6.8 Hypertensive Entgleisung, hypertensiver Notfall)",
+     "kennung": "94YEBDZJ",
+     "seite": "29-30"
+    },
+    {
+     "titel": "S2e-Leitlinie Akuttherapie des ischämischen Schlaganfalls (Blutdruck)",
+     "kennung": "7WNJBKWA",
+     "seite": "24"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-14",
+   "typ": "mc",
+   "unterthema": "Akute Herzinsuffizienz, kardiogener Schock, ACS",
+   "marke": "S",
+   "frage": "Bei welchem Patienten mit NSTE-ACS ist nach ESC 2023 eine sofortige invasive Strategie (< 2 h) indiziert?",
+   "optionen": [
+    "A Troponin positiv, beschwerdefrei, hämodynamisch stabil",
+    "B Erhöhtes Troponin nach Sepsis ohne Angina",
+    "C Bekannte KHK, atypischer Thoraxschmerz, Troponin negativ",
+    "D Kardiogener Schock, refraktäre Angina, lebensbedrohliche Arrhythmien oder akute Herzinsuffizienz durch Ischämie"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: sehr hohes Risiko → sofort invasiv (< 2 h).",
+    "A: hohes Risiko → früh invasiv innerhalb 24 h.",
+    "B: Typ-2-Infarkt bzw. Myokardschaden, Ursache behandeln.",
+    "C: weitere Abklärung (nicht invasiv).",
+    "STEMI: primäre PCI; Fibrinolyse nur, wenn PCI nicht innerhalb von 120 min möglich."
+   ],
+   "bewertung": "D.",
+   "quellen": [
+    {
+     "titel": "ESC Guidelines for the management of acute coronary syndromes 2023",
+     "kennung": "PAWABC2X",
+     "seite": "10"
+    },
+    {
+     "titel": "Das akute Koronarsyndrom in der prähospitalen Phase und in der Notaufnahme (Die Anaesthesiologie 2022)",
+     "kennung": "QVKYPDKR",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B08-15",
+   "typ": "mc",
+   "unterthema": "Schockformen und Schockdiagnostik",
+   "marke": "S",
+   "frage": "Welche Infusionslösung empfiehlt die ESICM-Leitlinie 2024 (Part 1) zur Volumentherapie bei kritisch Kranken bevorzugt?",
+   "optionen": [
+    "A Albumin 20 % bei allen Patienten im Schock",
+    "B Hydroxyethylstärke bei Sepsis",
+    "C Balancierte Kristalloide gegenüber isotoner Kochsalzlösung",
+    "D Glukose 5 % als Volumenersatz"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: balancierte Kristalloide bevorzugt (weniger hyperchlorämische Azidose); deutsche S3-Leitlinie Volumentherapie ebenso.",
+    "B: HES bei Sepsis/kritisch Kranken kontraindiziert (Nierenversagen, Mortalität).",
+    "A: Albumin nur ausgewählt (z. B. großer Volumenbedarf, Leberzirrhose).",
+    "D: Glukose 5 % ist freies Wasser, kein Volumenersatz."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "ESICM guideline on fluid therapy in adult critically ill patients, Part 1 (Intensive Care Med 2024)",
+     "kennung": "XSKA95GG",
+     "seite": "1"
+    },
+    {
+     "titel": "S3-Leitlinie Intravasale Volumentherapie beim Erwachsenen (AWMF 001-020)",
+     "kennung": "9P5GP6CB",
+     "seite": "52"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

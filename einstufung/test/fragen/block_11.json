@@ -1,0 +1,437 @@
+{
+ "block": 11,
+ "titel": "Niere",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs. Der Block hat nur drei Unterthemen; AKI und Nierenersatz sind daher mehrfach abgefragt.",
+ "fragen": [
+  {
+   "id": "B11-01",
+   "typ": "mc",
+   "unterthema": "Akute Nierenschädigung (KDIGO), Rhabdomyolyse",
+   "marke": "S",
+   "frage": "Welcher Befund entspricht KDIGO-Stadium 3 der akuten Nierenschädigung?",
+   "optionen": [
+    "A Kreatininanstieg um ≥ 0,3 mg/dl in 48 h",
+    "B Urinausscheidung < 0,5 ml/kg/h für 6–12 h",
+    "C Kreatinin 2,0–2,9-facher Ausgangswert",
+    "D Kreatinin ≥ 3-facher Ausgangswert oder ≥ 4,0 mg/dl oder Urin < 0,3 ml/kg/h ≥ 24 h oder Anurie ≥ 12 h oder Beginn einer Nierenersatztherapie"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: Stadium 3.",
+    "A: Stadium 1 (bzw. 1,5–1,9-fach in 7 Tagen); B: Stadium 1 (Urin < 0,5 ml/kg/h für 6–12 h).",
+    "C: Stadium 2 (bzw. Urin < 0,5 ml/kg/h ≥ 12 h).",
+    "Das schlechtere der beiden Kriterien (Kreatinin oder Urin) bestimmt das Stadium."
+   ],
+   "bewertung": "D; Kriterien Stadium 1–3.",
+   "quellen": [
+    {
+     "titel": "KDIGO Clinical Practice Guideline for Acute Kidney Injury 2012",
+     "kennung": "3JNAW7JB",
+     "seite": "11"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 12 Niere",
+     "kennung": "EDG22U72",
+     "seite": "2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-02",
+   "typ": "erklaere",
+   "unterthema": "Akute Nierenschädigung (KDIGO), Rhabdomyolyse",
+   "marke": "S",
+   "frage": "Welche Maßnahmen umfasst das KDIGO-Bündel zur Prävention bzw. Begrenzung der AKI bei Risikopatienten?",
+   "musterantwort": [
+    "Nephrotoxische Substanzen absetzen/vermeiden (NSAR, Aminoglykoside, Kontrastmittel wenn möglich), Medikamentendosen anpassen.",
+    "Volumenstatus und Perfusionsdruck optimieren (Volumenreagibilität, MAD z. B. ≥ 65 mmHg, individuell höher bei Hypertonikern), balancierte Kristalloide statt NaCl/HES.",
+    "Hyperglykämie vermeiden, Kreatinin und Urinausscheidung engmaschig überwachen (Blasenkatheter).",
+    "Funktionelles Monitoring/Biomarker (z. B. TIMP-2 × IGFBP7) zur Identifikation von Risikopatienten; Bündel reduzierte in Studien (PrevAKI) die AKI-Rate nach Herz- und abdominaler Chirurgie.",
+    "Ursachen suchen: prärenal, renal, postrenal (Sono: Harnstau)."
+   ],
+   "bewertung": "Mindestens 4 Bündelelemente, Biomarker, Ursachenklärung.",
+   "quellen": [
+    {
+     "titel": "Diagnose, Prävention und Therapie der akuten Nierenschädigung (Anästh Intensivmed 2025)",
+     "kennung": "63IAJBHM",
+     "seite": "1-2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-03",
+   "typ": "fall",
+   "unterthema": "Akute Nierenschädigung (KDIGO), Rhabdomyolyse",
+   "marke": "S",
+   "frage": "Ein 30-jähriger Mann wird nach 18 Stunden Liegen auf dem Boden (Intoxikation) aufgenommen: CK 85 000 U/l, Kreatinin 2,1 mg/dl, K+ 6,0 mmol/l, dunkler Urin, Kompartment am rechten Unterschenkel. Was tun Sie?",
+   "musterantwort": [
+    "Rhabdomyolyse mit AKI und Hyperkaliämie.",
+    "Frühe, großzügige Volumentherapie (kristalloid, Ziel Urin ≈ 200–300 ml/h bzw. 2–3 ml/kg/h), Diurese überwachen, Überwässerung bei Oligurie vermeiden.",
+    "Hyperkaliämie behandeln (Kalzium, Insulin/Glukose, β2-Mimetikum), bei Therapieresistenz, Oligurie, Azidose oder Überwässerung Nierenersatz.",
+    "Kompartmentsyndrom: Druckmessung, Fasziotomie durch Chirurgie.",
+    "Bicarbonat/Mannitol ohne gesicherten Vorteil; Elektrolyte (Phosphat ↑, Kalzium ↓ – Hypokalzämie nur bei Symptomen behandeln), Ursachen (Medikamente, Drogen, Myopathie)."
+   ],
+   "bewertung": "Volumen + Urinziel, Hyperkaliämie, Kompartment, Indikation NET.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 12 Niere (Rhabdomyolyse)",
+     "kennung": "EDG22U72",
+     "seite": "13"
+    },
+    {
+     "titel": "Rhabdomyolyse – das Chamäleon auf der Intensivstation (Kasuistik 2022)",
+     "kennung": "FFTKPU2F",
+     "seite": "1-3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-04",
+   "typ": "erklaere",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Wann beginnen Sie eine Nierenersatztherapie? Erklären Sie absolute Indikationen und die Studienlage zum Zeitpunkt.",
+   "musterantwort": [
+    "Absolute (Notfall-)Indikationen: therapierefraktäre Hyperkaliämie, schwere metabolische Azidose, Überwässerung/Lungenödem trotz Diuretika, urämische Komplikationen (Perikarditis, Enzephalopathie, Blutung), dialysierbare Intoxikationen.",
+    "Ohne absolute Indikation: kein Vorteil eines routinemäßig sehr frühen Beginns (AKIKI, STARRT-AKI); zu langes Zuwarten ist aber ebenfalls ungünstig (AKIKI-2) → individuelle Entscheidung nach Verlauf, Gesamtbelastung, Furosemid-Stresstest.",
+    "Wahl: kontinuierlich (CRRT) bei Kreislaufinstabilität und Hirnödem; intermittierend/verlängert (SLED) bei stabilen Patienten; beide gleichwertig für das Überleben.",
+    "Zugang: großlumiger Shaldon, bevorzugt V. jugularis interna rechts, dann femoral."
+   ],
+   "bewertung": "AEIOU-Indikationen, Studienlage Timing, Verfahrenswahl.",
+   "quellen": [
+    {
+     "titel": "Diagnose, Prävention und Therapie der akuten Nierenschädigung (Anästh Intensivmed 2025)",
+     "kennung": "63IAJBHM",
+     "seite": "2, 9, 13"
+    },
+    {
+     "titel": "Kontinuierliche Nierenersatzverfahren in der Intensivmedizin (Anästh Intensivmed 2024)",
+     "kennung": "X659MUVL",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-05",
+   "typ": "mc",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Welche Effluentdosis empfiehlt KDIGO für die kontinuierliche Nierenersatztherapie bei AKI?",
+   "optionen": [
+    "A 10 ml/kg/h",
+    "B 20–25 ml/kg/h (verabreicht), was meist eine etwas höhere Verordnung erfordert",
+    "C 35–45 ml/kg/h als Standard",
+    "D 70 ml/kg/h (High-Volume)"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: 20–25 ml/kg/h effektiv geliefert; wegen Unterbrechungen (Filterwechsel, Transporte) Verordnung höher (z. B. 25–30 ml/kg/h).",
+    "C/D: höhere Dosen ohne Überlebensvorteil (RENAL, ATN), mehr Elektrolytverluste und Medikamentenclearance.",
+    "A: zu niedrig."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "KDIGO Clinical Practice Guideline for Acute Kidney Injury 2012",
+     "kennung": "3JNAW7JB",
+     "seite": "15"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-06",
+   "typ": "erklaere",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Erklären Sie das Prinzip der regionalen Citratantikoagulation und ihre Überwachung.",
+   "musterantwort": [
+    "Citrat vor dem Filter bindet ionisiertes Kalzium → Gerinnung im Kreislauf gehemmt; Ziel iCa postfilter etwa 0,25–0,35 mmol/l.",
+    "Citrat-Kalzium-Komplexe werden teilweise dialysiert, der Rest systemisch in Leber/Muskel zu Bicarbonat metabolisiert; Kalzium wird nach dem Filter systemisch ersetzt (Ziel systemisches iCa ≈ 1,0–1,2 mmol/l).",
+    "Vorteile gegenüber Heparin: längere Filterlaufzeit, weniger Blutungen, keine HIT-Problematik; KDIGO empfiehlt Citrat bei CRRT ohne Kontraindikation.",
+    "Überwachung: systemisches und postfilter iCa, Gesamt-Ca/iCa-Quotient (> 2,5 spricht für Citratakkumulation), BGA (metabolische Alkalose bei Überangebot, Azidose bei Akkumulation), Natrium, Magnesium.",
+    "Vorsicht bei schwerem Leberversagen und Laktat stark erhöht (Metabolisierungsstörung)."
+   ],
+   "bewertung": "Mechanismus, Zielwerte, Quotient > 2,5, Kontraindikationen.",
+   "quellen": [
+    {
+     "titel": "Kontinuierliche Nierenersatzverfahren in der Intensivmedizin (Anästh Intensivmed 2024)",
+     "kennung": "X659MUVL",
+     "seite": "8"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 2 (2.8 Dialyse)",
+     "kennung": "GK43UXY8",
+     "seite": "34"
+    },
+    {
+     "titel": "KDIGO Clinical Practice Guideline for Acute Kidney Injury 2012",
+     "kennung": "3JNAW7JB",
+     "seite": "13"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-07",
+   "typ": "fall",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Ein Patient mit Leberversagen und septischem Schock läuft seit 2 Tagen an einer CVVHD mit Citrat. Sie sehen: systemisches iCa 0,9 mmol/l trotz steigender Kalziumsubstitution, Gesamtkalzium 2,8 mmol/l, pH 7,22, Anionenlücke steigt. Was ist los und was tun Sie?",
+   "musterantwort": [
+    "Citratakkumulation: Gesamt-Ca/iCa = 3,1 (> 2,5), metabolische Azidose mit erhöhter Anionenlücke, steigender Kalziumbedarf – Citrat wird bei Leberversagen/Schock nicht ausreichend metabolisiert.",
+    "Maßnahmen: Citratzufuhr reduzieren (Blutfluss senken) oder stoppen, Dialysatfluss erhöhen (mehr Citratentfernung), Kalzium substituieren.",
+    "Alternative Antikoagulation (Heparin, wenn keine Blutung/HIT) oder ohne Antikoagulation mit Prädilution.",
+    "Engmaschige BGA- und Kalziumkontrollen."
+   ],
+   "bewertung": "Citratakkumulation erkennen (Quotient), Maßnahmen.",
+   "quellen": [
+    {
+     "titel": "Kontinuierliche Nierenersatzverfahren in der Intensivmedizin (Anästh Intensivmed 2024)",
+     "kennung": "X659MUVL",
+     "seite": "8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-08",
+   "typ": "mc",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Welcher Unterschied zwischen Hämofiltration und Hämodialyse ist korrekt?",
+   "optionen": [
+    "A Hämofiltration entfernt Moleküle per Konvektion (Mittelmoleküle besser), Hämodialyse per Diffusion (kleine Moleküle wie Kalium und Harnstoff besonders effektiv).",
+    "B Hämodialyse entfernt große Moleküle besser als Hämofiltration.",
+    "C Bei der Hämofiltration wird ein Dialysat im Gegenstrom benötigt.",
+    "D Beide Verfahren entfernen nur Wasser, keine gelösten Stoffe."
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Konvektion (Solvent Drag, Substitutionslösung prä- oder postfilter) vs. Diffusion (Konzentrationsgradient, Dialysat im Gegenstrom); CVVHDF kombiniert beides.",
+    "B, C, D falsch.",
+    "Klinisch: Für Überleben kein relevanter Unterschied; Wahl nach Erfahrung und Antikoagulationskonzept."
+   ],
+   "bewertung": "A.",
+   "quellen": [
+    {
+     "titel": "Kontinuierliche Nierenersatzverfahren in der Intensivmedizin (Anästh Intensivmed 2024)",
+     "kennung": "X659MUVL",
+     "seite": "1-8"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 2 (2.8 Dialyse)",
+     "kennung": "GK43UXY8",
+     "seite": "34"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-09",
+   "typ": "fall",
+   "unterthema": "Akute Nierenschädigung (KDIGO), Rhabdomyolyse",
+   "marke": "S",
+   "frage": "Tag 2 nach Hemikolektomie: Urinausscheidung 15 ml/h seit 8 h, Kreatinin von 0,9 auf 1,6 mg/dl, MAD 62 mmHg, Bauch gespannt. Wie klären Sie die Ursache und was tun Sie?",
+   "musterantwort": [
+    "AKI KDIGO 1–2 (oligurisch).",
+    "Postrenal ausschließen: Katheterdurchgängigkeit spülen, Sono (Harnstau, Blase).",
+    "Abdominelles Kompartmentsyndrom bedenken: intraabdominellen Druck über Blase messen (IAH ≥ 12, ACS > 20 mmHg mit neuer Organdysfunktion) → Dekompression.",
+    "Prärenal: Volumenstatus/Volumenreagibilität, MAD anheben (Ziel ≥ 65, ggf. individuell höher), Blutung, Sepsis/Anastomoseninsuffizienz suchen.",
+    "Nephrotoxine stoppen, Medikamente anpassen; Furosemid nur bei Überwässerung bzw. als Stresstest, nicht zur Prävention.",
+    "Labor: Kalium, BGA, Harnstoff, Urinsediment, fraktionelle Natriumexkretion (eingeschränkt verwertbar)."
+   ],
+   "bewertung": "Systematik prä-/intra-/postrenal, IAP, MAD, Nephrotoxine.",
+   "quellen": [
+    {
+     "titel": "Diagnose, Prävention und Therapie der akuten Nierenschädigung (Anästh Intensivmed 2025)",
+     "kennung": "63IAJBHM",
+     "seite": "1-2, 9"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 12 Niere",
+     "kennung": "EDG22U72",
+     "seite": "2-3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-10",
+   "typ": "erklaere",
+   "unterthema": "Akute Nierenschädigung (KDIGO), Rhabdomyolyse",
+   "marke": "S",
+   "frage": "Welche Schwächen hat das Serumkreatinin als Marker der Nierenfunktion beim Intensivpatienten, und welche Alternativen gibt es?",
+   "musterantwort": [
+    "Kreatinin steigt verzögert (erst nach Verlust von ≈ 50 % GFR, 24–48 h), ist abhängig von Muskelmasse (Sarkopenie, Ältere, Kachexie → falsch niedrig), Verdünnung durch Volumentherapie, tubuläre Sekretion, Medikamente (Trimethoprim).",
+    "Schätzformeln (eGFR, Cockcroft-Gault) gelten nur im Steady State.",
+    "Alternativen: Urinausscheidung (frühes Kriterium), gemessene Kreatinin-Clearance (Sammelurin 2–24 h), Cystatin C, tubuläre Schadensmarker (NGAL, TIMP-2 × IGFBP7), Furosemid-Stresstest (Urin < 200 ml in 2 h nach 1–1,5 mg/kg → Progressionsrisiko)."
+   ],
+   "bewertung": "Mindestens 3 Schwächen, 3 Alternativen.",
+   "quellen": [
+    {
+     "titel": "Diagnose, Prävention und Therapie der akuten Nierenschädigung (Anästh Intensivmed 2025)",
+     "kennung": "63IAJBHM",
+     "seite": "1-2, 9"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 20 Pharmakologie (GFR-Bestimmung)",
+     "kennung": "FF4BMQCT",
+     "seite": "8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-11",
+   "typ": "mc",
+   "unterthema": "Akute Nierenschädigung (KDIGO), Rhabdomyolyse",
+   "marke": "S",
+   "frage": "Welche Maßnahme zur Prävention einer kontrastmittelassoziierten AKI bei Intensivpatienten ist sinnvoll?",
+   "optionen": [
+    "A Routinemäßige N-Acetylcystein-Gabe",
+    "B Prophylaktische Hämodialyse unmittelbar nach dem CT",
+    "C Indizierte Untersuchung nicht verzögern; Euvolämie sichern, Nephrotoxine pausieren, Kontrastmittelmenge minimieren",
+    "D Furosemid vor der Kontrastmittelgabe"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: Diagnostischer Nutzen überwiegt meist; isotone Volumengabe bei Hypovolämie, Nephrotoxine pausieren, geringste notwendige Dosis.",
+    "A: kein belegter Nutzen; B: keine prophylaktische Dialyse; D: Diuretika schaden eher."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "Diagnose, Prävention und Therapie der akuten Nierenschädigung (Anästh Intensivmed 2025)",
+     "kennung": "63IAJBHM",
+     "seite": "1-2"
+    },
+    {
+     "titel": "KDIGO Clinical Practice Guideline for Acute Kidney Injury 2012",
+     "kennung": "3JNAW7JB",
+     "seite": "11-15"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-12",
+   "typ": "fall",
+   "unterthema": "Urologische und urogenitale Notfälle",
+   "marke": "E",
+   "frage": "Eine 62-jährige Diabetikerin mit Flankenschmerz rechts, Fieber 39,5 °C, RR 80/45 mmHg trotz Volumen; Sono: Harnstau III° rechts mit Konkrement. Was ist entscheidend?",
+   "musterantwort": [
+    "Obstruktive Urosepsis: neben Sepsisbündel (Blutkulturen, Urinkultur, Antibiotika innerhalb 1 h, Volumen, Noradrenalin) ist die sofortige Harnableitung entscheidend (Fokuskontrolle).",
+    "Entlastung per perkutaner Nephrostomie oder retrogradem Ureterstent (DJ), keine Steinsanierung im akuten Infekt.",
+    "Kalkulierte Antibiose nach lokaler Resistenzlage (z. B. Piperacillin/Tazobactam oder Cephalosporin Gr. 3 ± Aminoglykosid), Deeskalation nach Kultur.",
+    "Bei Diabetes an emphysematöse Pyelonephritis denken (CT)."
+   ],
+   "bewertung": "Sofortige Entlastung als Fokuskontrolle, Sepsisbündel.",
+   "quellen": [
+    {
+     "titel": "Urologische Notfälle – Erkennen und Behandeln (Med Klin Intensivmed Notfmed 2021)",
+     "kennung": "WIUA2WEZ",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-13",
+   "typ": "erklaere",
+   "unterthema": "Urologische und urogenitale Notfälle",
+   "marke": "E",
+   "frage": "Welche urologischen Notfälle müssen Sie auf der Intensivstation kennen, und was ist jeweils die Sofortmaßnahme?",
+   "musterantwort": [
+    "Harnverhalt: transurethraler oder suprapubischer Katheter; initial nicht mehr als etwa 500 ml ablassen (Blutungsgefahr, laut Klinikleitfaden).",
+    "Blasentamponade bei Makrohämaturie: Spülkatheter, Koagel evakuieren, Urologie.",
+    "Obstruktive Pyelonephritis/Urosepsis: Harnableitung (Nephrostomie/Stent).",
+    "Fournier-Gangrän (nekrotisierende Fasziitis Perineum): sofortiges radikales Débridement, Breitspektrumantibiose.",
+    "Hodentorsion (OP innerhalb 6 h), Priapismus (Aspiration/α-Agonist), Paraphimose (Reposition), Harnröhrenverletzung bei Beckentrauma (kein blinder transurethraler Katheter)."
+   ],
+   "bewertung": "Mindestens 4 Notfälle mit korrekter Sofortmaßnahme.",
+   "quellen": [
+    {
+     "titel": "Urologische Notfälle – Erkennen und Behandeln (Med Klin Intensivmed Notfmed 2021)",
+     "kennung": "WIUA2WEZ",
+     "seite": "1"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 2 (Harnblasenkatheter)",
+     "kennung": "GK43UXY8",
+     "seite": "23"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-14",
+   "typ": "mc",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Welcher Zugang für einen Dialysekatheter wird bevorzugt?",
+   "optionen": [
+    "A V. subclavia links",
+    "B V. jugularis interna rechts, alternativ V. femoralis",
+    "C V. subclavia rechts als erste Wahl",
+    "D Periphere Venen"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: KDIGO-Reihenfolge: 1. V. jugularis interna rechts, 2. V. femoralis, 3. V. jugularis interna links, zuletzt V. subclavia (dominante Seite meiden).",
+    "V. subclavia meiden (Stenosegefahr, späterer Dialyseshunt am Arm gefährdet), ultraschallgestützte Anlage."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "KDIGO Clinical Practice Guideline for Acute Kidney Injury 2012",
+     "kennung": "3JNAW7JB",
+     "seite": "15"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B11-15",
+   "typ": "fall",
+   "unterthema": "Nierenersatztherapie: Verfahren, Dosis, Antikoagulation mit Citrat",
+   "marke": "S",
+   "frage": "Ein Patient mit chronischer Niereninsuffizienz (Stadium 4) soll notfallmäßig operiert werden: K+ 5,8 mmol/l, metabolische Azidose (pH 7,28), Hb 8,5 g/dl. Welche Besonderheiten beachten Sie perioperativ und auf der Intensivstation?",
+   "musterantwort": [
+    "Kalium präoperativ senken (Shift-Maßnahmen, ggf. Dialyse), kein Succinylcholin bei Hyperkaliämie.",
+    "Azidose bedenken (Kaliumanstieg bei weiterer Azidose), balancierte Lösungen, NaCl-Überlast vermeiden.",
+    "Medikamente: renal eliminierte Substanzen meiden/anpassen (Morphin-Metabolite, Pethidin), bevorzugt Rocuronium mit Sugammadex-Vorsicht bzw. Cis-Atracurium, Remifentanil.",
+    "Shuntarm schonen (keine Zugänge/Manschette), Volumen vorsichtig, nephrotoxische Substanzen vermeiden.",
+    "Urämische Thrombozytopathie (Desmopressin bei Blutung), Anämie (renal), postoperativ Nierenersatz frühzeitig planen."
+   ],
+   "bewertung": "Kalium, Azidose, Medikamentenwahl, Shunt, Blutung.",
+   "quellen": [
+    {
+     "titel": "Anästhesie bei Patientinnen und Patienten mit chronischer Niereninsuffizienz (Anästh Intensivmed 2026)",
+     "kennung": "5EWKZMGT",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

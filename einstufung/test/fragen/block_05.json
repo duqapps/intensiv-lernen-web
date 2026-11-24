@@ -1,0 +1,460 @@
+{
+ "block": 5,
+ "titel": "Ernährung, Flüssigkeit und Stoffwechsel",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs (Klinikleitfaden Kap. 5: gedruckte S. 181–182 = PDF-S. 25–26).",
+ "fragen": [
+  {
+   "id": "B05-01",
+   "typ": "mc",
+   "unterthema": "Enterale und parenterale Ernährung, Refeeding",
+   "marke": "S",
+   "frage": "Was empfiehlt die ESPEN-Leitlinie 2023 zur Energie- und Proteinzufuhr in der Akutphase kritisch Kranker?",
+   "optionen": [
+    "A Hypokalorischer Beginn (nicht mehr als 70 % des Bedarfs in den ersten Tagen), Steigerung auf 80–100 % ab Tag 3; Protein schrittweise bis 1,3 g/kg/d",
+    "B Ab Tag 1 volle Kalorienzufuhr von 35 kcal/kg/d, um Muskelabbau zu verhindern",
+    "C Parenterale Ernährung ab Tag 1 bei allen beatmeten Patienten",
+    "D Protein in der ersten Woche weglassen, um die Autophagie zu erhalten"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: frühe enterale Ernährung (innerhalb 48 h) hypokalorisch beginnen, Bedarf möglichst mit indirekter Kalorimetrie, sonst gewichtsbasiert 20–25 kcal/kg/d; Protein progressiv bis 1,3 g/kg/d.",
+    "B: Überernährung in der Frühphase schadet.",
+    "C: PN nur wenn enteral nicht möglich bzw. bei unzureichender EN individualisiert (ab Tag 3–7).",
+    "D: falsch."
+   ],
+   "bewertung": "A; Zahlen 20–25 kcal/kg und 1,3 g/kg.",
+   "quellen": [
+    {
+     "titel": "ESPEN practical and partially revised guideline: Clinical nutrition in the ICU (Clin Nutr 2023)",
+     "kennung": "PF7IGW5K",
+     "seite": "4, 8-9"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-02",
+   "typ": "fall",
+   "unterthema": "Enterale und parenterale Ernährung, Refeeding",
+   "marke": "S",
+   "frage": "Eine kachektische 68-jährige Patientin (BMI 16, seit Wochen kaum gegessen) wird mit Pneumonie aufgenommen. Am 3. Tag der Sondenernährung (bereits 1 500 kcal/d) wird sie verwirrt, entwickelt Ödeme, Rhythmusstörungen; Phosphat 0,3 mmol/l. Was ist los und was tun Sie?",
+   "musterantwort": [
+    "Refeeding-Syndrom: insulinvermittelter intrazellulärer Shift von Phosphat, Kalium, Magnesium plus Thiaminmangel; Natrium- und Wasserretention.",
+    "Kalorienzufuhr sofort reduzieren (z. B. auf 25–50 % bzw. ≈ 10 kcal/kg/d), dann über Tage langsam steigern.",
+    "Phosphat, Kalium, Magnesium i. v. substituieren, engmaschig kontrollieren; Thiamin vor und während des Kostaufbaus.",
+    "Monitoring: Herzrhythmus, Flüssigkeitsbilanz, Ödeme, Atemmuskelschwäche.",
+    "Prävention: Risikopatienten erkennen (Mangelernährung, Alkohol, lange Nahrungskarenz), langsamer Kostaufbau, Phosphat in den ersten Tagen täglich."
+   ],
+   "bewertung": "Diagnose, Kalorienreduktion, Elektrolyte + Thiamin, Prävention.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 4 Parenterale und Sondenernährung",
+     "kennung": "H94VPTRK",
+     "seite": "3"
+    },
+    {
+     "titel": "Gastrointestinale Insuffizienz und Ernährungskonzepte bei kritisch Kranken (Anästh Intensivmed 2025)",
+     "kennung": "BL8H7QY5",
+     "seite": "8"
+    },
+    {
+     "titel": "Empfehlungen und Innovationen in der Ernährungstherapie kritisch Kranker (AINS)",
+     "kennung": "5B7DUMCA",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-03",
+   "typ": "erklaere",
+   "unterthema": "Enterale und parenterale Ernährung, Refeeding",
+   "marke": "S",
+   "frage": "Wie überwachen Sie eine Ernährungstherapie auf der Intensivstation, und woran erkennen Sie eine gastrointestinale Intoleranz?",
+   "musterantwort": [
+    "Energiebedarf: indirekte Kalorimetrie als Goldstandard, sonst gewichtsbasiert; Zufuhr inklusive nichtnutritiver Kalorien (Propofol, Glukose, Citrat) bilanzieren.",
+    "Labor: Glukose (Ziel unter 180 mg/dl bzw. 10 mmol/l), Phosphat, Kalium, Magnesium, Triglyzeride unter PN, Harnstoff (Proteinzufuhr), Leberwerte.",
+    "GI-Toleranz: Erbrechen, Distension, Reflux über Sonde > 500 ml/6 h, Diarrhö, fehlender Stuhlgang, steigender intraabdomineller Druck.",
+    "Bei Intoleranz: Prokinetika (Metoclopramid, Erythromycin), postpylorische Sonde, Abklärung akutes Abdomen; ggf. supplementierende PN.",
+    "Muskelmasse/Status im Verlauf (Ultraschall, Funktion)."
+   ],
+   "bewertung": "Kalorimetrie, Glukose-Zielbereich, Elektrolyte, GRV-Schwelle 500 ml/6 h, Maßnahmen.",
+   "quellen": [
+    {
+     "titel": "Überwachung von Ernährungstherapie und Kalorienzufuhr (AINS)",
+     "kennung": "82N2EE54",
+     "seite": "2"
+    },
+    {
+     "titel": "ESPEN practical and partially revised guideline: Clinical nutrition in the ICU (Clin Nutr 2023)",
+     "kennung": "PF7IGW5K",
+     "seite": "16"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-04",
+   "typ": "erklaere",
+   "unterthema": "Infusionstherapie, Flüssigkeitsbilanz",
+   "marke": "S",
+   "frage": "Welche Infusionslösungen verwenden Sie zur Volumentherapie beim Intensivpatienten und warum? Wie vermeiden Sie eine Überwässerung?",
+   "musterantwort": [
+    "Erste Wahl: balancierte kristalloide Lösungen (z. B. Ringer-Acetat/Malat); NaCl 0,9 % führt zu hyperchlorämischer Azidose und ist mit Nierenschädigung assoziiert.",
+    "Kolloide: HES bei Sepsis, kritisch Kranken und Nierenschädigung kontraindiziert; Albumin bei ausgewählten Patienten (z. B. Leberzirrhose, großer Volumenbedarf).",
+    "Initial 500 ml bis 30 ml/kg je nach Situation, dann Volumen nur bei nachgewiesener Volumenreagibilität (PLR, Fluid Challenge).",
+    "Phasenmodell (Resuscitation, Optimization, Stabilization, Evacuation): nach Stabilisierung restriktiv, Bilanz ausgleichen bzw. Deresuscitation mit Diuretika oder Nierenersatz.",
+    "Positive Kumulativbilanz ist mit höherer Mortalität assoziiert."
+   ],
+   "bewertung": "Balancierte Kristalloide, HES-Kontraindikation, Volumenreagibilität, Deresuscitation.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5 Reanimation und Kreislaufstabilisierung, 5.5 Volumenersatzmittel",
+     "kennung": "EKKX2B6Z",
+     "seite": "13"
+    },
+    {
+     "titel": "S3-Leitlinie Intravasale Volumentherapie beim Erwachsenen (AWMF 001-020, 2025)",
+     "kennung": "9P5GP6CB",
+     "seite": "52"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-05",
+   "typ": "mc",
+   "unterthema": "Elektrolyte, Säure-Basen-Haushalt, Glukose",
+   "marke": "S",
+   "frage": "Eine Patientin mit Thiaziddiuretikum hat Na+ 116 mmol/l, ist somnolent und hat einen Krampfanfall. Welche Therapie ist richtig?",
+   "optionen": [
+    "A 1 l NaCl 0,9 % über 1 h",
+    "B Flüssigkeitsrestriktion und Kontrolle am nächsten Tag",
+    "C Bolus hypertone Kochsalzlösung (z. B. 100–150 ml NaCl 3 %), wiederholbar bis Symptombesserung; Anstieg auf maximal etwa 8–10 mmol/l in 24 h begrenzen",
+    "D Natriumanhebung um 20 mmol/l in den ersten 24 h zur raschen Normalisierung"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: schwer symptomatische Hyponatriämie → hypertone Kochsalzlösung als Bolus, Ziel initial Anstieg um 4–6 mmol/l, Grenze 8–10 mmol/l in 24 h und 18 mmol/l in 48 h.",
+    "D: zu schnelle Korrektur → osmotisches Demyelinisierungssyndrom (zentrale pontine Myelinolyse).",
+    "A: isotone Lösung hebt Natrium kaum und kann bei SIADH sogar senken; B: bei Krampfanfall zu langsam.",
+    "Engmaschige Natriumkontrollen (2–4-stündlich), Thiazid absetzen, bei Überkorrektur Gegensteuern mit Glukose 5 %/Desmopressin."
+   ],
+   "bewertung": "C mit Korrekturgrenzen.",
+   "quellen": [
+    {
+     "titel": "Dysnatriämien (Die Anaesthesiologie 2023)",
+     "kennung": "EMYEWFS8",
+     "seite": "3"
+    },
+    {
+     "titel": "Hyponatriämie/SIADH (Med Klin Intensivmed Notfmed 2023)",
+     "kennung": "9IM4FVV5",
+     "seite": "2"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 13",
+     "kennung": "3GPHMAI6",
+     "seite": "2-4"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-06",
+   "typ": "fall",
+   "unterthema": "Elektrolyte, Säure-Basen-Haushalt, Glukose",
+   "marke": "S",
+   "frage": "Ein dialysepflichtiger Patient kommt nach versäumter Dialyse mit K+ 7,4 mmol/l, breiten QRS-Komplexen und Bradykardie 38/min. Was tun Sie in welcher Reihenfolge?",
+   "musterantwort": [
+    "Membranstabilisierung sofort: Kalziumglukonat 10 % 10–30 ml i. v. (bzw. Kalziumchlorid), wirkt in Minuten, kann wiederholt werden.",
+    "Kalium nach intrazellulär verschieben: Insulin (z. B. 10 IE Altinsulin) mit Glukose, β2-Mimetikum (Salbutamol inhalativ), Natriumbikarbonat bei metabolischer Azidose.",
+    "Elimination: Hämodialyse (definitive Therapie bei Dialysepatient), sonst Schleifendiuretika bei erhaltener Diurese, Kaliumbinder.",
+    "Monitoring: EKG, Kalium und Glukose engmaschig (Hypoglykämie nach Insulin), bradykarde Rhythmen ggf. Schrittmacher.",
+    "Ursachen/Medikamente (ACE-Hemmer, Spironolacton) prüfen."
+   ],
+   "bewertung": "Reihenfolge Kalzium → Shift → Elimination (Dialyse), Glukosekontrolle.",
+   "quellen": [
+    {
+     "titel": "Kalium – was Intensivmediziner wissen sollten (Anästh Intensivmed 2023)",
+     "kennung": "2GJXXU9Y",
+     "seite": "4, 10"
+    },
+    {
+     "titel": "Akute Hypo- und Hyperkaliämie (Med Klin Intensivmed Notfmed 2025)",
+     "kennung": "7BK9WTSA",
+     "seite": "1, 5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-07",
+   "typ": "mc",
+   "unterthema": "Elektrolyte, Säure-Basen-Haushalt, Glukose",
+   "marke": "S",
+   "frage": "Welcher Blutzuckerzielbereich wird für kritisch kranke Erwachsene empfohlen?",
+   "optionen": [
+    "A 80–110 mg/dl (intensivierte Insulintherapie)",
+    "B Unter 250 mg/dl, Insulin erst darüber",
+    "C 60–100 mg/dl, um Glukotoxizität zu vermeiden",
+    "D Insulin ab Werten über etwa 180 mg/dl (10 mmol/l); Hypoglykämien und hohe Variabilität vermeiden"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: Hyperglykämie > 180 mg/dl ist mit schlechterem Outcome assoziiert; Ziel moderat (etwa 140–180 mg/dl).",
+    "A: NICE-SUGAR zeigte höhere Mortalität unter intensivierter Insulintherapie (Hypoglykämien).",
+    "B zu liberal, C gefährlich niedrig."
+   ],
+   "bewertung": "D; Bezug NICE-SUGAR.",
+   "quellen": [
+    {
+     "titel": "ESPEN practical and partially revised guideline: Clinical nutrition in the ICU (Clin Nutr 2023)",
+     "kennung": "PF7IGW5K",
+     "seite": "16"
+    },
+    {
+     "titel": "Perioperatives Vorgehen bei Patientinnen und Patienten mit Diabetes (Anästh Intensivmed 2024)",
+     "kennung": "D55969ZX",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-08",
+   "typ": "erklaere",
+   "unterthema": "Temperaturregulation: Hypothermie, Hyperthermie, Hitzschlag, maligne Hyperthermie",
+   "marke": "S",
+   "frage": "Erklären Sie Klinik und Therapie der malignen Hyperthermie, wenn sie auf der Intensivstation (z. B. nach Narkose) auftritt.",
+   "musterantwort": [
+    "Pathophysiologie: genetisch (RYR1) bedingte unkontrollierte Ca2+-Freisetzung im Skelettmuskel nach Triggern (volatile Anästhetika, Succinylcholin).",
+    "Klinik: Anstieg von etCO2 trotz Ventilation, Tachykardie, Rigor (Masseterspasmus), Hyperkaliämie, metabolische und respiratorische Azidose, später Temperaturanstieg, Rhabdomyolyse.",
+    "Therapie: Trigger stoppen, Atemminutenvolumen 2–3-fach mit 100 % O2, Frischgasfluss hoch, Dantrolen 2,5 mg/kg rasch i. v., alle 5 min wiederholen bis zu 20 mg/kg.",
+    "Symptomatisch: Kühlung, Hyperkaliämie behandeln, Arrhythmien (kein Kalziumantagonist), Diurese forcieren (Myoglobin), Gerinnung (DIC).",
+    "Danach Überwachung auf ITS mindestens 24 h (Rezidiv), Abklärung Patient und Familie."
+   ],
+   "bewertung": "Trigger, Frühzeichen etCO2, Dantrolen-Dosierung, Begleittherapie.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 Operative Intensivmedizin (Maligne Hyperthermie)",
+     "kennung": "VLFCAAXR",
+     "seite": "11"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-09",
+   "typ": "fall",
+   "unterthema": "Temperaturregulation: Hypothermie, Hyperthermie, Hitzschlag, maligne Hyperthermie",
+   "marke": "S",
+   "frage": "Ein 80-jähriger Mann wird im Winter nach Sturz in der Wohnung aufgefunden: Kerntemperatur 26 °C, bewusstlos, Bradykardie 30/min, RR 70/40 mmHg. Wie gehen Sie vor?",
+   "musterantwort": [
+    "Schwere Hypothermie (< 28 °C, Stadium III): Gefahr Kammerflimmern bei Manipulation; vorsichtige Lagerung, horizontal.",
+    "Bei erhaltenem Kreislauf: aktive externe und minimal-invasive Wiedererwärmung (Wärmedecken, warme Infusionen, Atemgas), ca. 1–2 °C/h; Bradykardie nicht medikamentös forcieren.",
+    "Bei instabilem Kreislauf/Arrhythmie oder Kreislaufstillstand: Transport in Zentrum mit ECLS/ECMO zur Wiedererwärmung; Reanimation ggf. lange fortführen, Defibrillation und Adrenalin unter 30 °C eingeschränkt.",
+    "Afterdrop und Rewarming-Schock bedenken, Volumen geben, Kalium und Glukose kontrollieren, Rhabdomyolyse und Infektion suchen.",
+    "Ursache des Sturzes abklären."
+   ],
+   "bewertung": "Stadium erkennen, schonende Lagerung, Wiedererwärmungsstrategie, ECLS-Indikation.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5, 5.2.5 Unterkühlung",
+     "kennung": "EKKX2B6Z",
+     "seite": "25"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-10",
+   "typ": "erklaere",
+   "unterthema": "Temperaturregulation: Hypothermie, Hyperthermie, Hitzschlag, maligne Hyperthermie",
+   "marke": "S",
+   "frage": "Wie unterscheiden Sie Hitzschlag von Fieber, und wie behandeln Sie ihn?",
+   "musterantwort": [
+    "Hitzschlag: Kerntemperatur > 40 °C mit ZNS-Störung (Verwirrtheit, Krampfanfall, Koma) nach Hitzeexposition (klassisch, ältere Menschen) oder Anstrengung (exertional, junge Sportler).",
+    "Kein hypothalamischer Sollwert erhöht → Antipyretika wirkungslos; im Gegensatz zum Fieber.",
+    "Therapie: sofortige aggressive Kühlung (Kaltwasserimmersion bei exertional, Verdunstungskühlung, Eis, Kühlkatheter), Ziel etwa 38,5–39 °C rasch erreichen.",
+    "Organkomplikationen: Rhabdomyolyse, AKI, Leberversagen, DIC, Hypotonie; Flüssigkeit, Elektrolyte, Monitoring.",
+    "Differenzialdiagnosen: Sepsis, malignes neuroleptisches Syndrom, serotonerges Syndrom, Thyreotoxikose, Drogen (Amphetamine)."
+   ],
+   "bewertung": "Definition, Antipyretika wirkungslos, Kühlung, Komplikationen, DD.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 5, 5.2.6 Hitzschlag",
+     "kennung": "EKKX2B6Z",
+     "seite": "26"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-11",
+   "typ": "fall",
+   "unterthema": "Endokrine Notfälle: DKA, HHS, Nebenniereninsuffizienz, Thyreotoxikose, Myxödemkoma, SIADH, Diabetes insipidus",
+   "marke": "E",
+   "frage": "Ein Patient mit bekannter Hydrocortison-Dauertherapie (M. Addison) kommt mit Gastroenteritis: RR 75/40 mmHg trotz 2 l Kristalloid, Na+ 126, K+ 5,8 mmol/l, Glukose 55 mg/dl. Was tun Sie?",
+   "musterantwort": [
+    "Addison-Krise: Diagnose klinisch, Therapie nicht verzögern (Kortisol abnehmen, nicht abwarten).",
+    "Hydrocortison 100 mg i. v. Bolus, danach 200 mg/24 h als Dauerinfusion (oder 50 mg alle 6 h), am Folgetag auf 100 mg/d reduzieren.",
+    "Volumen: isotone Kochsalzlösung/balanciert 1 l in der ersten Stunde, dann nach Bedarf; Glukose bei Hypoglykämie.",
+    "Auslöser behandeln (Infektion), Hyperkaliämie bessert sich meist unter Hydrocortison und Volumen.",
+    "Schulung: Stressdosis bei Krankheit, Notfallausweis."
+   ],
+   "bewertung": "Sofort Hydrocortison mit Dosis, Volumen, Glukose, Auslöser.",
+   "quellen": [
+    {
+     "titel": "Endokrine Krisen in der Intensivmedizin (Med Klin Intensivmed Notfmed 2026)",
+     "kennung": "52ZFDZGT",
+     "seite": "3"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 15 Stoffwechsel und Endokrinologie",
+     "kennung": "2IIUDWFW",
+     "seite": "3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-12",
+   "typ": "mc",
+   "unterthema": "Endokrine Notfälle: DKA, HHS, Nebenniereninsuffizienz, Thyreotoxikose, Myxödemkoma, SIADH, Diabetes insipidus",
+   "marke": "E",
+   "frage": "Welche Kombination ist bei der thyreotoxischen Krise (Burch-Wartofsky-Score ≥ 45) angemessen?",
+   "optionen": [
+    "A Levothyroxin i. v. und Wärmezufuhr",
+    "B Thiamazol hochdosiert, Betablocker (z. B. Propranolol), Hydrocortison, bei jodinduzierter Krise Perchlorat; Kühlung und Intensivtherapie",
+    "C Nur Betablocker, Thyreostatika erst nach Szintigraphie",
+    "D Jodgabe vor Thyreostatika zur sofortigen Hemmung"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: Synthese hemmen (Thiamazol), Jodaufnahme blockieren (Perchlorat), periphere Wirkung bremsen (Propranolol hemmt zusätzlich T4→T3), Hydrocortison (relative NNR-Insuffizienz, Konversionshemmung); ggf. Colestyramin, bei Therapieversagen Plasmapherese/Thyreoidektomie.",
+    "A: Therapie des Myxödemkomas.",
+    "C: Verzögerung gefährlich.",
+    "D: Jod nur nach Thyreostatikum (sonst Substrat), in Deutschland selten."
+   ],
+   "bewertung": "B; Prinzipien der Kombinationstherapie.",
+   "quellen": [
+    {
+     "titel": "Endokrine Krisen in der Intensivmedizin (Med Klin Intensivmed Notfmed 2026), Tab. 4",
+     "kennung": "52ZFDZGT",
+     "seite": "4"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 15",
+     "kennung": "2IIUDWFW",
+     "seite": "3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-13",
+   "typ": "fall",
+   "unterthema": "Elektrolyte, Säure-Basen-Haushalt, Glukose",
+   "marke": "S",
+   "frage": "Eine 24-jährige Typ-1-Diabetikerin mit Erbrechen: Glukose 480 mg/dl, pH 7,05, HCO3− 6 mmol/l, K+ 3,2 mmol/l, Ketone stark positiv. Wie behandeln Sie die diabetische Ketoazidose?",
+   "musterantwort": [
+    "Volumen zuerst: isotone/balancierte Lösung, z. B. 1 l in der ersten Stunde, Gesamtdefizit bis etwa 10–15 % KG über 24–48 h.",
+    "Kalium < 3,5 mmol/l: zuerst Kalium substituieren, Insulin erst ab K+ ≥ 3,5 mmol/l (Insulin senkt K+ weiter → Arrhythmien).",
+    "Insulin i. v. niedrig dosiert (z. B. 0,1 IE/kg/h), Glukose nicht schneller als etwa 50–100 mg/dl/h senken; bei ca. 250 mg/dl Glukose zuführen, um Insulin bis zur Auflösung der Ketose weiterzugeben.",
+    "Bicarbonat nur bei sehr schwerer Azidose (pH < 6,9-7,0).",
+    "Phosphat, Natrium, Osmolalität kontrollieren (Hirnödemrisiko), Auslöser suchen (Infekt, Insulinfehler, SGLT2-Hemmer)."
+   ],
+   "bewertung": "Volumen, Kalium vor Insulin, Insulindosis, Glukosezusatz, Bicarbonat-Zurückhaltung.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 15 Stoffwechsel und Endokrinologie",
+     "kennung": "2IIUDWFW",
+     "seite": "6-8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-14",
+   "typ": "erklaere",
+   "unterthema": "Enterale und parenterale Ernährung, Refeeding",
+   "marke": "S",
+   "frage": "Wann ist eine (supplementierende) parenterale Ernährung beim Intensivpatienten indiziert, und welche Risiken hat sie?",
+   "musterantwort": [
+    "Enteral vor parenteral; EN früh (innerhalb 48 h) bei funktionierendem Darm.",
+    "PN bei Kontraindikation gegen EN (z. B. Ileus, Darmischämie, hoher Fistelverlust, schwere GI-Blutung) oder wenn EN dauerhaft unzureichend ist: individualisiert, bei schwer mangelernährten Patienten früh, sonst nach 3–7 Tagen.",
+    "Risiken: Überernährung, Hyperglykämie, Hypertriglyzeridämie, Leberfunktionsstörung, katheterassoziierte Infektionen, Refeeding.",
+    "Mikronährstoffe und Spurenelemente ergänzen; nach Möglichkeit Rückkehr zu enteraler Ernährung."
+   ],
+   "bewertung": "Indikationen, Zeitpunkt, Risiken.",
+   "quellen": [
+    {
+     "titel": "ESPEN practical and partially revised guideline: Clinical nutrition in the ICU (Clin Nutr 2023)",
+     "kennung": "PF7IGW5K",
+     "seite": "2, 4"
+    },
+    {
+     "titel": "Gastrointestinale Insuffizienz und Ernährungskonzepte bei kritisch Kranken (Anästh Intensivmed 2025)",
+     "kennung": "BL8H7QY5",
+     "seite": "8"
+    },
+    {
+     "titel": "Spezielle Ernährungslösungen für Intensivpatient*innen: Tool or Toy? (AINS 2025)",
+     "kennung": "936DRAFM",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B05-15",
+   "typ": "mc",
+   "unterthema": "Elektrolyte, Säure-Basen-Haushalt, Glukose",
+   "marke": "S",
+   "frage": "Nach einer Hypophysen-OP steigt das Natrium auf 156 mmol/l bei Urinmengen von 400 ml/h mit Urinosmolalität 120 mosmol/kg. Was ist die wahrscheinlichste Diagnose und Therapie?",
+   "optionen": [
+    "A Zentraler Diabetes insipidus: Desmopressin und Ersatz des freien Wassers",
+    "B SIADH: Flüssigkeitsrestriktion",
+    "C Osmotische Diurese durch Mannitol: Insulin",
+    "D Zerebrales Salzverlustsyndrom: NaCl 3 %"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Polyurie mit hypotonem Urin und Hypernatriämie nach Hypophysen-/Schädel-OP = zentraler DI; Desmopressin i. v./s. c., freies Wasser (Glukose 5 %), Natrium langsam senken (max. ca. 10 mmol/l/24 h).",
+    "B: SIADH macht Hyponatriämie mit konzentriertem Urin.",
+    "C: osmotische Diurese hat hohe Urinosmolalität.",
+    "D: Salzverlust geht mit Hyponatriämie einher."
+   ],
+   "bewertung": "A; Abgrenzung über Urinosmolalität.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 13 Wasser-, Elektrolyt- und Säure-Basen-Haushalt (Hypernatriämie)",
+     "kennung": "3GPHMAI6",
+     "seite": "4"
+    },
+    {
+     "titel": "Dysnatriämien (Die Anaesthesiologie 2023)",
+     "kennung": "EMYEWFS8",
+     "seite": "3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

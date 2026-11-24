@@ -1,0 +1,442 @@
+{
+ "block": 15,
+ "titel": "Trauma und perioperative Intensivmedizin",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs.",
+ "fragen": [
+  {
+   "id": "B15-01",
+   "typ": "mc",
+   "unterthema": "Polytrauma (S3-Leitlinie)",
+   "marke": "S",
+   "frage": "Welches Konzept beschreibt „Damage Control Resuscitation“ beim schwer blutenden Polytrauma?",
+   "optionen": [
+    "A Primär definitive Versorgung aller Frakturen in einer langen ersten Operation",
+    "B Großzügige Kristalloidgabe bis zur Normotonie vor Blutstillung",
+    "C Routinemäßige Hypothermie zur Neuroprotektion",
+    "D Permissive Hypotension (ohne SHT), frühe hämostatische Therapie (TXA, Fibrinogen, Plasma/Faktoren), Vermeiden der letalen Trias und abgekürzte Damage-Control-Chirurgie mit späterer definitiver Versorgung"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: Ziel ist Blutstillung und Physiologie vor Anatomie; letale Trias (Hypothermie, Azidose, Koagulopathie) plus Hypokalzämie vermeiden.",
+    "Permissive Hypotension (systolisch ≈ 80–90 mmHg, MAD 50–60) bis zur Blutstillung, bei SHT MAD ≥ 80 mmHg.",
+    "Damage Control Surgery: Blutungs- und Kontaminationskontrolle, temporärer Verschluss, Intensivstabilisierung, Second Look/definitive Versorgung nach 24–72 h.",
+    "A, B, C widersprechen dem Konzept."
+   ],
+   "bewertung": "D mit Elementen.",
+   "quellen": [
+    {
+     "titel": "Damage Control Resuscitation und Damage Control Surgery (AINS)",
+     "kennung": "RHXHI6TK",
+     "seite": "4-5"
+    },
+    {
+     "titel": "S3-Leitlinie Polytrauma/Schwerverletzten-Behandlung (AWMF 187-023, 2023)",
+     "kennung": "HGQN7MHD",
+     "seite": "97-98, 101"
+    },
+    {
+     "titel": "S3-Leitlinie Intensivmedizin nach Polytrauma (AWMF 040-014, 2024)",
+     "kennung": "BCMD8Q2N",
+     "seite": "6, 65"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-02",
+   "typ": "erklaere",
+   "unterthema": "Polytrauma (S3-Leitlinie)",
+   "marke": "S",
+   "frage": "Was sind die Schwerpunkte der S3-Leitlinie „Intensivmedizin nach Polytrauma“ (2024) für die ersten Tage auf der Intensivstation?",
+   "musterantwort": [
+    "Fortsetzung der Gerinnungs- und Volumentherapie zielgerichtet (viskoelastisch), restriktive Transfusion nach Blutstillung.",
+    "Timing definitiver Versorgung: Damage Control Orthopedics bei instabilen Patienten, definitive Osteosynthese nach physiologischer Stabilisierung („window of opportunity“).",
+    "Re-Evaluation mit CT (tertiäre Untersuchung: übersehene Verletzungen), abdominelles Kompartment, Rhabdomyolyse.",
+    "Lungenprotektive Beatmung, Thoraxtrauma-Management, frühe Thromboseprophylaxe nach Blutungsrisiko, frühe enterale Ernährung, Infektionsprävention.",
+    "Neuroprotektion bei SHT, Analgesie/Delirmanagement, Frührehabilitation."
+   ],
+   "bewertung": "Mindestens 4 Schwerpunkte, Timing der Chirurgie.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Intensivmedizin nach Polytrauma (AWMF 040-014, 2024)",
+     "kennung": "BCMD8Q2N",
+     "seite": "6, 65"
+    },
+    {
+     "titel": "S3-Leitlinie Intensivmedizin nach Polytrauma: Aspekte zur definitiven chirurgischen Versorgung (Die Anaesthesiologie)",
+     "kennung": "84ATD7Q8",
+     "seite": "4, 9"
+    },
+    {
+     "titel": "Ausgewählte Aspekte der Intensivmedizin Schwerverletzter (Anästh Intensivmed 2025)",
+     "kennung": "DWC9WSE4",
+     "seite": "11"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-03",
+   "typ": "fall",
+   "unterthema": "Polytrauma (S3-Leitlinie)",
+   "marke": "S",
+   "frage": "Ein 50-jähriger Autofahrer mit Rippenserienfraktur 3–10 rechts (instabiler Thorax), Lungenkontusion und Hämatothorax wird extubiert übernommen. Nach 12 h: AF 34/min, SpO2 88 % unter Maske, starke Atemschmerzen. Was tun Sie?",
+   "musterantwort": [
+    "Schmerztherapie als Schlüssel: Regionalanästhesie (thorakale Epiduralanalgesie oder Paravertebral-/Serratus-anterior-Katheter), multimodal; Opioide sparsam (Atemdepression, Delir).",
+    "Atemunterstützung: frühe NIV/CPAP bzw. High-Flow bei Thoraxtrauma mit Hypoxämie unter engmaschiger Kontrolle; Intubation bei Versagen.",
+    "Thoraxdrainage bei Hämatothorax prüfen (Sono/CT), Restblut evakuieren (VATS bei retiniertem Hämatothorax).",
+    "Operative Rippenstabilisierung bei instabilem Thorax und Beatmungsproblemen bzw. Schmerz erwägen.",
+    "Atemtherapie, Mobilisation, restriktive Flüssigkeit (Kontusion), Pneumonieprävention."
+   ],
+   "bewertung": "Regionalanalgesie, NIV, Drainage, Rippenstabilisierung.",
+   "quellen": [
+    {
+     "titel": "Spezielle intensivmedizinische Behandlungskonzepte des schweren Thoraxtraumas (AINS)",
+     "kennung": "QG88JVUQ",
+     "seite": "3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-04",
+   "typ": "mc",
+   "unterthema": "Polytrauma (S3-Leitlinie)",
+   "marke": "S",
+   "frage": "Wann und wie geben Sie Tranexamsäure beim blutenden Traumapatienten?",
+   "optionen": [
+    "A Nur bei nachgewiesener Hyperfibrinolyse im ROTEM, frühestens 6 h nach Trauma",
+    "B So früh wie möglich, innerhalb von 3 h nach Trauma: 1 g über 10 min, danach 1 g über 8 h",
+    "C Nach mehr als 3 h, da dann der Nutzen am größten ist",
+    "D Prophylaktisch bei allen Traumapatienten ohne Blutung"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: CRASH-2: Nutzen bei Gabe < 3 h, späte Gabe (> 3 h) kann schaden.",
+    "A: nicht auf Labor warten; D: keine Indikation ohne Blutung.",
+    "Weitere Gaben gezielt nach viskoelastischem Befund."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Polytrauma/Schwerverletzten-Behandlung (AWMF 187-023, 2023)",
+     "kennung": "HGQN7MHD",
+     "seite": "97-98"
+    },
+    {
+     "titel": "European guideline on management of major bleeding following trauma, 6th ed.",
+     "kennung": "V397WRJJ",
+     "seite": "26"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-05",
+   "typ": "fall",
+   "unterthema": "Polytrauma (S3-Leitlinie)",
+   "marke": "S",
+   "frage": "Ein Patient wird nach Sturz aus 6 m mit instabiler Beckenringfraktur, RR 75/45 mmHg, HF 135/min in den Schockraum gebracht; eFAST negativ. Was tun Sie?",
+   "musterantwort": [
+    "Hämorrhagischer Schock aus dem Becken (retroperitoneal, eFAST erfasst ihn nicht).",
+    "Sofort mechanische Stabilisierung (Beckengurt korrekt auf Höhe der Trochanteren, später Beckenzwinge/Fixateur).",
+    "Massivtransfusion, TXA, permissive Hypotension, Wärme, Kalzium.",
+    "Blutungskontrolle: bei arterieller Blutung (CT-Kontrastmittelextravasat) Angioembolisation, bei Instabilität extraperitoneales Beckenpacking; ggf. REBOA als Überbrückung in Zentren.",
+    "Begleitverletzungen: Urethra (kein blinder Katheter bei Blut am Meatus), Rektum, Vagina."
+   ],
+   "bewertung": "Beckengurt, Hämostase-Optionen, Begleitverletzungen.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Polytrauma/Schwerverletzten-Behandlung (AWMF 187-023, 2023)",
+     "kennung": "HGQN7MHD",
+     "seite": "17, 47, 50-52"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-06",
+   "typ": "erklaere",
+   "unterthema": "Perioperative Intensivbehandlung nach großen Eingriffen",
+   "marke": "S-A",
+   "frage": "Was ist ein Low-Cardiac-Output-Syndrom nach Herzchirurgie, wie diagnostizieren und behandeln Sie es?",
+   "musterantwort": [
+    "LCOS: unzureichendes HZV nach Herz-OP (CI < 2,0–2,2 l/min/m²) mit Hypoperfusionszeichen (Laktat ↑, Oligurie, SvO2 ↓, kalte Peripherie).",
+    "Ursachen: myokardiales Stunning/Ischämie (Graftproblem), Vorlast (Hypovolämie, Tamponade!), Nachlast, Rhythmus (Schrittmacher nach Klappen-OP), RV-Versagen, Vasoplegie als Mischbild.",
+    "Diagnostik: Echo (TTE/TEE), PAK, Drainagen beobachten, EKG/Troponin.",
+    "Therapie: Vorlast optimieren, Rhythmus (epikardiales Pacing), Inotropika (Dobutamin, Milrinon, Levosimendan), Vasopressor; Tamponade → Re-Thorakotomie; refraktär: IABP, Impella, VA-ECMO.",
+    "Herzchirurgische Besonderheiten: Nachblutung, Vasoplegie (Vasopressin, Methylenblau), Vorhofflimmern-Prophylaxe."
+   ],
+   "bewertung": "Definition, Ursachen inkl. Tamponade, Diagnostik, Therapieeskalation.",
+   "quellen": [
+    {
+     "titel": "Intensivmedizinische Therapie herzchirurgischer Patienten: Fokus Hämodynamik (Die Anaesthesiologie 2025)",
+     "kennung": "JNYDAHYF",
+     "seite": "1-6"
+    },
+    {
+     "titel": "Intensivtherapie in der Herzchirurgie – alles anders? (AINS)",
+     "kennung": "G3RUUI6F",
+     "seite": "1, 4"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 (Tab. 18.14 Kardiovaskuläres Management nach HLM)",
+     "kennung": "VLFCAAXR",
+     "seite": "39"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-07",
+   "typ": "mc",
+   "unterthema": "Perioperative Intensivbehandlung nach großen Eingriffen",
+   "marke": "S-A",
+   "frage": "Was versteht man unter MINS (Myocardial Injury after Noncardiac Surgery)?",
+   "optionen": [
+    "A Ein ausschließlich klinisch symptomatischer Myokardinfarkt mit ST-Hebung",
+    "B Eine Herzrhythmusstörung nach Narkoseeinleitung",
+    "C Postoperativer, meist asymptomatischer Troponinanstieg ischämischer Ursache innerhalb von 30 Tagen, der mit erhöhter Mortalität assoziiert ist; Screening durch postoperative Troponinmessung bei Risikopatienten",
+    "D Eine Perikarditis nach Thorax-OP"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: Die meisten Patienten haben keine Angina (Analgesie); Troponinscreening an Tag 1–2/3 bei Hochrisikopatienten; Abklärung (EKG, Echo), Optimierung (Statin, ggf. ASS, Hämodynamik, Anämie).",
+    "A, B, D falsch."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "Akute perioperative Organschädigung – Bedeutung, Diagnostik und Prävention (Anästh Intensivmed)",
+     "kennung": "VYY8HTZE",
+     "seite": "2-4"
+    },
+    {
+     "titel": "Perioperative kardiale Komplikationen bei nicht-kardiochirurgischen Eingriffen (Anästh Intensivmed 2022)",
+     "kennung": "JDCPXZMA",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-08",
+   "typ": "fall",
+   "unterthema": "Perioperative Intensivbehandlung nach großen Eingriffen",
+   "marke": "S-A",
+   "frage": "Nach Whipple-OP: Am 5. postoperativen Tag Fieber, Tachykardie, Amylase/Lipase in der Drainage stark erhöht, CRP steigt, dann arterielle Blutung aus der Drainage (Hb-Abfall 3 g/dl). Was liegt vor und was tun Sie?",
+   "musterantwort": [
+    "Pankreasfistel mit Arrosionsblutung (Postpancreatectomy Hemorrhage, oft A. gastroduodenalis-Stumpf), häufig mit Sentinel-Blutung angekündigt – lebensbedrohlich.",
+    "Sofort: Kreislaufstabilisierung, Blutprodukte, Gerinnung, Chirurgie und interventionelle Radiologie informieren.",
+    "CT-Angiographie und Angiographie mit Embolisation oder Stentgraft als erste Wahl bei stabilisierbaren Patienten; sonst Relaparotomie.",
+    "Fistel: Drainage, Antibiotika bei Infektion, Ernährung, ggf. Somatostatinanaloga, Abszessdrainage."
+   ],
+   "bewertung": "Arrosionsblutung erkennen, Angiographie/Embolisation, Fistelmanagement.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 (OP nach Whipple als Hochrisikoeingriff; Blutung/Fistel nicht ausgeführt)",
+     "kennung": "VLFCAAXR",
+     "seite": "3, 35-36"
+    }
+   ],
+   "in_materialien": false,
+   "url": "https://doi.org/10.1016/j.surg.2007.02.001"
+  },
+  {
+   "id": "B15-09",
+   "typ": "erklaere",
+   "unterthema": "Intensivbehandlung nach Transplantation solider Organe",
+   "marke": "S-A",
+   "frage": "Was ist in den ersten Tagen nach Lebertransplantation intensivmedizinisch zu beachten?",
+   "musterantwort": [
+    "Transplantatfunktion: Laktat, Gerinnung (INR/Faktor V), Bilirubin, Transaminasen, Galleproduktion, Glukose; primäre Nichtfunktion (Re-Listung) und frühe Dysfunktion erkennen.",
+    "Gefäßkomplikationen: Doppler-Sonographie der A. hepatica (Thrombose), Pfortader, Lebervenen – täglich bzw. bei Verschlechterung.",
+    "Hämodynamik: moderate Volumentherapie, ZVD niedrig halten (venöser Abfluss), Vasopressor; Nachblutung.",
+    "Immunsuppression (Calcineurininhibitor Tacrolimus mit Spiegelmonitoring, Nephro- und Neurotoxizität, Steroide, Mycophenolat), Abstoßung (akut zelluläre ab Tag 5–7).",
+    "Infektionen (bakteriell, CMV, Pilze), Prophylaxen; Nierenfunktion (AKI häufig), Elektrolyte, frühe Ernährung."
+   ],
+   "bewertung": "Funktionsmonitoring, Gefäßdoppler, Immunsuppression/Spiegel, Infektionen.",
+   "quellen": [
+    {
+     "titel": "Intensivmedizinische Besonderheiten nach soliden Organtransplantationen (Anästh Intensivmed)",
+     "kennung": "XVDJKV8P",
+     "seite": "2-5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-10",
+   "typ": "mc",
+   "unterthema": "Intensivbehandlung nach Transplantation solider Organe",
+   "marke": "S-A",
+   "frage": "Ein nierentransplantierter Patient unter Tacrolimus erhält wegen Pneumonie Clarithromycin; nach 3 Tagen steigt das Kreatinin, er zittert und ist verwirrt. Was ist die wahrscheinlichste Ursache?",
+   "optionen": [
+    "A Tacrolimus-Toxizität durch CYP3A4-Hemmung (Clarithromycin erhöht den Spiegel)",
+    "B Akute Abstoßung durch zu niedrigen Tacrolimusspiegel",
+    "C Hypoglykämie durch Clarithromycin",
+    "D Serotonin-Syndrom"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Makrolide, Azole, Diltiazem hemmen CYP3A4 → Tacrolimus ↑ → Nephrotoxizität, Neurotoxizität (Tremor, Enzephalopathie, PRES), Hyperkaliämie, Hyperglykämie.",
+    "Maßnahmen: Spiegel bestimmen, Dosis anpassen/pausieren, Antibiotikum wechseln (z. B. Doxycyclin/Betalaktam).",
+    "B: wäre bei Spiegelabfall durch Induktoren (Rifampicin, Antiepileptika) zu erwarten."
+   ],
+   "bewertung": "A; Interaktionen der Calcineurininhibitoren.",
+   "quellen": [
+    {
+     "titel": "Intensivmedizinische Besonderheiten nach soliden Organtransplantationen (Anästh Intensivmed)",
+     "kennung": "XVDJKV8P",
+     "seite": "3-5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-11",
+   "typ": "fall",
+   "unterthema": "Intensivbehandlung nach Transplantation solider Organe",
+   "marke": "S-A",
+   "frage": "Nach bilateraler Lungentransplantation entwickelt ein Patient in den ersten 48 h zunehmende Hypoxämie (P/F 120) mit bilateralen Infiltraten. Woran denken Sie und wie behandeln Sie?",
+   "musterantwort": [
+    "Primäre Transplantatdysfunktion (PGD, Ischämie-Reperfusionsschaden) – Graduierung nach P/F und Infiltraten in den ersten 72 h; DD: Lungenödem durch Überwässerung, Abstoßung (hyperakut/AMR), Infektion, Anastomosenprobleme (Bronchoskopie).",
+    "Therapie: lungenprotektive Beatmung, restriktive Flüssigkeitsbilanz, inhalatives NO, ggf. VV- bzw. VA-ECMO bei schwerer PGD.",
+    "Infektionsprophylaxe/-diagnostik (BAL), Immunsuppression nach Protokoll, Anastomosen bronchoskopisch kontrollieren.",
+    "Herztransplantation analog: Rechtsherzversagen als typische Frühkomplikation (pulmonale Hypertonie)."
+   ],
+   "bewertung": "PGD erkennen, DD, ECMO/NO, restriktive Bilanz.",
+   "quellen": [
+    {
+     "titel": "Aktueller Stand der Transplantationsmedizin im Bereich Herz- und Lungentransplantation (Die Anaesthesiologie)",
+     "kennung": "4TIC2F9U",
+     "seite": "7-8"
+    },
+    {
+     "titel": "Intensivmedizinische Besonderheiten nach soliden Organtransplantationen (Anästh Intensivmed)",
+     "kennung": "XVDJKV8P",
+     "seite": "2-3, 8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-12",
+   "typ": "erklaere",
+   "unterthema": "Verbrennungen",
+   "marke": "E",
+   "frage": "Erklären Sie die Flüssigkeitstherapie beim schwer Brandverletzten in den ersten 24 h.",
+   "musterantwort": [
+    "Formeln zur Orientierung: Parkland/Baxter 4 ml/kg/% VKOF in 24 h oder modifizierte Brooke 2 ml/kg/% VKOF; Hälfte in den ersten 8 h ab Unfallzeitpunkt; alternativ „Rule of Ten“.",
+    "Balancierte Kristalloide (klassisch Ringer-Laktat), Steuerung nach Urinausscheidung (≈ 0,5 ml/kg/h), Laktat, Hämodynamik – Formel nur Startwert.",
+    "Overresuscitation (Fluid Creep) vermeiden: Kompartmentsyndrome (Abdomen, Extremitäten), Lungenödem.",
+    "Bei Instabilität trotz Kristalloid oder übermäßigem Bedarf Humanalbumin erwägen; HES soll nicht, Gelatine kann nicht empfohlen werden.",
+    "Begleitend: Inhalationstrauma, CO-/Cyanidintoxikation (Hydroxocobalamin), Escharotomie, frühe Nekrosektomie, Wärmeerhalt."
+   ],
+   "bewertung": "Formeln mit Zahlen, Urinziel, Albumin/HES, Fluid Creep.",
+   "quellen": [
+    {
+     "titel": "S2k-Leitlinie Behandlung thermischer Verletzungen im Erwachsenenalter (AWMF 044-001, 2025)",
+     "kennung": "93HK42XS",
+     "seite": "71-72"
+    },
+    {
+     "titel": "Vorgehen nach thermischen Verletzungen aus präklinischer, intensivmedizinischer und chirurgischer Sicht (Anästh Intensivmed)",
+     "kennung": "D6WM2KK3",
+     "seite": "8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-13",
+   "typ": "fall",
+   "unterthema": "Verbrennungen",
+   "marke": "E",
+   "frage": "Ein Patient wird aus einem Wohnungsbrand gerettet: Ruß im Gesicht, versengte Nasenhaare, Heiserkeit, GCS 12, SpO2 98 %, Laktat 9 mmol/l. Was ist zu beachten?",
+   "musterantwort": [
+    "Inhalationstrauma mit drohender Atemwegsschwellung → frühe Intubation (Heiserkeit, Stridor, Ruß, Gesichtsverbrennung), großer Tubus, Bronchoskopie zur Graduierung.",
+    "SpO2 ist bei CO-Vergiftung falsch normal → CO-Hb in der BGA (CO-Oxymetrie), 100 % O2, hyperbare Oxygenierung erwägen.",
+    "Hohes Laktat in Brandrauch → Cyanidintoxikation: Hydroxocobalamin 5 g i. v. empirisch.",
+    "Lungenprotektive Beatmung, Inhalation von Heparin/N-Acetylcystein umstritten; keine prophylaktischen Antibiotika/Steroide."
+   ],
+   "bewertung": "Atemweg früh sichern, CO-Hb, Cyanid/Hydroxocobalamin.",
+   "quellen": [
+    {
+     "titel": "S2k-Leitlinie Behandlung thermischer Verletzungen im Erwachsenenalter (AWMF 044-001, 2025)",
+     "kennung": "93HK42XS",
+     "seite": "16-18, 29, 33"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-14",
+   "typ": "mc",
+   "unterthema": "Polytrauma (S3-Leitlinie)",
+   "marke": "S",
+   "frage": "Was empfiehlt die Brain Trauma Foundation zu Kortikosteroiden beim schweren SHT?",
+   "optionen": [
+    "A Hochdosiertes Methylprednisolon in den ersten 8 h",
+    "B Steroide werden nicht empfohlen; hochdosiertes Methylprednisolon ist beim schweren SHT mit erhöhter Mortalität verbunden (CRASH)",
+    "C Dexamethason 4 × 8 mg für 7 Tage zur Hirnödemreduktion",
+    "D Hydrocortison nur bei ICP > 30 mmHg"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: Level I: Steroide kontraindiziert (CRASH-Studie: höhere Mortalität).",
+    "Dexamethason hat Stellenwert beim vasogenen Ödem um Tumoren, nicht beim SHT.",
+    "A, C, D falsch."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "Guidelines for the Management of Severe TBI, 4th Ed. (BTF)",
+     "kennung": "IP5ARSGE",
+     "seite": "4"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B15-15",
+   "typ": "erklaere",
+   "unterthema": "Perioperative Intensivbehandlung nach großen Eingriffen",
+   "marke": "S-A",
+   "frage": "Welche Patienten gehören postoperativ auf die Intensivstation, und was sind die häufigsten frühen Komplikationen, auf die Sie achten?",
+   "musterantwort": [
+    "Indikationen: große Eingriffe mit hohem Risiko (Ösophagus-, Pankreas-, Leberchirurgie, große Gefäßchirurgie, Notfall-OP im Schock), relevante Vorerkrankungen (Herzinsuffizienz, COPD, Gebrechlichkeit), intraoperative Komplikationen (Massivblutung, Instabilität), Nachbeatmung.",
+    "Frühe Komplikationen: Nachblutung, Hypovolämie, Kreislaufinstabilität, respiratorische Insuffizienz (Atelektase, Aspiration, Lungenödem), Myokardschaden (MINS), AKI, Delir, Hypothermie/Shivering, PONV, Schmerz, Elektrolytstörungen, Hyperglykämie.",
+    "Systematische Übergabe OP–ITS, Monitoring, Schmerz- und Delirscreening, frühe Mobilisation (ERAS-Elemente)."
+   ],
+   "bewertung": "Indikationen und mindestens 6 Komplikationen.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 Operative Intensivmedizin (Risikoeinteilung, Aufnahme)",
+     "kennung": "VLFCAAXR",
+     "seite": "2-3, 7"
+    },
+    {
+     "titel": "Akute perioperative Organschädigung – Bedeutung, Diagnostik und Prävention (Anästh Intensivmed)",
+     "kennung": "VYY8HTZE",
+     "seite": "2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

@@ -1,0 +1,472 @@
+{
+ "block": 13,
+ "titel": "Infektiologie, Sepsis und Hygiene",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs. Zu KRINKO-Empfehlungen und IfSG liegen keine Originaltexte vor, nur Sekundärquellen (Klinikleitfaden, CME Infektionsprävention).",
+ "fragen": [
+  {
+   "id": "B13-01",
+   "typ": "mc",
+   "unterthema": "Sepsis und septischer Schock: Sepsis-3, Surviving Sepsis Campaign, S3-Leitlinie Sepsis",
+   "marke": "S",
+   "frage": "Welche Aussage zur Initialtherapie entspricht der deutschen S3-Leitlinie Sepsis 2025?",
+   "optionen": [
+    "A Antibiotika bei septischem Schock erst nach Erregernachweis",
+    "B Initial 30 ml/kg Kristalloid in den ersten 3 h als Richtwert bei sepsisinduzierter Hypoperfusion, Antibiotika bei septischem Schock innerhalb 1 h (Sepsis ohne Schock möglichst < 3 h), Betalaktame prolongiert/kontinuierlich nach Bolus",
+    "C HES 6 % als Volumenersatz der Wahl",
+    "D Laktat ist zur Steuerung ungeeignet und soll nicht gemessen werden"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: Kernempfehlungen 2025: Blutkulturen vor Antibiotika (ohne Verzögerung), Zeitziele 1 h/3 h, 30 ml/kg als Richtwert mit individueller Anpassung (Volumenreagibilität), neu stark empfohlen: prolongierte/kontinuierliche Betalaktam-Infusion.",
+    "Hypoperfusion zusätzlich klinisch: Marmorierung, Diurese, Rekapillarisierungszeit > 3 s; Laktat seriell.",
+    "C: HES kontraindiziert; A, D falsch."
+   ],
+   "bewertung": "B mit Zeitzielen.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Sepsis – Prävention, Diagnose, Therapie und Nachsorge (AWMF 079-001, 2025)",
+     "kennung": "44GIUVBH",
+     "seite": "5, 29"
+    },
+    {
+     "titel": "Update der S3-Leitlinie Sepsis 2025 – was ist neu? (AINS 2026)",
+     "kennung": "48673AQX",
+     "seite": "4, 9"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-02",
+   "typ": "erklaere",
+   "unterthema": "Sepsis und septischer Schock: Sepsis-3, Surviving Sepsis Campaign, S3-Leitlinie Sepsis",
+   "marke": "S",
+   "frage": "Definieren Sie Sepsis und septischen Schock nach Sepsis-3 und erklären Sie die Pathophysiologie in Grundzügen.",
+   "musterantwort": [
+    "Sepsis: lebensbedrohliche Organdysfunktion durch fehlregulierte Wirtsantwort auf eine Infektion; Organdysfunktion = akuter Anstieg SOFA ≥ 2.",
+    "Septischer Schock: Vasopressorbedarf für MAD ≥ 65 mmHg und Laktat > 2 mmol/l trotz adäquater Volumentherapie; Letalität > 40 %.",
+    "Pathophysiologie: Erkennung von PAMPs/DAMPs → überschießende Inflammation und gleichzeitig Immunsuppression, Endothelschaden (Glykokalyx, Kapillarleck), Gerinnungsaktivierung (Immunothrombose, DIC), Mikrozirkulationsstörung, mitochondriale Dysfunktion, Vasoplegie (NO).",
+    "Screening: qSOFA nicht allein, NEWS/SIRS ergänzend."
+   ],
+   "bewertung": "Definitionen exakt, mindestens 3 pathophysiologische Mechanismen.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 Infektionskrankheiten (Sepsis-3)",
+     "kennung": "TGV6ILJX",
+     "seite": "2"
+    },
+    {
+     "titel": "Pathophysiologie der Sepsis (AINS 2023)",
+     "kennung": "VW9TEURD",
+     "seite": "1"
+    },
+    {
+     "titel": "Das Immunsystem des kritisch Kranken (AINS)",
+     "kennung": "6F2739EV",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-03",
+   "typ": "fall",
+   "unterthema": "Sepsis und septischer Schock: Sepsis-3, Surviving Sepsis Campaign, S3-Leitlinie Sepsis",
+   "marke": "S",
+   "frage": "Eine 71-jährige Patientin mit Pyelonephritis bleibt nach 30 ml/kg Kristalloid und Noradrenalin 0,35 µg/kg/min hypoton; Laktat 6 mmol/l, Harnstau links. Was tun Sie in den nächsten Stunden?",
+   "musterantwort": [
+    "Fokuskontrolle: Harnableitung links sofort (Nephrostomie/Stent).",
+    "Antibiotika: Breitspektrum bereits innerhalb 1 h, Dosierung hoch (Loading Dose), Betalaktam prolongiert.",
+    "Hydrocortison (200 mg/d) bei anhaltendem Vasopressorbedarf (S3 2025: Hydrocortison ± Fludrocortison vorgeschlagen).",
+    "Vasopressin als zweiter Vasopressor erwägen; erweitertes hämodynamisches Monitoring (Echo, ggf. Dobutamin bei Pumpversagen).",
+    "Weitere Flüssigkeit nur bei Volumenreagibilität, Zielblutdruck MAD ≥ 65 mmHg, Perfusionsmarker (CRT, Laktat) im Verlauf.",
+    "Blutzucker, Thromboseprophylaxe, Organersatz bei Bedarf."
+   ],
+   "bewertung": "Fokuskontrolle, Hydrocortison, Vasopressin, gezielte Volumengabe.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Sepsis (AWMF 079-001, 2025)",
+     "kennung": "44GIUVBH",
+     "seite": "5, 10, 29"
+    },
+    {
+     "titel": "Vasoaktive Substanzen in der Sepsis und im septischen Schock (Anästh Intensivmed 2026)",
+     "kennung": "7ZWA9SNK",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-04",
+   "typ": "mc",
+   "unterthema": "Antiinfektiva, PK/PD, Drug Monitoring, Antibiotic Stewardship",
+   "marke": "S",
+   "frage": "Welche Rolle hat Procalcitonin nach der S3-Leitlinie Sepsis 2025?",
+   "optionen": [
+    "A PCT allein entscheidet, ob eine Antibiose begonnen wird.",
+    "B PCT ist bei Sepsis obsolet.",
+    "C Ein normales PCT schließt eine Pilzinfektion sicher aus.",
+    "D PCT-Messung wird empfohlen, um die Dauer der antiinfektiven Therapie zu begrenzen, sofern eine adäquate Fokuskontrolle erreicht wurde."
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: starke Empfehlung zum PCT-gesteuerten Absetzen (z. B. Abfall um ≥ 80 % oder < 0,5 µg/l).",
+    "A: Beginn bei Verdacht auf Sepsis nicht von PCT abhängig machen.",
+    "B, C falsch; PCT wird durch Steroide nicht beeinflusst, kann aber nach Trauma/OP unspezifisch steigen."
+   ],
+   "bewertung": "D.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Sepsis (AWMF 079-001, 2025)",
+     "kennung": "44GIUVBH",
+     "seite": "55"
+    },
+    {
+     "titel": "Laborchemische Parameter zur infektiologischen Diagnostik und Therapiesteuerung auf der Intensivstation (AINS)",
+     "kennung": "N6CJGVX8",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-05",
+   "typ": "erklaere",
+   "unterthema": "Antiinfektiva, PK/PD, Drug Monitoring, Antibiotic Stewardship",
+   "marke": "S",
+   "frage": "Was ist Antibiotic Stewardship (ABS) und welche Maßnahmen setzen Sie auf der Intensivstation konkret um?",
+   "musterantwort": [
+    "ABS: Programm zur Sicherung rationaler Antiinfektiva-Anwendung (S3-Leitlinie 092-001): bestes Behandlungsergebnis, Minimierung von Toxizität, Resistenzselektion und Kosten.",
+    "Strukturen: ABS-Team (Infektiologe, Mikrobiologe, Apotheker), lokale Leitlinien nach Resistenzlage, Surveillance (Verbrauch, Resistenz), Qualitätsindikatoren.",
+    "Maßnahmen auf ITS: Diagnostik vor Therapie, kalkulierte Therapie nach Fokus, Re-Evaluation nach 48–72 h, Deeskalation/Fokussierung, Oralisierung, kurze Therapiedauern, TDM, PCT-gestütztes Absetzen, infektiologische Visiten, Reserveantibiotika mit Freigabe.",
+    "Gesetzlich: § 23 IfSG verpflichtet zur Erfassung von Antibiotikaverbrauch und Resistenzen."
+   ],
+   "bewertung": "Definition, Strukturen, mindestens 5 konkrete Maßnahmen.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Strategien zur Sicherung rationaler Antibiotika-Anwendung im Krankenhaus (AWMF 092-001)",
+     "kennung": "QG8R43U7",
+     "seite": "5, 20"
+    },
+    {
+     "titel": "Antibiotic Stewardship – ein Update (Med Klin Intensivmed Notfmed 2025)",
+     "kennung": "4MTIU6QF",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-06",
+   "typ": "fall",
+   "unterthema": "Resistenzmechanismen, multiresistente Erreger",
+   "marke": "S",
+   "frage": "Bei einem beatmeten Patienten mit VAP wird Klebsiella pneumoniae mit Carbapenemase (OXA-48) nachgewiesen, resistent gegen Piperacillin/Tazobactam, Cephalosporine und Meropenem. Was tun Sie?",
+   "musterantwort": [
+    "4MRGN-Enterobakterium (Carbapenemresistenz) – Hygiene: Isolierung/Kontaktmaßnahmen, Screening der Mitpatienten, Information Hygiene; Meldepflicht für Carbapenemase-Nachweis bzw. bei Häufung (≥ 2 Fälle Ausbruch).",
+    "Therapie nach Resistenzmechanismus: OXA-48 und KPC → Ceftazidim/Avibactam; Metallo-Betalaktamasen (NDM, VIM) → Ceftazidim/Avibactam plus Aztreonam oder Cefiderocol; Infektiologie einbinden, Testung neuer Substanzen anfordern.",
+    "Kombination mit Colistin/Aminoglykosid nur nach Testung und Abwägung (Toxizität).",
+    "Dosis nach PK/PD, prolongierte Gabe, Fokuskontrolle."
+   ],
+   "bewertung": "Hygiene/Meldung, mechanismusbasierte Substanzwahl.",
+   "quellen": [
+    {
+     "titel": "Differenzierte Behandlung von multiresistenten gramnegativen Erregern im Intensivbereich (Anästh Intensivmed)",
+     "kennung": "95PWNR36",
+     "seite": "1"
+    },
+    {
+     "titel": "Rationaler Einsatz neuer Antibiotika im Zeitalter der Multiresistenz (Anästh Intensivmed)",
+     "kennung": "BZQASZ5V",
+     "seite": "1"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 (Carbapenemresistenz, Meldepflicht bei Ausbruch)",
+     "kennung": "TGV6ILJX",
+     "seite": "8"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-07",
+   "typ": "mc",
+   "unterthema": "Resistenzmechanismen, multiresistente Erreger",
+   "marke": "S",
+   "frage": "Was bedeutet die KRINKO-Klassifikation „3MRGN“?",
+   "optionen": [
+    "A Resistenz gegen 3 der 4 Leitantibiotikagruppen (Acylureidopenicilline, Cephalosporine Gr. 3/4, Carbapeneme, Fluorchinolone), bei 3MRGN noch carbapenemsensibel",
+    "B Resistenz gegen 3 Carbapeneme",
+    "C Erreger mit 3 verschiedenen Resistenzgenen",
+    "D Resistenz gegen Vancomycin, Linezolid und Daptomycin"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: 3MRGN = resistent gegen 3 von 4 Gruppen (meist sensibel auf Carbapeneme); 4MRGN = gegen alle 4.",
+    "Konsequenz: 4MRGN überall isolieren; 3MRGN je nach Erreger und Risikobereich (ITS: in der Regel Isolierung).",
+    "D beschreibt grampositive Multiresistenz (VRE etc.)."
+   ],
+   "bewertung": "A.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Sepsis 2025 (3MRGN als Risikofaktor erwähnt, Definition nicht ausgeführt)",
+     "kennung": "44GIUVBH",
+     "seite": "46"
+    },
+    {
+     "titel": "S3-Leitlinie Nosokomiale Pneumonie (3MRGN/4MRGN-Häufigkeiten)",
+     "kennung": "7T32B8IJ",
+     "seite": "22"
+    }
+   ],
+   "in_materialien": false,
+   "url": "https://doi.org/10.1007/s00103-012-1549-5"
+  },
+  {
+   "id": "B13-08",
+   "typ": "erklaere",
+   "unterthema": "Hygiene, Isolation, Katheterinfektionen; KRINKO, Infektionsschutzgesetz",
+   "marke": "S",
+   "frage": "Wie verhindern Sie katheterassoziierte Blutstrominfektionen, und wie gehen Sie bei Verdacht vor?",
+   "musterantwort": [
+    "Präventionsbündel bei Anlage: Indikation streng, maximale Barrieremaßnahmen, alkoholische Hautantiseptik (mit Chlorhexidin/Octenidin), Ultraschall, V. femoralis möglichst meiden, Checkliste.",
+    "Pflege: Händedesinfektion, aseptischer Umgang mit Konnektionen (Desinfektion vor Zugriff), Verbandwechsel nach Standard, tägliche Prüfung der Notwendigkeit, frühzeitige Entfernung.",
+    "Surveillance (KISS) und Schulung.",
+    "Verdacht: Blutkulturen paarig (aus Katheter und peripher; Differential Time to Positivity ≥ 2 h), Katheter entfernen bei Sepsis/Schock, S. aureus, Candida, Pseudomonas, Tunnelinfektion; Spitze nur bei Entfernung wegen Infektionsverdacht einschicken.",
+    "S. aureus-Bakteriämie: Echo (TEE), mindestens 14 Tage i. v., Kontrollblutkulturen."
+   ],
+   "bewertung": "Bündel bei Anlage und Pflege, Diagnostik, Entfernungsindikation.",
+   "quellen": [
+    {
+     "titel": "Infektionsprävention in der Intensivmedizin (AINS 2021)",
+     "kennung": "SG5MAD2U",
+     "seite": "4, 6, 12"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 2 (ZVK)",
+     "kennung": "GK43UXY8",
+     "seite": "4-6"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-09",
+   "typ": "fall",
+   "unterthema": "Hygiene, Isolation, Katheterinfektionen; KRINKO, Infektionsschutzgesetz",
+   "marke": "S·DE",
+   "frage": "Auf Ihrer ITS werden innerhalb einer Woche bei zwei Patienten identische 4MRGN Acinetobacter baumannii nachgewiesen. Was sind Ihre Pflichten und Maßnahmen?",
+   "musterantwort": [
+    "Verdacht auf nosokomialen Ausbruch (≥ 2 Fälle mit epidemiologischem Zusammenhang) → nichtnamentliche Meldepflicht an das Gesundheitsamt nach IfSG (§ 6 Abs. 3), unverzüglich.",
+    "Krankenhaushygiene informieren, Ausbruchsteam, Kontaktisolierung (Einzelzimmer/Kohortierung), Schutzkittel/Handschuhe, Händehygiene-Compliance prüfen, Flächendesinfektion, Screening aller Patienten der Station, ggf. Aufnahmestopp.",
+    "Typisierung zur Bestätigung, Umgebungsuntersuchungen (Waschbecken, Geräte).",
+    "Antibiotikatherapie nur bei Infektion (Kolonisation nicht behandeln), nach Testung (z. B. Colistin, Cefiderocol, Sulbactam-basierte Kombination)."
+   ],
+   "bewertung": "Meldepflicht bei Ausbruch nach IfSG, Hygienemaßnahmen, Kolonisation vs. Infektion.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 (Meldepflicht bei Ausbruch ≥ 2 Patienten)",
+     "kennung": "TGV6ILJX",
+     "seite": "8"
+    },
+    {
+     "titel": "Infektionsprävention in der Intensivmedizin (AINS 2021)",
+     "kennung": "SG5MAD2U",
+     "seite": "2, 12"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-10",
+   "typ": "mc",
+   "unterthema": "Immunsuppression, neutropenes Fieber, invasive Mykosen",
+   "marke": "S",
+   "frage": "Ein Patient nach abdomineller OP und langer Breitspektrumantibiose hat eine Candidämie (C. glabrata) und ist im septischen Schock. Welche initiale Therapie ist richtig?",
+   "optionen": [
+    "A Fluconazol 200 mg/d, ZVK belassen",
+    "B Abwarten der Kontrollblutkultur",
+    "C Echinocandin (z. B. Caspofungin, Anidulafungin), Entfernung der intravasalen Katheter, Augenhintergrund und Echo, Therapie bis 14 Tage nach erster negativer Blutkultur",
+    "D Amphotericin B Desoxycholat als erste Wahl"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: Echinocandine als initiale Therapie bei kritisch Kranken (C. glabrata oft fluconazolresistent); Katheter entfernen, Kontrollkulturen, Fundoskopie, Echo; Dauer ≥ 14 Tage ab negativer Kultur; Deeskalation auf Fluconazol bei Sensibilität und Stabilität.",
+    "A: Dosis zu niedrig, Resistenzrisiko, Katheter nicht belassen.",
+    "D: nephrotoxisch, nicht erste Wahl."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 (Pilzinfektionen, Antimykotika)",
+     "kennung": "TGV6ILJX",
+     "seite": "32"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-11",
+   "typ": "fall",
+   "unterthema": "Immunsuppression, neutropenes Fieber, invasive Mykosen",
+   "marke": "S",
+   "frage": "Ein Patient mit AML in Aplasie (Neutrophile 100/µl) hat Fieber 39 °C, RR 85/50 mmHg. Nach 5 Tagen Meropenem persistierendes Fieber, im CT Rundherde mit Halo-Zeichen. Wie gehen Sie vor?",
+   "musterantwort": [
+    "Febrile Neutropenie mit Schock: sofort pseudomonaswirksames Betalaktam (z. B. Meropenem bei Schock), ggf. plus Aminoglykosid/MRSA-Abdeckung nach Risiko; Blutkulturen vorher.",
+    "Persistierendes Fieber mit Halo-Zeichen → invasive Aspergillose wahrscheinlich: Galactomannan (Serum/BAL), Bronchoskopie mit BAL, Therapie mit Voriconazol (alternativ Isavuconazol, liposomales Amphotericin B).",
+    "Weitere Erreger bedenken (Pneumocystis, Viren, Mucor).",
+    "Unterstützend: G-CSF je nach Situation, Hygiene (Schutzisolation), Interaktionen (Azole!), TDM für Voriconazol.",
+    "Frühzeitige Kommunikation mit Hämatologie zur Prognose und Therapiezielen."
+   ],
+   "bewertung": "Empirik bei febriler Neutropenie, Aspergillose-Diagnostik und Voriconazol, TDM.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 (Erreger bei Neutropenie, Voriconazol)",
+     "kennung": "TGV6ILJX",
+     "seite": "2, 32"
+    },
+    {
+     "titel": "Das Immunsystem des kritisch Kranken (AINS)",
+     "kennung": "6F2739EV",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-12",
+   "typ": "erklaere",
+   "unterthema": "Sepsis und septischer Schock: Sepsis-3, Surviving Sepsis Campaign, S3-Leitlinie Sepsis",
+   "marke": "S",
+   "frage": "Welche Rolle spielen extrakorporale Verfahren (Hämoadsorption, Plasmapherese, High-Volume-Hämofiltration) in der Sepsis?",
+   "musterantwort": [
+    "S3-Leitlinie 2025: keine routinemäßige High-Volume-Hämofiltration (schwache Empfehlung dagegen); Zytokinadsorber außerhalb von Studien nicht empfohlen, da kein Überlebensvorteil belegt.",
+    "Therapeutischer Plasmaaustausch: pathophysiologisch Entfernung schädlicher Mediatoren und Ersatz protektiver Faktoren (z. B. ADAMTS13, Antithrombin); Daten v. a. aus kleinen Studien, Einsatz als individuelle Rescue-Option in Zentren.",
+    "Polymyxin-B-Hämoperfusion: keine Empfehlung außerhalb von Studien.",
+    "Nierenersatz nur nach Nierenindikation, nicht zur Zytokinelimination."
+   ],
+   "bewertung": "Leitlinienposition und Evidenz je Verfahren.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Sepsis (AWMF 079-001, 2025)",
+     "kennung": "44GIUVBH",
+     "seite": "10"
+    },
+    {
+     "titel": "Extrakorporale Verfahren bei der Sepsis (Die Anaesthesiologie 2024)",
+     "kennung": "VNMRK98H",
+     "seite": "1"
+    },
+    {
+     "titel": "Extrakorporale Behandlungsstrategien der Sepsis: die Rolle der Plasmapherese (AINS)",
+     "kennung": "4CXGATQ4",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-13",
+   "typ": "mc",
+   "unterthema": "Antiinfektiva, PK/PD, Drug Monitoring, Antibiotic Stewardship",
+   "marke": "S",
+   "frage": "Welche perioperative Antibiotikaprophylaxe ist korrekt?",
+   "optionen": [
+    "A Gabe 2 Stunden nach Hautschnitt",
+    "B Einmalgabe (z. B. Cefazolin 2 g, ab etwa 100–120 kg höher dosiert) 30–60 min vor Hautschnitt, Wiederholung bei langer OP oder hohem Blutverlust; keine Verlängerung über das OP-Ende hinaus",
+    "C Fortführung für 5 Tage nach jeder großen OP",
+    "D Vancomycin als Standardprophylaxe für alle Patienten"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: Timing vor Schnitt, gewichtsadaptierte Dosis, Redosing nach etwa 2 HWZ (Cefazolin ≈ 4 h) bzw. Blutverlust > 1 500 ml; Verlängerung erhöht Resistenzen und C.-difficile-Risiko ohne Nutzen.",
+    "D nur bei MRSA-Trägern ergänzend.",
+    "A und C falsch."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "Perioperative Antibiotikaprophylaxe – was, wann und wie viel? (Anästh Intensivmed 2026)",
+     "kennung": "SN8N3EAA",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-14",
+   "typ": "fall",
+   "unterthema": "Tropen- und Reiseinfektionen, Malaria",
+   "marke": "E+",
+   "frage": "Ein 40-jähriger Mann kommt 10 Tage nach Rückkehr aus Ghana mit Fieber, Verwirrtheit, Ikterus, Kreatinin 3,2 mg/dl; Parasitämie mit P. falciparum 8 %. Was tun Sie?",
+   "musterantwort": [
+    "Komplizierte Malaria tropica (zerebrale Beteiligung, Nierenversagen, Ikterus, Hyperparasitämie ≥ 5 %) → Intensivstation.",
+    "Artesunat 2,4 mg/kg i. v. bei Aufnahme, nach 12, 24 h, dann täglich (bis 48/72 h), danach orale Anschlusstherapie (z. B. Atovaquon/Proguanil); Chinin nur, wenn Artesunat nicht verfügbar.",
+    "Supportiv: Glukose überwachen (Hypoglykämie), vorsichtige Volumentherapie (Lungenödemgefahr), Nierenersatz bei Bedarf, Bakteriämie bedenken (Antibiotika bei Schock), Transfusion bei schwerer Anämie.",
+    "Post-Artesunat-Hämolyse (verzögert, Tage 7–21) kontrollieren; Parasitämie täglich bis negativ."
+   ],
+   "bewertung": "Kriterien komplizierte Malaria, Artesunat-Schema, supportive Besonderheiten.",
+   "quellen": [
+    {
+     "titel": "Infektiologische Notfälle (Med Klin Intensivmed Notfmed 2024)",
+     "kennung": "H3WV464A",
+     "seite": "5"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 (Malaria)",
+     "kennung": "TGV6ILJX",
+     "seite": "36"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B13-15",
+   "typ": "erklaere",
+   "unterthema": "Sepsis und septischer Schock: Sepsis-3, Surviving Sepsis Campaign, S3-Leitlinie Sepsis",
+   "marke": "S",
+   "frage": "Was sind wichtige Unterschiede bzw. Neuerungen der Surviving Sepsis Campaign 2026 und der S3-Leitlinie 2025 gegenüber früheren Fassungen?",
+   "musterantwort": [
+    "Prolongierte/kontinuierliche Betalaktam-Infusion jetzt stark empfohlen (S3 2025).",
+    "Hydrocortison ± Fludrocortison bei anhaltendem Vasopressorbedarf vorgeschlagen (2018 noch dagegen).",
+    "Initiale Volumengabe 30 ml/kg als Richtwert beibehalten, aber Individualisierung und Steuerung mit Rekapillarisierungszeit/Perfusion betont; SSC 2026 diskutiert CRT und Urinausscheidung als Steuerungsgrößen.",
+    "Antibiotika-Zeitziele: Schock 1 h, Sepsis ohne Schock bis 3 h nach Abklärung.",
+    "PCT zur Begrenzung der Therapiedauer, keine High-Volume-Hämofiltration; Nachsorge und Langzeitfolgen stärker berücksichtigt."
+   ],
+   "bewertung": "Mindestens 4 Neuerungen korrekt.",
+   "quellen": [
+    {
+     "titel": "Update der S3-Leitlinie Sepsis 2025 – was ist neu? (AINS 2026)",
+     "kennung": "48673AQX",
+     "seite": "2, 4, 9"
+    },
+    {
+     "titel": "S3-Leitlinie Sepsis (AWMF 079-001, 2025)",
+     "kennung": "44GIUVBH",
+     "seite": "5, 10, 55"
+    },
+    {
+     "titel": "Surviving Sepsis Campaign: international guidelines 2026 (Intensive Care Med)",
+     "kennung": "69RZMMT4",
+     "seite": "16, 35"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

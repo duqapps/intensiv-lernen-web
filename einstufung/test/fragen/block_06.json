@@ -1,0 +1,431 @@
+{
+ "block": 6,
+ "titel": "Pharmakotherapie",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs.",
+ "fragen": [
+  {
+   "id": "B06-01",
+   "typ": "mc",
+   "unterthema": "Pharmakokinetik beim Kritischkranken, Drug Monitoring",
+   "marke": "S",
+   "frage": "Ein septischer Patient mit akuter Nierenschädigung (KDIGO 2) soll Meropenem erhalten. Wie dosieren Sie die erste Gabe?",
+   "optionen": [
+    "A Halbe Dosis wegen der eingeschränkten Nierenfunktion",
+    "B Dosis nach Kreatinin-Clearance nach Cockcroft-Gault berechnen",
+    "C Volle Initialdosis (Loading Dose) wie bei Nierengesunden; Anpassung erst der Erhaltungsdosis, idealerweise mit TDM",
+    "D Erste Dosis erst nach Bestimmung eines Spiegels"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: Die Initialdosis hängt vom Verteilungsvolumen ab (bei Sepsis durch Kapillarleck und Volumentherapie erhöht), nicht von der Clearance.",
+    "Erhaltungsdosis an Nierenfunktion anpassen, bei Betalaktamen prolongierte/kontinuierliche Infusion, TDM wenn verfügbar.",
+    "A: Unterdosierung in der kritischen Frühphase; B: Kreatininbasierte Formeln sind bei AKI nicht im Steady State verlässlich; D: Verzögerung erhöht Mortalität."
+   ],
+   "bewertung": "C mit Begründung Verteilungsvolumen.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 20 Pharmakologie, 20.3.3 Praktisches Vorgehen",
+     "kennung": "FF4BMQCT",
+     "seite": "8"
+    },
+    {
+     "titel": "Antibiotikatherapie bei kritisch Kranken auf der Intensivstation (Anästh Intensivmed 2024)",
+     "kennung": "HJBH7Z4Y",
+     "seite": "1-2, 10"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-02",
+   "typ": "erklaere",
+   "unterthema": "Pharmakokinetik beim Kritischkranken, Drug Monitoring",
+   "marke": "S",
+   "frage": "Welche pharmakokinetischen Veränderungen hat ein kritisch kranker Patient, und welche Folgen hat das für die Antiinfektivadosierung?",
+   "musterantwort": [
+    "Erhöhtes Verteilungsvolumen hydrophiler Substanzen (Kapillarleck, Volumengabe, Ödeme) → höhere Initialdosis nötig.",
+    "Hypalbuminämie → höherer freier Anteil stark proteingebundener Substanzen, schnellere Elimination.",
+    "Veränderte Clearance: erhöhte renale Clearance (augmented renal clearance, junge Patienten, Trauma, Sepsis frühe Phase) → Unterdosierung; AKI/Leberversagen → Akkumulation.",
+    "Extrakorporale Verfahren (Nierenersatz, ECMO, Adsorber) entfernen bzw. sequestrieren Medikamente.",
+    "Konsequenz: Betalaktame prolongiert/kontinuierlich (zeitabhängig, fT>MIC), Aminoglykoside hoch einmal täglich (konzentrationsabhängig), TDM bzw. modellbasierte Dosierung (MIPD), pharmazeutische Visite."
+   ],
+   "bewertung": "Vd, Albumin, Clearance (ARC und Organversagen), extrakorporale Verfahren, PK/PD-Konsequenzen.",
+   "quellen": [
+    {
+     "titel": "Antibiotikatherapie bei kritisch Kranken auf der Intensivstation (Anästh Intensivmed 2024)",
+     "kennung": "HJBH7Z4Y",
+     "seite": "1-3"
+    },
+    {
+     "titel": "Pharmazeutische Visite in der Intensivmedizin (Med Klin Intensivmed Notfmed 2020)",
+     "kennung": "23QE36GN",
+     "seite": "2, 5, 7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-03",
+   "typ": "fall",
+   "unterthema": "Pharmakokinetik beim Kritischkranken, Drug Monitoring",
+   "marke": "S",
+   "frage": "Ein 28-jähriger Polytraumapatient mit VAP durch Pseudomonas aeruginosa erhält Piperacillin/Tazobactam 4,5 g alle 8 h als Kurzinfusion. Er fiebert weiter, die gemessene Kreatinin-Clearance beträgt 190 ml/min. Was machen Sie?",
+   "musterantwort": [
+    "Augmented renal clearance (> 130 ml/min) → Gefahr der Unterdosierung renal eliminierter Betalaktame.",
+    "Umstellung auf prolongierte oder kontinuierliche Infusion nach Loading Dose (z. B. 4,5 g Bolus, dann 13,5–18 g/24 h kontinuierlich), höhere Tagesdosis.",
+    "TDM (Ziel freie Konzentration über MIC über das gesamte Intervall), Resistogramm/MHK beachten.",
+    "Fokuskontrolle und andere Ursachen für Fieber prüfen.",
+    "Gespräch mit Infektiologie/ABS-Team bzw. klinischer Pharmazie."
+   ],
+   "bewertung": "ARC erkennen, kontinuierliche Gabe, TDM.",
+   "quellen": [
+    {
+     "titel": "Antibiotikatherapie bei kritisch Kranken auf der Intensivstation (Anästh Intensivmed 2024)",
+     "kennung": "HJBH7Z4Y",
+     "seite": "1-2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-04",
+   "typ": "erklaere",
+   "unterthema": "Vasopressoren, Inotropika, Vasodilatatoren",
+   "marke": "S",
+   "frage": "Erklären Sie Rezeptorprofil und Einsatz von Noradrenalin, Adrenalin, Dobutamin und Vasopressin.",
+   "musterantwort": [
+    "Noradrenalin: α1 ≫ β1, Vasokonstriktion, Vasopressor der ersten Wahl bei vasodilatatorischem/septischem Schock.",
+    "Adrenalin: β1, β2 und α1 (dosisabhängig), inotrop, chronotrop, vasokonstriktorisch; NW Laktatanstieg (β2), Tachyarrhythmie; Reanimation, Anaphylaxie, Reserve im Schock.",
+    "Dobutamin: β1 (β2), Inotropie, leichte Vasodilatation; bei Low-Output mit adäquatem Blutdruck.",
+    "Vasopressin: V1-Rezeptor (Gq, Ca2+↑), katecholaminunabhängig, wirkt auch bei Azidose; Zusatz bei steigendem Noradrenalinbedarf (z. B. ab 0,25–0,5 µg/kg/min) im septischen Schock.",
+    "Alternative Wirkmechanismen: Levosimendan (Kalziumsensitizer), PDE-3-Hemmer (Milrinon), Angiotensin II."
+   ],
+   "bewertung": "Rezeptoren und Indikation jeder Substanz korrekt.",
+   "quellen": [
+    {
+     "titel": "Vasopressoren: Physiologie, Pharmakologie und klinischer Einsatz (AINS)",
+     "kennung": "4ST2GW75",
+     "seite": "2-3"
+    },
+    {
+     "titel": "Natürliche und synthetische Katecholamine (AINS 2021)",
+     "kennung": "W7RZBUEB",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-05",
+   "typ": "mc",
+   "unterthema": "Vasopressoren, Inotropika, Vasodilatatoren",
+   "marke": "S",
+   "frage": "Welche Aussage zu Levosimendan ist richtig?",
+   "optionen": [
+    "A Es wirkt über Kalziumsensibilisierung von Troponin C und Öffnung von KATP-Kanälen (inotrop und vasodilatierend), ohne den myokardialen O2-Verbrauch wesentlich zu steigern.",
+    "B Es ist ein β1-Agonist mit kurzer Halbwertszeit von 2 Minuten.",
+    "C Es ist bei Hypotonie das Mittel der ersten Wahl zur Blutdrucksteigerung.",
+    "D Es hemmt die Phosphodiesterase 3 als Hauptmechanismus und wirkt nur wenige Minuten."
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: Kalziumsensitizer plus KATP-Öffnung; aktiver Metabolit (OR-1896) mit langer Wirkdauer (Tage).",
+    "Einsatz: akute Herzinsuffizienz/Low-Output, Weaning von VA-ECMO, Patienten unter Betablocker; Vorsicht Hypotonie (Vasodilatation), meist ohne Bolus.",
+    "B beschreibt Dobutamin (HWZ ≈ 2 min), D eher Milrinon, C: Vasodilatation macht es ungeeignet bei Hypotonie."
+   ],
+   "bewertung": "A.",
+   "quellen": [
+    {
+     "titel": "Zwanzig Jahre Levosimendan (AINS 2021)",
+     "kennung": "BIBPIXME",
+     "seite": "1, 5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-06",
+   "typ": "fall",
+   "unterthema": "Vasopressoren, Inotropika, Vasodilatatoren",
+   "marke": "S",
+   "frage": "Ein Patient im septischen Schock benötigt nach Volumen bereits 0,5 µg/kg/min Noradrenalin für einen MAD von 65 mmHg, Laktat steigt. Das Echo zeigt eine normale LV-Funktion. Welche Optionen haben Sie?",
+   "musterantwort": [
+    "Volumenstatus und Fokuskontrolle prüfen, Zielblutdruck individualisieren.",
+    "Vasopressin als zweiter Vasopressor (0,03 IE/min), noradrenalinsparend.",
+    "Hydrocortison 200 mg/d bei anhaltendem Vasopressorbedarf.",
+    "Adrenalin als weitere Option; bei eingeschränkter Pumpfunktion Dobutamin.",
+    "Angiotensin II (vasoplegischer Schock) als Reserve, Methylenblau experimentell.",
+    "Monitoring erweitern (Arterie, ZVK, HZV), Nebenwirkungen beachten (Ischämie von Darm und Extremitäten)."
+   ],
+   "bewertung": "Vasopressin + Hydrocortison als Kern, weitere Optionen begründet.",
+   "quellen": [
+    {
+     "titel": "Vasopressoren: Physiologie, Pharmakologie und klinischer Einsatz (AINS)",
+     "kennung": "4ST2GW75",
+     "seite": "2-3"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 14 Infektionskrankheiten (Sepsis-Management)",
+     "kennung": "TGV6ILJX",
+     "seite": "4"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-07",
+   "typ": "mc",
+   "unterthema": "Vasopressoren, Inotropika, Vasodilatatoren",
+   "marke": "S",
+   "frage": "Ein Patient im Schock hat noch keinen ZVK. Was gilt für die periphere Gabe von Vasopressoren?",
+   "optionen": [
+    "A Sie ist grundsätzlich verboten.",
+    "B Sie ist nur über die V. femoralis erlaubt.",
+    "C Sie ist nur für Dobutamin zulässig.",
+    "D Niedrig dosiertes, verdünntes Noradrenalin kann kurzfristig über eine gut liegende, großlumige periphere Kanüle (proximal, z. B. Ellenbeuge) gegeben werden, mit engmaschiger Kontrolle auf Paravasat; ZVK zügig nachholen."
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: Leitlinien (u. a. Surviving Sepsis Campaign) erlauben die periphere Gabe, damit der Vasopressorbeginn nicht verzögert wird; Paravasate selten, aber Haut regelmäßig kontrollieren.",
+    "Bei Paravasat: Infusion stoppen, aspirieren, ggf. Phentolamin lokal.",
+    "A–C falsch."
+   ],
+   "bewertung": "D mit Sicherheitsbedingungen.",
+   "quellen": [
+    {
+     "titel": "Periphere Gabe von Vasopressoren (Leitlinien in der Praxis, 2023)",
+     "kennung": "Z2JIGXDW",
+     "seite": "1-2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-08",
+   "typ": "erklaere",
+   "unterthema": "Dosisanpassung bei Nieren- und Leberinsuffizienz, ECMO, Nierenersatz",
+   "marke": "S",
+   "frage": "Wie passen Sie Medikamente bei Niereninsuffizienz an, und warum ist das bei Leberinsuffizienz schwieriger?",
+   "musterantwort": [
+    "Niere: Initialdosis unverändert; GFR bestimmen/abschätzen (Kreatinin-Clearance, Cockcroft-Gault, eGFR; bei AKI unzuverlässig); Erhaltungsdosis reduzieren oder Intervall verlängern, nach Tabellen (Anteil renaler Elimination); TDM für Vancomycin, Aminoglykoside, Betalaktame.",
+    "Nephrotoxische Kombinationen vermeiden (Aminoglykoside, Vancomycin, NSAR, Kontrastmittel).",
+    "Leber: kein Laborparameter bildet die Eliminationsleistung zuverlässig ab; Child-Pugh/MELD nur bedingt hilfreich; betroffen sind Substanzen mit hoher hepatischer Extraktion (First-Pass ↑ bei Shunt) und Proteinbindung (Albumin ↓).",
+    "Bei Leberversagen sedierende Substanzen (Benzodiazepine, Opioide) vorsichtig, Hepatotoxizität prüfen (z. B. LiverTox).",
+    "Pharmazeutische Visite reduziert Medikationsfehler."
+   ],
+   "bewertung": "Loading Dose, Erhaltungsdosisanpassung, Grenzen der Leberscores.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 20 Pharmakologie",
+     "kennung": "FF4BMQCT",
+     "seite": "8, 12"
+    },
+    {
+     "titel": "Pharmazeutische Visite in der Intensivmedizin (Med Klin Intensivmed Notfmed 2020)",
+     "kennung": "23QE36GN",
+     "seite": "5, 7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-09",
+   "typ": "fall",
+   "unterthema": "Dosisanpassung bei Nieren- und Leberinsuffizienz, ECMO, Nierenersatz",
+   "marke": "S",
+   "frage": "Ein Patient unter VV-ECMO und kontinuierlicher Hämodiafiltration (CVVHDF) bekommt Vancomycin und Midazolam. Die Vancomycin-Talspiegel sind zu niedrig, trotz hoher Midazolamdosis ist er unruhig. Erklären Sie das.",
+   "musterantwort": [
+    "Nierenersatz entfernt hydrophile, wenig proteingebundene Substanzen mit kleinem Verteilungsvolumen (Vancomycin, Betalaktame); Clearance hängt von Effluentdosis und Siebkoeffizient ab → höhere Dosen und TDM nötig.",
+    "ECMO: lipophile und stark proteingebundene Substanzen (Midazolam, Fentanyl, Propofol, Voriconazol) werden im Kreislauf/Oxygenator sequestriert, zudem größeres Verteilungsvolumen → Wirkverlust, höherer Bedarf.",
+    "Vorgehen: Vancomycin per AUC- bzw. Spiegel-gesteuerter Dosierung oder kontinuierlich, Sedierung umstellen (z. B. weniger lipophile Substanzen, Kombination, Dexmedetomidin, ggf. inhalative Sedierung mit geeigneten Systemen), Ziel-RASS kontrollieren.",
+    "Klinische Pharmazie einbeziehen."
+   ],
+   "bewertung": "Mechanismen CRRT vs. ECMO, TDM, Konsequenzen.",
+   "quellen": [
+    {
+     "titel": "Antibiotikatherapie bei kritisch Kranken auf der Intensivstation (Anästh Intensivmed 2024)",
+     "kennung": "HJBH7Z4Y",
+     "seite": "1"
+    },
+    {
+     "titel": "Pharmazeutische Visite in der Intensivmedizin (Med Klin Intensivmed Notfmed 2020)",
+     "kennung": "23QE36GN",
+     "seite": "2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-10",
+   "typ": "mc",
+   "unterthema": "Pharmakokinetik beim Kritischkranken, Drug Monitoring",
+   "marke": "S",
+   "frage": "Welche Antibiotika-Gruppe profitiert am meisten von einer prolongierten bzw. kontinuierlichen Infusion?",
+   "optionen": [
+    "A Aminoglykoside",
+    "B Betalaktame (z. B. Meropenem, Piperacillin)",
+    "C Fluorchinolone",
+    "D Daptomycin"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: zeitabhängige Wirkung, Ziel ist eine Konzentration über der MHK über möglichst lange Zeit (fT>MIC, bei Kritischkranken oft 100 %).",
+    "A, C, D: konzentrationsabhängig (Cmax/MIC bzw. AUC/MIC) → hohe Einzeldosen."
+   ],
+   "bewertung": "B mit PK/PD-Begründung.",
+   "quellen": [
+    {
+     "titel": "Antibiotikatherapie bei kritisch Kranken auf der Intensivstation (Anästh Intensivmed 2024)",
+     "kennung": "HJBH7Z4Y",
+     "seite": "2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-11",
+   "typ": "erklaere",
+   "unterthema": "Vasopressoren, Inotropika, Vasodilatatoren",
+   "marke": "S",
+   "frage": "Welche Vasodilatatoren setzen Sie auf der Intensivstation ein? Nennen Sie Wirkmechanismus, Indikation und Gefahren.",
+   "musterantwort": [
+    "Glyceroltrinitrat: NO-Donor, vor allem venös (Vorlastsenkung), Indikation akute Herzinsuffizienz mit Hypertonie/Lungenödem, ACS; NW Kopfschmerz, Hypotonie, Toleranz; KI: RV-Infarkt, PDE-5-Hemmer.",
+    "Nitroprussid: arteriell und venös, sehr potent, kurz wirksam, Gefahr Cyanidintoxikation (Thiosulfat), Rebound.",
+    "Urapidil: α1-Antagonist mit zentraler Komponente, hypertensiver Notfall.",
+    "Clevidipin/Nicardipin: Kalziumantagonisten, gut steuerbar (z. B. Aortendissektion, Schlaganfall).",
+    "Inhalativ: NO, Iloprost für pulmonale Vasodilatation (RV-Versagen); Milrinon als Inodilatator."
+   ],
+   "bewertung": "Mindestens 3 Substanzen mit Mechanismus und typischer Gefahr.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz (Nitrate, Antihypertensiva)",
+     "kennung": "94YEBDZJ",
+     "seite": "18"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Perfusordosierungen",
+     "kennung": "8N5YPM2L",
+     "seite": "1-3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-12",
+   "typ": "fall",
+   "unterthema": "Vasopressoren, Inotropika, Vasodilatatoren",
+   "marke": "S",
+   "frage": "Eine Patientin mit dekompensierter Herzinsuffizienz (EF 20 %) unter Bisoprolol hat RR 95/60 mmHg, kalte Extremitäten, Oligurie, Laktat 3,8 mmol/l, ScvO2 48 %. Welches Inotropikum wählen Sie und warum?",
+   "musterantwort": [
+    "Low-Output-Syndrom (kalt und feucht/trocken): Inotropie nötig.",
+    "Unter Betablockade wirkt Dobutamin (β1) abgeschwächt → Levosimendan (rezeptorunabhängig) oder PDE-3-Hemmer (Milrinon) erwägen; bei Hypotonie mit Noradrenalin kombinieren.",
+    "Milrinon bei ischämischer Herzinsuffizienz nicht erste Wahl; renale Elimination beachten.",
+    "Erweitertes Monitoring (Arterie, Echo, ggf. PAK), Ursachen (ACS, Rhythmus, Klappe) klären; bei Versagen mechanische Kreislaufunterstützung erwägen.",
+    "Diuretika nach Stabilisierung, Betablocker pausieren bzw. reduzieren."
+   ],
+   "bewertung": "Begründete Wahl unter Betablocker, Kombination mit NA, Monitoring, Eskalation.",
+   "quellen": [
+    {
+     "titel": "Zwanzig Jahre Levosimendan (AINS 2021)",
+     "kennung": "BIBPIXME",
+     "seite": "1, 5"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 6 Herz",
+     "kennung": "94YEBDZJ",
+     "seite": "18"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-13",
+   "typ": "erklaere",
+   "unterthema": "Dosisanpassung bei Nieren- und Leberinsuffizienz, ECMO, Nierenersatz",
+   "marke": "S",
+   "frage": "Wie setzen Sie Schleifendiuretika beim überwässerten Intensivpatienten ein, und was tun Sie bei Diuretikaresistenz?",
+   "musterantwort": [
+    "Wirkort: Na-K-2Cl-Kotransporter der Henle-Schleife; müssen tubulär sezerniert werden (Albumin, Azidose, AKI vermindern Wirkung).",
+    "Ausreichende Dosis (Schwellendosis überschreiten), Bolus und/oder kontinuierliche Infusion; Wirkung messen (Natrium im Spontanurin, Urinmenge).",
+    "Resistenz: Dosissteigerung, sequenzielle Nephronblockade (Thiazid, Acetazolamid bei Alkalose, Spironolacton), Volumen/Blutdruck optimieren.",
+    "Nebenwirkungen: Hypokaliämie, Hypomagnesiämie, metabolische Alkalose, Ototoxizität bei hohen Dosen.",
+    "Bei Versagen Nierenersatzverfahren zur Flüssigkeitsentfernung."
+   ],
+   "bewertung": "Mechanismus, Dosierung, Resistenzstrategie, NW.",
+   "quellen": [
+    {
+     "titel": "Wirkmechanismen und klinische Anwendung von Diuretika in der Intensivmedizin (Die Anaesthesiologie 2023)",
+     "kennung": "ZXUSRQQL",
+     "seite": "1, 9"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-14",
+   "typ": "mc",
+   "unterthema": "Dosisanpassung bei Nieren- und Leberinsuffizienz, ECMO, Nierenersatz",
+   "marke": "S",
+   "frage": "Welche Aussage zur pharmazeutischen Visite auf der Intensivstation ist zutreffend?",
+   "optionen": [
+    "A Sie ist nur in Universitätskliniken zulässig.",
+    "B Sie ersetzt die ärztliche Verantwortung für die Verordnung.",
+    "C Klinische Pharmazeuten auf der ITS senken nachweislich Medikationsfehler und unerwünschte Arzneimittelereignisse.",
+    "D Sie betrifft ausschließlich die Kostenreduktion."
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: Interventionen zu Dosierung (Niere/Leber/Nierenersatz), Interaktionen, Applikation, TDM; erhöhte Arzneimitteltherapiesicherheit.",
+    "B: Verantwortung bleibt ärztlich.",
+    "A und D falsch."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "Pharmazeutische Visite in der Intensivmedizin (Med Klin Intensivmed Notfmed 2020)",
+     "kennung": "23QE36GN",
+     "seite": "2, 7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B06-15",
+   "typ": "fall",
+   "unterthema": "Pharmakokinetik beim Kritischkranken, Drug Monitoring",
+   "marke": "S",
+   "frage": "Ein Patient mit Endokarditis durch MRSA erhält Vancomycin; das Kreatinin steigt von 1,0 auf 2,2 mg/dl, der letzte Talspiegel war 28 mg/l. Wie gehen Sie vor?",
+   "musterantwort": [
+    "Wahrscheinlich Vancomycin-assoziierte Nephrotoxizität bei zu hoher Exposition; weitere Ursachen (Kontrastmittel, Piperacillin/Tazobactam-Kombination, Hypovolämie) prüfen.",
+    "Nächste Dosis pausieren, Spiegel kontrollieren, Dosis/Intervall anpassen; AUC-gesteuerte Dosierung (Ziel-AUC24 400–600 mg·h/l) statt reiner Talspiegel, alternativ kontinuierliche Gabe mit Plateauspiegel.",
+    "Alternativen erwägen (Daptomycin bei Endokarditis, Linezolid je nach Fokus).",
+    "Nephrotoxische Komedikation reduzieren, Nierenfunktion engmaschig.",
+    "ABS/Infektiologie einbeziehen."
+   ],
+   "bewertung": "Nephrotoxizität, TDM/AUC, Alternativen.",
+   "quellen": [
+    {
+     "titel": "Antibiotikatherapie bei kritisch Kranken auf der Intensivstation (Anästh Intensivmed 2024)",
+     "kennung": "HJBH7Z4Y",
+     "seite": "1-2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}

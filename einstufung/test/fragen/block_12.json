@@ -1,0 +1,456 @@
+{
+ "block": 12,
+ "titel": "Gastrointestinaltrakt und Leber",
+ "hinweis": "Seitenangaben = Seite in der PDF-Datei des Zotero-Anhangs.",
+ "fragen": [
+  {
+   "id": "B12-01",
+   "typ": "mc",
+   "unterthema": "Gastrointestinale Blutung",
+   "marke": "S",
+   "frage": "Ein Patient mit bekannter Leberzirrhose erbricht frisches Blut, RR 90/55 mmHg, Hb 7,2 g/dl. Welche Erstmaßnahmen entsprechen der S2k-Leitlinie GI-Blutung?",
+   "optionen": [
+    "A Hb-Ziel > 10 g/dl, großzügige FFP-Gabe vor Endoskopie",
+    "B Endoskopie erst nach 48 h Stabilisierung",
+    "C Terlipressin (oder Somatostatin/Octreotid) sofort bei Verdacht auf Varizenblutung, Antibiotikaprophylaxe (z. B. Ceftriaxon 2 g/d), restriktive Transfusion (Hb-Ziel etwa 7–8 g/dl), Endoskopie innerhalb 12 h nach Stabilisierung",
+    "D Protonenpumpenhemmer allein reicht, vasoaktive Substanzen sind nicht indiziert"
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: vasoaktive Therapie, Antibiotikaprophylaxe (senkt Infektionen, Rezidivblutung, Mortalität), restriktive Transfusion (Übertransfusion steigert Portaldruck), Atemwegssicherung bei Bewusstseinsstörung/massiver Hämatemesis, Endoskopie mit Gummibandligatur.",
+    "Bei Therapieversagen: Ballontamponade bzw. Ösophagusstent als Bridge, früher TIPS bei Hochrisikopatienten.",
+    "A: Übertransfusion und FFP ohne Nutzen; B, D falsch."
+   ],
+   "bewertung": "C mit allen vier Elementen.",
+   "quellen": [
+    {
+     "titel": "S2k-Leitlinie Gastrointestinale Blutung (AWMF 021-028, 2026)",
+     "kennung": "5Z6SPW4V",
+     "seite": "11, 14, 16"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-02",
+   "typ": "erklaere",
+   "unterthema": "Gastrointestinale Blutung",
+   "marke": "S",
+   "frage": "Erklären Sie Ihr Vorgehen bei der nichtvarikösen oberen GI-Blutung von der Risikoeinschätzung bis zur Rezidivprophylaxe.",
+   "musterantwort": [
+    "Risikoeinschätzung: Glasgow-Blatchford-Score (GBS ≤ 1 ambulant möglich), Kreislauf, Komorbidität.",
+    "Stabilisierung: zwei großlumige Zugänge, balancierte Kristalloide, restriktive Transfusion (Hb-Schwelle ≈ 7 g/dl, bei KHK höher), Gerinnung und Antikoagulanzien managen (Antagonisierung nach Substanz).",
+    "Hochdosis-PPI i. v. vor Endoskopie; Erythromycin vor Endoskopie zur Magenentleerung erwägen.",
+    "Endoskopie innerhalb 24 h (bei Instabilität früher) mit Forrest-Klassifikation; Blutstillung kombiniert (Injektion plus mechanisch/thermisch, Over-the-scope-Clip).",
+    "Versagen: Re-Endoskopie, transarterielle Embolisation, Operation.",
+    "Danach PPI, H.-pylori-Eradikation, Indikation Thrombozytenhemmer/Antikoagulation kritisch und zeitnah wieder aufnehmen."
+   ],
+   "bewertung": "GBS, Transfusionsschwelle, PPI, Zeitfenster Endoskopie, Eskalation, Rezidivprophylaxe.",
+   "quellen": [
+    {
+     "titel": "S2k-Leitlinie Gastrointestinale Blutung (AWMF 021-028, 2026)",
+     "kennung": "5Z6SPW4V",
+     "seite": "3-4, 14"
+    },
+    {
+     "titel": "Endoskopie auf der operativen Intensivstation (Anaesthesist 2021)",
+     "kennung": "R4L2XH76",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-03",
+   "typ": "fall",
+   "unterthema": "Akute Pankreatitis",
+   "marke": "S",
+   "frage": "Eine 45-jährige Patientin mit biliärer Pankreatitis, Tag 2: Lipase 3 500 U/l, Bilirubin 4,5 mg/dl, Fieber, CRP 280 mg/l, Kreatinin steigt, P/F 220. Wie behandeln Sie?",
+   "musterantwort": [
+    "Schwere Pankreatitis mit Organversagen und Verdacht auf Cholangitis.",
+    "Flüssigkeit zielgerichtet und moderat (balanciert, z. B. Ringer-Laktat), keine aggressive Volumentherapie (WATERFALL: mehr Überwässerung ohne Nutzen).",
+    "ERCP mit Papillotomie dringlich bei Cholangitis (innerhalb 24 h), nicht routinemäßig bei biliärer Pankreatitis ohne Cholangitis/Obstruktion.",
+    "Antibiotika nur bei Cholangitis oder infizierter Nekrose, keine Prophylaxe.",
+    "Frühe enterale Ernährung (oral/Sonde) statt Nahrungskarenz, Analgesie (auch Opioide, PDK möglich), Thromboseprophylaxe, IAP überwachen.",
+    "Cholezystektomie im Verlauf (bei milder Form in derselben Aufnahme)."
+   ],
+   "bewertung": "Moderate Flüssigkeit, ERCP-Indikation Cholangitis, keine prophylaktischen AB, enterale Ernährung.",
+   "quellen": [
+    {
+     "titel": "Management der akuten Pankreatitis in der Notaufnahme und Intensivstation (Die Anaesthesiologie 2024)",
+     "kennung": "75SZVT39",
+     "seite": "1, 4, 6"
+    },
+    {
+     "titel": "S3-Leitlinie Pankreatitis (AWMF 021-003, 2022)",
+     "kennung": "IJ87BUJZ",
+     "seite": "30"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-04",
+   "typ": "mc",
+   "unterthema": "Akute Pankreatitis",
+   "marke": "S",
+   "frage": "Vier Wochen nach nekrotisierender Pankreatitis: Fieber, steigende Entzündungswerte, im CT abgekapselte Nekrose mit Gaseinschlüssen. Was ist das bevorzugte Vorgehen?",
+   "optionen": [
+    "A Step-up-Ansatz: Antibiotika und zunächst Drainage (endoskopisch transluminal oder perkutan), bei Bedarf endoskopische Nekrosektomie; offene Nekrosektomie nur als letzte Option",
+    "B Sofortige offene Laparotomie mit Nekrosektomie",
+    "C Nur Antibiotika für 6 Wochen ohne Intervention",
+    "D Totale Pankreatektomie"
+   ],
+   "richtig": 0,
+   "musterantwort": [
+    "Richtig A: infizierte (walled-off) Nekrose → Intervention möglichst nach ≥ 4 Wochen, minimal-invasiv im Step-up; geringere Morbidität als primär offene Chirurgie.",
+    "B: hohe Letalität, früh kontraindiziert.",
+    "C: Antibiotika allein reichen selten bei gasbildender Nekrose.",
+    "D: obsolet."
+   ],
+   "bewertung": "A.",
+   "quellen": [
+    {
+     "titel": "S3-Leitlinie Pankreatitis (AWMF 021-003, 2022)",
+     "kennung": "IJ87BUJZ",
+     "seite": "30"
+    },
+    {
+     "titel": "Management der akuten Pankreatitis in der Notaufnahme und Intensivstation (Die Anaesthesiologie 2024)",
+     "kennung": "75SZVT39",
+     "seite": "6"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-05",
+   "typ": "fall",
+   "unterthema": "Akutes Leberversagen, ACLF",
+   "marke": "S",
+   "frage": "Eine 22-jährige Frau hat vor 3 Tagen in suizidaler Absicht 20 g Paracetamol eingenommen: INR 5,8, pH 7,25, Kreatinin 3,6 mg/dl, Enzephalopathie Grad III. Was tun Sie?",
+   "musterantwort": [
+    "Akutes Leberversagen nach Paracetamol: N-Acetylcystein sofort (auch spät noch sinnvoll), Intensivstation.",
+    "King's-College-Kriterien erfüllt (pH < 7,3 nach Volumen bzw. INR > 6,5 + Kreatinin > 3,4 mg/dl + Enzephalopathie III–IV) → sofort Transplantationszentrum kontaktieren, Listung (High Urgency).",
+    "Hirnödem: Intubation ab Enzephalopathie III–IV, Oberkörper hoch, Natrium 145–150 mmol/l, Normokapnie, Normothermie, Ammoniak messen (> 150–200 µmol/l erhöht Risiko), frühe CRRT zur Ammoniaksenkung.",
+    "Gerinnung nicht prophylaktisch korrigieren (INR Prognosemarker), nur bei Blutung/Intervention; Glukose überwachen (Hypoglykämie), Infektionen suchen.",
+    "Extrakorporal: Plasmaaustausch als Option.",
+    "Psychiatrische Mitbetreuung nach Stabilisierung."
+   ],
+   "bewertung": "NAC, King's College, Hirnödemprävention, Gerinnung nicht kosmetisch korrigieren, Transplantationszentrum.",
+   "quellen": [
+    {
+     "titel": "Leberversagen – Ursachen, Diagnostik und Therapiekonzepte (Anästh Intensivmed 2025)",
+     "kennung": "92HKH4DV",
+     "seite": "7"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 11 Leber und Pankreas (King's-College-Kriterien)",
+     "kennung": "UKF8I6F2",
+     "seite": "7"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-06",
+   "typ": "erklaere",
+   "unterthema": "Akutes Leberversagen, ACLF",
+   "marke": "S",
+   "frage": "Was ist ein Acute-on-Chronic Liver Failure (ACLF), wie wird es eingeteilt und welche Konsequenzen hat das?",
+   "musterantwort": [
+    "Akute Dekompensation einer chronischen Lebererkrankung (meist Zirrhose) mit Organversagen und hoher Kurzzeitmortalität; Auslöser: Infektion, Alkohol, Blutung, Medikamente, Hepatitis.",
+    "EASL-CLIF: Organversagen (Leber, Niere, Gehirn, Gerinnung, Kreislauf, Lunge) bestimmen den Grad 1–3; Grad 3 = ≥ 3 Organversagen, 28-Tage-Mortalität sehr hoch.",
+    "Therapie: Auslöser behandeln (Infektion früh antibiotisch), Organunterstützung, Lebertransplantation prüfen (auch bei ACLF-3 in ausgewählten Fällen).",
+    "Reevaluation nach 3–7 Tagen voller Intensivtherapie: bei persistierendem ACLF-3 mit ≥ 4 Organversagen und ohne Transplantationsoption Therapiezieländerung besprechen."
+   ],
+   "bewertung": "Definition, Grade, Auslöser, Transplantation/Prognose.",
+   "quellen": [
+    {
+     "titel": "EASL Clinical Practice Guidelines on ACLF (J Hepatol 2023)",
+     "kennung": "FCVA4U77",
+     "seite": "1"
+    },
+    {
+     "titel": "Management der dekompensierten Leberzirrhose (Anaesthesist)",
+     "kennung": "WKV7HN4E",
+     "seite": "5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-07",
+   "typ": "mc",
+   "unterthema": "Akutes Leberversagen, ACLF",
+   "marke": "S",
+   "frage": "Bei einem Zirrhosepatienten mit Aszites werden 8 l punktiert. Wie viel Albumin geben Sie?",
+   "optionen": [
+    "A Kein Albumin bei mehr als 5 l",
+    "B Albumin 6–8 g pro abgelassenem Liter Aszites (hier ca. 48–64 g)",
+    "C 200 ml Albumin 5 % pauschal",
+    "D Statt Albumin 3 l NaCl 0,9 %"
+   ],
+   "richtig": 1,
+   "musterantwort": [
+    "Richtig B: bei Großvolumenparazentese (> 5 l) 6–8 g Albumin je Liter zur Vermeidung der zirkulatorischen Dysfunktion nach Parazentese (Hyponatriämie, AKI/HRS).",
+    "Weitere Albuminindikationen: spontan bakterielle Peritonitis (1,5 g/kg Tag 1, 1 g/kg Tag 3), hepatorenales Syndrom (mit Terlipressin)."
+   ],
+   "bewertung": "B.",
+   "quellen": [
+    {
+     "titel": "Management der dekompensierten Leberzirrhose in der klinischen Akut-, Notfall- und Intensivmedizin (Anaesthesist)",
+     "kennung": "WKV7HN4E",
+     "seite": "5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-08",
+   "typ": "fall",
+   "unterthema": "Ileus, Mesenterialischämie, Peritonitis, abdominelles Kompartmentsyndrom",
+   "marke": "S",
+   "frage": "Ein 78-jähriger Patient mit Vorhofflimmern (keine Antikoagulation) hat starke Bauchschmerzen, der Bauch ist weich, Laktat 4,8 mmol/l. Was vermuten Sie, und was tun Sie?",
+   "musterantwort": [
+    "Akute okklusive Mesenterialischämie (embolisch, A. mesenterica superior): Schmerz stärker als der Befund, Laktat spät und unspezifisch.",
+    "Sofort biphasische CT-Angiographie (Kontrastmittel trotz Niere).",
+    "Heparin i. v., Volumen, Antibiotika; Revaskularisation (endovaskulär oder offen) und Laparotomie zur Beurteilung der Darmvitalität, Second-Look.",
+    "NOMI (Schock, Katecholamine, nach Herz-OP) abgrenzen: Kreislauf optimieren, ggf. intraarterielle Vasodilatatoren.",
+    "Zeit ist Darm: Verzögerung erhöht Letalität."
+   ],
+   "bewertung": "Klinik, CTA, Antikoagulation, Revaskularisation/OP, NOMI.",
+   "quellen": [
+    {
+     "titel": "Bildgebende Diagnostik des akuten Abdomens in der klinischen Akut- und Notfallmedizin (Med Klin Intensivmed Notfmed 2025)",
+     "kennung": "3KSBHMVI",
+     "seite": "2"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 10 Gastrointestinaltrakt",
+     "kennung": "59INZVHF",
+     "seite": "5"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-09",
+   "typ": "mc",
+   "unterthema": "Ileus, Mesenterialischämie, Peritonitis, abdominelles Kompartmentsyndrom",
+   "marke": "S",
+   "frage": "Wie sind intraabdominelle Hypertonie (IAH) und abdominelles Kompartmentsyndrom (ACS) definiert?",
+   "optionen": [
+    "A IAH ≥ 5 mmHg, ACS ≥ 10 mmHg",
+    "B IAH ≥ 20 mmHg, ACS ≥ 30 mmHg ohne Organversagen",
+    "C IAH ≥ 15 mmHg, ACS nur bei Anurie",
+    "D IAH anhaltend ≥ 12 mmHg, ACS anhaltend ≥ 20 mmHg mit neu aufgetretenem Organversagen"
+   ],
+   "richtig": 3,
+   "musterantwort": [
+    "Richtig D: WSACS-Definitionen; Messung über Blasenkatheter (25 ml NaCl, endexspiratorisch, Rückenlage, Nullpunkt mittlere Axillarlinie).",
+    "Therapie: Sedierung/Relaxierung, Magen-/Darmentlastung, Aszitespunktion, Bilanzierung negativ, Oberkörper nicht zu hoch; bei ACS dekompressive Laparotomie."
+   ],
+   "bewertung": "D mit Messprinzip.",
+   "quellen": [
+    {
+     "titel": "Intraabdominelle Druckmessung (Med Klin Intensivmed Notfmed 2022)",
+     "kennung": "3WRMHFBJ",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-10",
+   "typ": "erklaere",
+   "unterthema": "Ileus, Mesenterialischämie, Peritonitis, abdominelles Kompartmentsyndrom",
+   "marke": "S",
+   "frage": "Erklären Sie die Intensivtherapie der sekundären Peritonitis (z. B. nach Anastomoseninsuffizienz).",
+   "musterantwort": [
+    "Fokuskontrolle ist entscheidend: chirurgische Sanierung (Übernähung, Resektion, Stoma, Lavage, Drainage) oder interventionelle Drainage bei Abszess; endoskopische Vakuumtherapie bei Anastomoseninsuffizienz im oberen GI-Trakt bzw. Rektum.",
+    "Kalkulierte Antibiotika sofort (Anaerobier und Enterobakterien abdecken, z. B. Piperacillin/Tazobactam), bei postoperativer/tertiärer Peritonitis Enterokokken (E. faecium), Candida bedenken.",
+    "Mikrobiologie intraoperativ; Therapiedauer nach adäquater Fokuskontrolle kurz (≈ 4 Tage, STOP-IT).",
+    "Sepsistherapie, IAP-Monitoring, Ernährung, Second-Look bei Bedarf.",
+    "Mannheimer Peritonitis-Index zur Prognose."
+   ],
+   "bewertung": "Fokuskontrolle, Antibiotikawahl, kurze Dauer, Begleittherapie.",
+   "quellen": [
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 18 Operative Intensivmedizin (Mikrobiologisches Monitoring, Peritonitis)",
+     "kennung": "VLFCAAXR",
+     "seite": "24"
+    },
+    {
+     "titel": "Endoskopie auf der operativen Intensivstation (Anaesthesist 2021)",
+     "kennung": "R4L2XH76",
+     "seite": "5"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 2 (Mannheimer Peritonitis-Index)",
+     "kennung": "GK43UXY8",
+     "seite": "45"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-11",
+   "typ": "fall",
+   "unterthema": "Ileus, Mesenterialischämie, Peritonitis, abdominelles Kompartmentsyndrom",
+   "marke": "S",
+   "frage": "Tag 5 nach Polytrauma: massiv aufgetriebenes Abdomen, Kolon im Röntgen 13 cm weit, keine mechanische Obstruktion im CT, Patient unter Opioiden und Katecholaminen. Was tun Sie?",
+   "musterantwort": [
+    "Akute kolonische Pseudoobstruktion (Ogilvie-Syndrom); Perforationsgefahr ab Zökumdurchmesser > 12 cm.",
+    "Konservativ: Ursachen reduzieren (Opioide, Anticholinergika), Elektrolyte (K+, Mg2+) ausgleichen, Magensonde und Darmrohr, Mobilisation/Lagerung, Laxanzien vorsichtig.",
+    "Neostigmin i. v. (z. B. 2 mg langsam unter Monitoring, Atropin bereit) bei fehlender Besserung nach 24–48 h und ohne Kontraindikation.",
+    "Endoskopische Dekompression bei Versagen; Operation bei Perforation/Ischämie.",
+    "IAP messen."
+   ],
+   "bewertung": "Diagnose, Zökum-Grenze, Stufentherapie mit Neostigmin, Endoskopie.",
+   "quellen": [
+    {
+     "titel": "Endoskopie auf der operativen Intensivstation (Anaesthesist 2021)",
+     "kennung": "R4L2XH76",
+     "seite": "1"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 10 Gastrointestinaltrakt",
+     "kennung": "59INZVHF",
+     "seite": "5, 17"
+    },
+    {
+     "titel": "Hepatologische und gastroenterologische Notfälle (Med Klin Intensivmed Notfmed 2023)",
+     "kennung": "V6HG9VIM",
+     "seite": "3"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-12",
+   "typ": "erklaere",
+   "unterthema": "Akutes Leberversagen, ACLF",
+   "marke": "S",
+   "frage": "Was unterscheidet das akute Leberversagen von einer dekompensierten Zirrhose, und welche Ursachen und Prognosekriterien kennen Sie?",
+   "musterantwort": [
+    "Akutes Leberversagen: Koagulopathie (INR ≥ 1,5) und Enzephalopathie bei Patienten ohne vorbestehende Lebererkrankung, Verlauf hyperakut/akut/subakut.",
+    "Ursachen: Paracetamol, andere Medikamente (idiosynkratisch), Virushepatitis (HBV, HAV, HEV), Autoimmunhepatitis, Knollenblätterpilz, Budd-Chiari, Schwangerschaft (HELLP, AFLP), ischämisch (Schockleber), Morbus Wilson.",
+    "Prognose: King's-College-Kriterien (getrennt für Paracetamol/Nicht-Paracetamol), Clichy-Kriterien, MELD.",
+    "Spezifische Therapien: NAC (Paracetamol, auch Nicht-Paracetamol früh), Silibinin (Amanita), Entbindung (HELLP/AFLP), antivirale Therapie (HBV).",
+    "Hauptkomplikationen: Hirnödem, Infektionen, Nierenversagen, Hypoglykämie."
+   ],
+   "bewertung": "Definition, mindestens 5 Ursachen, Prognosekriterien, spezifische Therapie.",
+   "quellen": [
+    {
+     "titel": "Leberversagen – Ursachen, Diagnostik und Therapiekonzepte (Anästh Intensivmed 2025)",
+     "kennung": "92HKH4DV",
+     "seite": "7"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 11 Leber und Pankreas",
+     "kennung": "UKF8I6F2",
+     "seite": "2, 7"
+    },
+    {
+     "titel": "Hepatologische Notfälle in der klinischen Akut- und Notfallmedizin (Med Klin Intensivmed Notfmed 2023)",
+     "kennung": "V6HG9VIM",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-13",
+   "typ": "fall",
+   "unterthema": "Gastrointestinale Blutung",
+   "marke": "S",
+   "frage": "Ein Patient unter Rivaroxaban (letzte Einnahme vor 4 h) hat eine massive untere GI-Blutung mit Schock. Was tun Sie?",
+   "musterantwort": [
+    "Hämodynamisch instabil bei unterer GI-Blutung: an obere Blutungsquelle denken (Gastroskopie), CT-Angiographie zur Lokalisation, dann Embolisation oder Endoskopie/OP.",
+    "Massivtransfusion nach Protokoll, Wärme, Kalzium, Azidose korrigieren.",
+    "Antikoagulans: Rivaroxaban pausieren; bei lebensbedrohlicher Blutung PPSB (25–50 IE/kg) oder Andexanet alfa; Tranexamsäure und rFVIIa sollen präendoskopisch nicht routinemäßig gegeben werden (HALT-IT: kein Nutzen, mehr Thrombosen).",
+    "Wiederbeginn der Antikoagulation nach Blutstillung interdisziplinär abwägen (meist nach 7 Tagen)."
+   ],
+   "bewertung": "Lokalisation (CTA/obere Quelle), Antagonisierung korrekt, keine routinemäßige TXA.",
+   "quellen": [
+    {
+     "titel": "S2k-Leitlinie Gastrointestinale Blutung (AWMF 021-028, 2026)",
+     "kennung": "5Z6SPW4V",
+     "seite": "4"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-14",
+   "typ": "mc",
+   "unterthema": "Leberersatzverfahren",
+   "marke": "E+",
+   "frage": "Welche Aussage zu extrakorporalen Leberunterstützungsverfahren trifft zu?",
+   "optionen": [
+    "A Albumindialyse (z. B. MARS) senkt nachweislich die Mortalität beim ACLF.",
+    "B Leberersatzverfahren ersetzen die Lebertransplantation dauerhaft.",
+    "C Der therapeutische Plasmaaustausch mit hohem Volumen hat beim akuten Leberversagen in einer RCT das transplantationsfreie Überleben verbessert; Albumindialyse verbessert eher Surrogate (Bilirubin, Enzephalopathie, Pruritus).",
+    "D Bioartifizielle Systeme sind Standard in Deutschland."
+   ],
+   "richtig": 2,
+   "musterantwort": [
+    "Richtig C: High-Volume-Plasmaaustausch (Larsen-Studie) beim ALF mit Überlebensvorteil; Albumindialyse ohne gesicherten Mortalitätsvorteil (RELIEF), Einsatz als Bridge oder bei Pruritus/Enzephalopathie.",
+    "A, B, D falsch."
+   ],
+   "bewertung": "C.",
+   "quellen": [
+    {
+     "titel": "Extrakorporale Unterstützungsstrategien beim Leberversagen: Albumindialyse und therapeutischer Plasmaaustausch (AINS)",
+     "kennung": "2VCMQ63S",
+     "seite": "1"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  },
+  {
+   "id": "B12-15",
+   "typ": "erklaere",
+   "unterthema": "Akutes Leberversagen, ACLF",
+   "marke": "S",
+   "frage": "Wie behandeln Sie eine hepatische Enzephalopathie Grad III bei dekompensierter Zirrhose auf der Intensivstation?",
+   "musterantwort": [
+    "Auslöser suchen und behandeln: GI-Blutung, Infektion (SBP: Aszitespunktion), Elektrolytstörung (Hypokaliämie, Hyponatriämie), Obstipation, Sedativa, Dehydratation, TIPS.",
+    "Laktulose (oral/Sonde oder Einläufe) mit Ziel 2–3 weiche Stühle/Tag, plus Rifaximin.",
+    "Atemwegsschutz: Intubation bei Grad III–IV mit Aspirationsgefahr.",
+    "Ernährung nicht proteinreduzieren (1,2–1,5 g/kg/d), Glukose kontrollieren.",
+    "Differenzialdiagnosen: Hypoglykämie, Wernicke, intrakranielle Blutung (Gerinnungsstörung, Stürze)."
+   ],
+   "bewertung": "Auslöser, Laktulose/Rifaximin, Atemweg, keine Proteinrestriktion.",
+   "quellen": [
+    {
+     "titel": "Management der dekompensierten Leberzirrhose (Anaesthesist)",
+     "kennung": "WKV7HN4E",
+     "seite": "5, 7"
+    },
+    {
+     "titel": "Klinikleitfaden Intensivmedizin 2025, Kap. 11 Leber und Pankreas",
+     "kennung": "UKF8I6F2",
+     "seite": "2"
+    }
+   ],
+   "in_materialien": true,
+   "url": null
+  }
+ ]
+}
