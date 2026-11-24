@@ -1,6 +1,139 @@
-/* Breitere Seite, damit die Material-Tabellen (Links, Stand) ohne Querscrollen passen */
+/* MkDocs-Material im gemeinsamen Design. Farben und Schriften kommen aus design.css. */
+
+/* Material-Farben auf die gemeinsamen Farben legen */
+:root, [data-md-color-scheme="default"], [data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--accent);
+  --md-primary-fg-color--light: var(--accent-soft);
+  --md-primary-fg-color--dark: var(--accent-strong);
+  --md-primary-bg-color: var(--accent-ink);
+  --md-accent-fg-color: var(--accent-strong);
+  --md-accent-fg-color--transparent: var(--accent-soft);
+  --md-default-bg-color: var(--bg);
+  --md-default-fg-color: var(--ink);
+  --md-default-fg-color--light: var(--muted);
+  --md-default-fg-color--lighter: var(--line);
+  --md-default-fg-color--lightest: var(--surface-2);
+  --md-typeset-color: var(--ink);
+  --md-typeset-a-color: var(--accent);
+  --md-typeset-table-color: var(--line);
+  --md-code-bg-color: var(--surface-2);
+  --md-code-fg-color: var(--ink);
+  --md-footer-bg-color: var(--head);
+  --md-footer-bg-color--dark: var(--head);
+  --md-footer-fg-color: var(--head-ink);
+  --md-text-font-family: var(--font-body);
+  --md-code-font-family: var(--font-mono);
+  --md-text-font: "IBM Plex Sans";
+  --md-code-font: "IBM Plex Mono";
+}
+body, input { font-family: var(--font-body); font-feature-settings: "kern"; }
+code, kbd, pre { font-family: var(--font-mono); }
+body { background: var(--bg); color: var(--ink); }
+
+/* Breite Seite, damit die Material-Tabellen (Links, Stand) ohne Querscrollen passen */
 .md-grid { max-width: 1600px; }
-/* Tabellen über die volle Breite, Text darf umbrechen */
+
+/* Kopfleiste: dunkles Petrol statt Türkis */
+.md-header { background: var(--head); color: var(--head-ink); box-shadow: none; border-bottom: 1px solid rgba(255, 255, 255, .06); }
+.md-header__title { font-weight: 600; }
+.md-header__button.md-logo { padding: .3rem; }
+.md-tabs { background: var(--head); }
+.md-search__form { background: rgba(255, 255, 255, .1); border-radius: 8px; }
+.md-search__form:hover { background: rgba(255, 255, 255, .16); }
+
+/* Inhalt als Karte auf ruhigem Grund */
+.md-main__inner { margin-top: 1.2rem; }
+.md-content__inner {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin: 0 .8rem 1.6rem;
+  padding: 1.6rem 1.8rem 1.4rem;
+}
+.md-content__inner::before { display: none; }
+@media screen and (max-width: 44.984375em) {
+  .md-content__inner { margin: 0 0 1rem; border-radius: 0; border-left: 0; border-right: 0; padding: 1.2rem 1rem 1rem; }
+}
+
+/* Schrift und Überschriften */
+.md-typeset { font-size: .8rem; line-height: 1.65; }
+.md-typeset h1 { color: var(--ink); font-weight: 700; font-size: 1.75em; letter-spacing: -.01em; margin-bottom: .8em; text-wrap: balance; }
+.md-typeset h2 { font-weight: 600; font-size: 1.3em; margin-top: 2em; padding-bottom: .35em; border-bottom: 1px solid var(--line); text-wrap: balance; }
+.md-typeset h3 { font-weight: 600; font-size: 1.08em; color: var(--accent-strong); }
+.md-typeset a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent); text-underline-offset: .18em; }
+.md-typeset a:hover { color: var(--accent-strong); text-decoration-color: currentColor; }
+.md-typeset .headerlink { text-decoration: none; }
+.md-typeset strong { font-weight: 600; }
+
+/* Seitenleisten */
+.md-nav { font-size: .75rem; }
+.md-nav__title { color: var(--muted); font-weight: 600; }
+.md-nav__link--active, .md-nav__item .md-nav__link--active { color: var(--accent); font-weight: 600; }
+.md-sidebar--primary .md-nav__link--active { position: relative; }
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link--active::before {
+    content: ""; position: absolute; left: -.6rem; top: .15em; bottom: .15em; width: 3px; border-radius: 2px; background: var(--accent);
+  }
+}
+
+/* Tabellen: über die volle Breite, ruhige Kopfzeile, Zahlen untereinander */
 .md-typeset__table { width: 100%; }
 .md-typeset__table table:not([class]) { display: table; width: 100%; }
-.md-typeset table:not([class]) td, .md-typeset table:not([class]) th { padding: 0.6em 0.8em; }
+.md-typeset table:not([class]) {
+  border: 1px solid var(--line); border-radius: var(--radius); box-shadow: none;
+  font-size: .72rem; font-variant-numeric: tabular-nums; background: var(--surface);
+}
+.md-typeset table:not([class]) th {
+  background: var(--accent-soft); color: var(--ink); font-weight: 600; white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+.md-typeset table:not([class]) td, .md-typeset table:not([class]) th { padding: .6em .8em; vertical-align: top; }
+.md-typeset table:not([class]) td { border-top: 1px solid var(--line); }
+.md-typeset table:not([class]) tbody tr:nth-child(even) { background: var(--surface-2); }
+.md-typeset table:not([class]) tbody tr:hover { background: var(--accent-soft); box-shadow: none; }
+
+/* Hinweiskästen */
+.md-typeset .admonition, .md-typeset details {
+  border-radius: var(--radius); border-width: 1px; border-left-width: 4px; box-shadow: none; font-size: .76rem; background: var(--surface);
+}
+.md-typeset .admonition.warning, .md-typeset details.warning { border-color: var(--mid); }
+.md-typeset .warning > .admonition-title, .md-typeset .warning > summary { background: var(--mid-soft); }
+.md-typeset .warning > .admonition-title::before, .md-typeset .warning > summary::before { background-color: var(--mid); }
+.md-typeset .admonition.note, .md-typeset .admonition.info, .md-typeset .admonition.tip { border-color: var(--accent); }
+.md-typeset .note > .admonition-title, .md-typeset .info > .admonition-title, .md-typeset .tip > .admonition-title { background: var(--accent-soft); }
+.md-typeset .note > .admonition-title::before, .md-typeset .info > .admonition-title::before, .md-typeset .tip > .admonition-title::before { background-color: var(--accent); }
+
+/* Startseite: Karten statt Tabelle */
+.md-typeset .grid.cards > ul > li, .md-typeset .grid > .card {
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); padding: 1rem 1.1rem;
+  transition: border-color .15s, box-shadow .15s;
+}
+.md-typeset .grid.cards > ul > li:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+.md-typeset .grid.cards > ul > li > hr { margin: .5em 0; border-color: var(--line); }
+.md-typeset .grid.cards > ul > li p:first-child { font-weight: 600; font-size: 1.05em; }
+.md-typeset .grid.cards .twemoji, .md-typeset .grid.cards svg { color: var(--accent); }
+.md-typeset .grid.cards a { text-decoration: none; }
+.md-typeset .grid.cards a:hover { text-decoration: underline; }
+.md-typeset .downloads { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.2em 0; }
+.md-typeset .downloads a {
+  display: inline-flex; align-items: center; gap: .4em; padding: .45em .9em; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 500;
+}
+.md-typeset .downloads a:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Marken der Gliederung ([S], [S-A], [S·DE], [E], [E+]) als kleine Etiketten */
+.md-typeset .marke {
+  display: inline-block; padding: 0 .45em; margin: 0 .1em; border-radius: 999px; font-size: .78em; font-weight: 600;
+  line-height: 1.6; font-family: var(--font-mono); white-space: nowrap; vertical-align: .05em;
+  background: var(--accent-soft); color: var(--accent-strong);
+}
+.md-typeset .marke--s-a { background: var(--ok-soft); color: var(--ok); }
+.md-typeset .marke--s-de { background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); }
+.md-typeset .marke--e { background: var(--mid-soft); color: var(--mid); }
+.md-typeset .marke--e-plus { background: var(--bad-soft); color: var(--bad); }
+
+/* Fußleiste */
+.md-footer-meta { background: var(--head); }
+.md-footer-meta, .md-footer-copyright { color: color-mix(in srgb, var(--head-ink) 75%, transparent); }
+.md-footer-copyright a { color: var(--head-ink); }

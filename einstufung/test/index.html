@@ -8,9 +8,6 @@
 </head>
 <body>
 
-<meta name="claude:viewport-fit-sides" content="cover">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: eine ruhige Spalte wie ein Prüfungsbogen; Übersicht als Raster aus 18 Kapitelkarten, Frage-Ansicht einspaltig. */
 :root {
@@ -102,6 +99,12 @@ textarea { width: 100%; box-sizing: border-box; min-height: 150px; font: inherit
 .hidden-ans { color: var(--muted); }
 @media (prefers-reduced-motion: no-preference) { .bar span { transition: width .4s ease; } }
 </style>
+<link rel="stylesheet" href="../../assets/design.css">
+<style>/* Namen dieser Seite auf die gemeinsamen Farben legen */
+:root,:root:not([data-theme="light"]),:root[data-theme="dark"]{--panel:var(--surface);--fg:var(--ink);--warn:var(--mid);--warn-soft:var(--mid-soft);--f-body:var(--font-body);--f-head:var(--font-body);--f-mono:var(--font-mono)}
+body{margin:0;padding-top:0!important}.il-kopf{margin:0 calc(50% - 50vw) 20px}</style>
+<header class="il-kopf"><div class="il-kopf__innen"><a class="il-kopf__name" href="../../index.html">Intensiv lernen</a><span class="il-kopf__titel">Einstufungstest</span><a class="il-kopf__zurueck" href="../../einstufungstest.html">← Einstufungstest</a></div></header>
+
 
 <div class="wrap">
   <header class="top">

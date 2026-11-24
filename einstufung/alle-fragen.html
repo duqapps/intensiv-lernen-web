@@ -8,8 +8,6 @@
 </head>
 <body>
 
-<meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: Kopf mit Filterleiste (sticky), darunter Blöcke als Abschnitte, jede Frage als Karte mit aufklappbarer Musterantwort */
 :root{--bg:#f3f6f6;--panel:#ffffff;--fg:#14232a;--muted:#5a6b72;--line:#d5dfe1;--accent:#0b7a75;--accent-soft:#dcefed;--ok:#1d7a3a;--ok-soft:#ddf1e3;--bad:#b3261e;--bad-soft:#f8e1df;--warn:#8a5a00;--warn-soft:#f6ead1;
@@ -61,6 +59,12 @@ details li{margin:3px 0;max-width:70ch}
 footer{color:var(--muted);font-size:.8rem;padding-block:24px 40px}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 </style>
+<link rel="stylesheet" href="../assets/design.css">
+<style>/* Namen dieser Seite auf die gemeinsamen Farben legen */
+:root,:root:not([data-theme="light"]),:root[data-theme="dark"]{--panel:var(--surface);--fg:var(--ink);--warn:var(--mid);--warn-soft:var(--mid-soft);--f-body:var(--font-body);--f-head:var(--font-body);--f-mono:var(--font-mono)}
+body{margin:0;padding-top:0!important}.il-kopf{margin:0 calc(50% - 50vw) 20px}</style>
+<header class="il-kopf"><div class="il-kopf__innen"><a class="il-kopf__name" href="../index.html">Intensiv lernen</a><span class="il-kopf__titel">Einstufungstest: alle Fragen</span><a class="il-kopf__zurueck" href="../einstufungstest.html">← Einstufungstest</a></div></header>
+
 <header class="top"><div class="wrap">
 <h1>Einstufungstest Intensivmedizin</h1>
 <p class="sub">Zusatz-Weiterbildung Intensivmedizin (SLÄK, mündlich): 15 Fragen zu jedem der 18 Blöcke der Gliederung. Multiple Choice zum Anklicken, „Erkläre“ und Fallbeispiele zum laut Beantworten, dann Musterantwort aufklappen. Quellen aus unseren Materialien mit Zotero-Kennung und PDF-Seite.</p>
