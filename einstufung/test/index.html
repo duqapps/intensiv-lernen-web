@@ -98,6 +98,9 @@ textarea { width: 100%; box-sizing: border-box; min-height: 150px; font: inherit
 .note { font-size: .9rem; padding: 10px 12px; border-radius: 8px; background: var(--accent-soft); }
 .hidden-ans { color: var(--muted); }
 @media (prefers-reduced-motion: no-preference) { .bar span { transition: width .4s ease; } }
+.stand { display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 6px; }
+.stand p { margin: 0; }
+.stand textarea { min-height: 80px; font-family: var(--font-mono); font-size: .8rem; }
 </style>
 <link rel="stylesheet" href="../../assets/design.css">
 <style>/* Namen dieser Seite auf die gemeinsamen Farben legen */
@@ -110,7 +113,7 @@ body{margin:0;padding-top:0!important}.il-kopf{margin:0 calc(50% - 50vw) 20px}</
   <header class="top">
     <span class="eyebrow">Zusatz-Weiterbildung Intensivmedizin · SLÄK</span>
     <h1>Einstufungstest</h1>
-    <p class="muted">15 Fragen pro Kapitel der Gliederung. Multiple Choice wird sofort ausgewertet, „Erkläre“- und Fallfragen beantwortest du frei, gern per Mikrofon wie im Fachgespräch. Claude vergleicht deine Antwort mit der Musterantwort aus unseren Materialien.</p>
+    <p class="muted" id="intro">15 Fragen pro Kapitel der Gliederung. Multiple Choice wird sofort ausgewertet, „Erkläre“- und Fallfragen beantwortest du frei, gern per Mikrofon wie im Fachgespräch. Claude vergleicht deine Antwort mit der Musterantwort aus unseren Materialien.</p>
   </header>
   <main id="app"><p class="muted">Lade Fragen …</p></main>
 </div>
@@ -133,7 +136,7 @@ function lsGet() { try { return JSON.parse(localStorage.getItem("einstufung_antw
 function lsSet() { try { localStorage.setItem("einstufung_antworten", JSON.stringify(ANSWERS)); } catch {} }
 
 async function saveAnswer(a) {
-  ANSWERS[a.id] = a; lsSet();
+  ANSWERS[a.id] = a; lsSet(); clearDraft(a.id);
   if (caps.db) { try { await caps.db.collection("antworten").doc(a.id).set(a); } catch (e) { console.warn("db", e); } }
 }
 
@@ -156,7 +159,7 @@ function blockStats(b) {
   const qs = QUESTIONS.filter(q => q.block === b);
   const done = qs.filter(q => ANSWERS[q.id]);
   const score = done.length ? done.reduce((s, q) => s + (ANSWERS[q.id].punkte || 0), 0) / done.length : null;
-  return { total: qs.length, done: done.length, score };
+  return { total: qs.length, done: done.length, score, drafts: qs.filter(q => !ANSWERS[q.id] && DRAFTS[q.id]).length };
 }
 
 function renderOverview() {
@@ -167,8 +170,9 @@ function renderOverview() {
     <div class="summary">
       <div><div class="eyebrow">Beantwortet</div><div class="big">${all.length}<span class="muted" style="font-size:1rem"> / ${QUESTIONS.length}</span></div></div>
       <div><div class="eyebrow">Gesamt</div><div class="big">${overall == null ? "–" : pct(overall)}</div></div>
-      <div class="muted" style="flex:1;min-width:200px">${caps.db ? "Antworten werden gespeichert, Claude kann sie auswerten." : "Antworten bleiben nur in diesem Browser."}</div>
+      <div class="muted" style="flex:1;min-width:200px">${caps.db ? "Antworten und Entwürfe werden automatisch gespeichert und erscheinen auf jedem Gerät, auf dem du diese Seite bei claude.ai öffnest (PC, Handy, App)." : "Antworten und angefangene Entwürfe bleiben in diesem Browser gespeichert. Unten kannst du den Stand für ein anderes Gerät sichern."}</div>
     </div>
+    ${resumeHtml()}
     <div class="grid">`;
   BLOCKS.forEach((t, i) => {
     const b = i + 1, s = blockStats(b), l = s.done ? lvl(s.score) : "none";
@@ -177,18 +181,34 @@ function renderOverview() {
       <div class="row"><span class="nr">Kapitel ${b}</span><span class="pill ${l}">${s.total ? (s.done ? lvlText[l] + " · " + pct(s.score) : "offen") : "Fragen folgen"}</span></div>
       <h3>${esc(t)}</h3>
       <div class="bar"><span style="width:${w}%;background:var(--${l === "none" ? "accent" : l})"></span></div>
-      <span class="muted mono" style="font-size:.85rem">${s.done} / ${s.total || 15} beantwortet</span>
+      <span class="muted mono" style="font-size:.85rem">${s.done} / ${s.total || 15} beantwortet${s.drafts ? ` · ${s.drafts} angefangen` : ""}</span>
     </button>`;
   });
   html += `</div></div>`;
   app.innerHTML = html;
+  app.firstElementChild.appendChild(standPanel(null));
   app.querySelectorAll("[data-block]").forEach(el => el.addEventListener("click", () => openBlock(+el.dataset.block)));
+  const r = document.getElementById("resume");
+  if (r) r.onclick = () => openBlock(+r.dataset.b);
+}
+
+function resumeHtml() {
+  // Zuletzt bearbeitetes Kapitel mit offenen Fragen (Antworten und Entwürfe)
+  const events = [...Object.values(ANSWERS), ...Object.values(DRAFTS)].filter(a => a && a.zeit && a.id)
+    .map(a => ({ zeit: a.zeit, block: QUESTIONS.find(q => q.id === a.id)?.block })).filter(e => e.block)
+    .sort((a, b) => b.zeit.localeCompare(a.zeit));
+  for (const e of events) {
+    const s = blockStats(e.block);
+    if (s.done < s.total) return `<div class="actions"><button id="resume" class="primary" data-b="${e.block}">Weitermachen: Kapitel ${e.block}</button></div>`;
+  }
+  return "";
 }
 
 function openBlock(b) {
   const qs = QUESTIONS.filter(q => q.block === b);
   const firstOpen = qs.findIndex(q => !ANSWERS[q.id]);
   state = { view: "block", block: b, idx: firstOpen < 0 ? 0 : firstOpen };
+  try { const last = JSON.parse(localStorage.getItem("einstufung_position") || "{}")[b]; if (firstOpen >= 0 && Number.isInteger(last) && last < qs.length && !ANSWERS[qs[last].id]) state.idx = last; } catch {}
   location.hash = "kapitel-" + b;
   renderQuestion();
 }
@@ -206,7 +226,7 @@ function renderQuestion() {
     }).join("")}</div>`;
   } else {
     body = `<label class="eyebrow" for="antwort">Deine Antwort</label>
-      <textarea id="antwort" placeholder="Antworte so, wie du es dem Prüfer sagen würdest …" ${a ? "readonly" : ""}>${esc(a ? a.antwort : draft(q.id))}</textarea>
+      <textarea id="antwort" placeholder="Antworte so, wie du es dem Prüfer sagen würdest …" ${a ? "readonly" : ""}>${esc(a ? a.antwort : draft(q.id))}</textarea>${a ? "" : `<span id="gespeichert" class="muted mono" style="font-size:.8rem">${draft(q.id) ? "Entwurf gespeichert" : ""}</span>`}
       <div class="partial" id="partial"></div>
       ${a ? "" : `<div class="actions">
         ${caps.dict ? `<button id="mic" class="mic">Mikrofon an</button>` : ""}
@@ -234,6 +254,8 @@ function renderQuestion() {
     </div>
   </div>`;
   document.getElementById("back").onclick = () => { location.hash = ""; renderOverview(); };
+  try { const pos = JSON.parse(localStorage.getItem("einstufung_position") || "{}"); pos[state.block] = state.idx; localStorage.setItem("einstufung_position", JSON.stringify(pos)); } catch {}
+  if (!caps.db && !app.querySelector(".stand")) app.appendChild(standPanel(state.block));
   document.getElementById("prev").onclick = () => { state.idx--; renderQuestion(); };
   document.getElementById("next").onclick = () => { if (state.idx === qs.length - 1) { location.hash = ""; renderOverview(); } else { state.idx++; renderQuestion(); } };
   const redo = document.getElementById("redo");
@@ -254,8 +276,62 @@ function renderQuestion() {
   if (mic) mic.onclick = () => toggleMic(q);
 }
 
-function draft(id) { try { return sessionStorage.getItem("draft_" + id) || ""; } catch { return ""; } }
-function setDraft(id, v) { try { sessionStorage.setItem("draft_" + id, v); } catch {} }
+// Entwürfe: angefangene freie Antworten bleiben erhalten (Browser, bei Claude zusätzlich in der Datenbank)
+let DRAFTS = {};
+function draftsGet() { try { return JSON.parse(localStorage.getItem("einstufung_entwuerfe") || "{}"); } catch { return {}; } }
+function draftsSet() { try { localStorage.setItem("einstufung_entwuerfe", JSON.stringify(DRAFTS)); } catch {} }
+function draft(id) { return (DRAFTS[id] && DRAFTS[id].text) || ""; }
+const draftTimers = {};
+function setDraft(id, v) {
+  if (v && v.trim()) DRAFTS[id] = { id, text: v, zeit: new Date().toISOString() }; else delete DRAFTS[id];
+  draftsSet();
+  const st = document.getElementById("gespeichert"); if (st) st.textContent = v && v.trim() ? "Entwurf gespeichert" : "";
+  if (caps.db) {
+    clearTimeout(draftTimers[id]);
+    draftTimers[id] = setTimeout(() => {
+      const ref = caps.db.collection("entwuerfe").doc(id);
+      (DRAFTS[id] ? ref.set(DRAFTS[id]) : ref.delete()).catch(() => {});
+    }, 1500);
+  }
+}
+function clearDraft(id) { if (DRAFTS[id]) setDraft(id, ""); }
+
+// Stand sichern und laden (für anderen Browser oder anderes Gerät), gesamt oder pro Kapitel
+function exportStand(block) {
+  const ids = new Set(QUESTIONS.filter(q => !block || q.block === block).map(q => q.id));
+  const pick = o => Object.fromEntries(Object.entries(o).filter(([k]) => ids.has(k)));
+  return JSON.stringify({ einstufung: 1, kapitel: block || "alle", zeit: new Date().toISOString(), antworten: pick(ANSWERS), entwuerfe: pick(DRAFTS) });
+}
+async function importStand(text) {
+  const d = JSON.parse(text);
+  if (!d || d.einstufung !== 1) throw new Error("Das ist kein gespeicherter Stand dieses Tests.");
+  let n = 0;
+  for (const [k, v] of Object.entries(d.antworten || {})) { if (!ANSWERS[k] || (v.zeit || "") > (ANSWERS[k].zeit || "")) { await saveAnswer(v); n++; } }
+  for (const [k, v] of Object.entries(d.entwuerfe || {})) { if (!ANSWERS[k] && (!DRAFTS[k] || (v.zeit || "") > (DRAFTS[k].zeit || ""))) { setDraft(k, v.text); n++; } }
+  return n;
+}
+function standPanel(block) {
+  const box = document.createElement("div");
+  box.className = "stand";
+  box.innerHTML = `<div class="eyebrow">${block ? "Stand dieses Kapitels" : "Stand sichern oder laden"}</div>
+    <p class="muted">${caps.db ? "Hier brauchst du das nur, um einen Stand von der öffentlichen Webseite zu übernehmen: dort kopieren, hier einfügen und laden." : "Dein Stand bleibt automatisch in diesem Browser. Für ein anderes Gerät: kopieren, irgendwo ablegen (z. B. Notiz oder Mail an dich), dort einfügen und laden."}</p>
+    <div class="actions"><button id="st-copy">Stand kopieren</button><button id="st-show">Stand einfügen …</button></div>
+    <div id="st-in" hidden><textarea id="st-text" placeholder="Gespeicherten Stand hier einfügen"></textarea>
+      <div class="actions"><button id="st-load" class="primary">Laden</button></div></div>
+    <p id="st-msg" class="muted mono"></p>`;
+  const msg = box.querySelector("#st-msg");
+  box.querySelector("#st-copy").onclick = async () => {
+    const s = exportStand(block);
+    try { await navigator.clipboard.writeText(s); msg.textContent = "Kopiert."; }
+    catch { box.querySelector("#st-in").hidden = false; const ta = box.querySelector("#st-text"); ta.value = s; ta.select(); msg.textContent = "Kopieren ging nicht automatisch – der Text ist markiert, bitte selbst kopieren."; }
+  };
+  box.querySelector("#st-show").onclick = () => { box.querySelector("#st-in").hidden = false; box.querySelector("#st-text").focus(); };
+  box.querySelector("#st-load").onclick = async () => {
+    try { const n = await importStand(box.querySelector("#st-text").value.trim()); msg.textContent = n + " Einträge übernommen."; setTimeout(() => state.view === "overview" ? renderOverview() : renderQuestion(), 800); }
+    catch (e) { msg.textContent = e.message && !e.message.startsWith("Unexpected") ? e.message : "Der Text ist kein gültiger Stand. Bitte vollständig einfügen."; }
+  };
+  return box;
+}
 
 function resultHtml(q, a) {
   const l = lvl(a.punkte);
@@ -314,7 +390,6 @@ Gib nur JSON zurück: {"punkte": Zahl 0 bis 1 (Anteil der Kernpunkte, Abzug für
     return;
   }
   await saveAnswer({ id: q.id, block: q.block, typ: q.typ, antwort: text, punkte, bewertung: { genannt: bewertung.genannt || [], fehlend: bewertung.fehlend || [], falsch: bewertung.falsch || [], feedback: String(bewertung.feedback || "") }, zeit: new Date().toISOString() });
-  try { sessionStorage.removeItem("draft_" + q.id); } catch {}
   renderQuestion();
 }
 
@@ -338,8 +413,12 @@ function toggleMic(q) {
 async function stopMic() { if (micOn && caps.dict) { try { await caps.dict.stop(); } catch {} } micOn = false; }
 
 async function start() {
+  if (!(window.claude && window.claude.use)) {
+    document.getElementById("intro").textContent = "15 Fragen pro Kapitel der Gliederung. Multiple Choice wird sofort ausgewertet. Bei „Erkläre“- und Fallfragen antwortest du erst (gern laut), dann vergleichst du mit der Musterantwort und schätzt dich selbst ein.";
+  }
   QUESTIONS = await loadQuestions();
   ANSWERS = lsGet();
+  DRAFTS = draftsGet();
   const m = /^#kapitel-(\d+)$/.exec(location.hash);
   if (m && QUESTIONS.some(q => q.block === +m[1])) openBlock(+m[1]); else renderOverview();
   const use = n => (window.claude && window.claude.use ? window.claude.use(n).catch(() => null) : Promise.resolve(null));
@@ -353,6 +432,9 @@ async function start() {
       const snap = await db.collection("antworten").get();
       snap.docs.forEach(d => { const v = d.data(); if (v && v.id) ANSWERS[v.id] = v; });
       lsSet();
+      const es = await db.collection("entwuerfe").get();
+      es.docs.forEach(d => { const v = d.data(); if (v && v.id && !ANSWERS[v.id] && (!DRAFTS[v.id] || (v.zeit || "") > (DRAFTS[v.id].zeit || ""))) DRAFTS[v.id] = v; });
+      draftsSet();
     } catch (e) { console.warn(e); }
     if (state.view === "overview") renderOverview(); else rerenderSafe();
   });
@@ -369,6 +451,7 @@ window.addEventListener("hashchange", () => {
 });
 start();
 </script>
+
 
 </body>
 </html>
